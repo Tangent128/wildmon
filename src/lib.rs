@@ -6,7 +6,26 @@ extern crate serde_json;
 
 /// The shape of the list of Pokémon used in the original Speeqe-based name generator
 #[derive(Serialize, Deserialize, Debug)]
-pub struct SpeeqeFormat(Vec<String>, i8);
+pub struct SpeeqeFormat(pub Vec<String>, pub i8);
+
+/// The shape of the new Pokémon list format
+#[derive(Serialize, Deserialize)]
+pub struct Species {
+    pub names: Vec<String>,
+    pub gender_ratio: i8,
+
+    #[serde(skip_serializing_if = "Vec::is_empty")]
+    pub tags: Vec<SpeciesTag>
+}
+
+/// Tags indicating a species is eligable for certain specific modifiers
+#[derive(Serialize, Deserialize)]
+pub enum SpeciesTag {
+    Mega,
+    MegaXY,
+    AlolaForm
+}
+
 
 #[cfg(test)]
 mod tests {

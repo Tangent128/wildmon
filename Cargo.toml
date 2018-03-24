@@ -7,3 +7,4 @@ authors = ["Tangent 128 <Tangent128@gmail.com>"]
 serde = "1.0"
 serde_derive = "1.0"
 serde_json = "1.0"
+serde_yaml = "0.7"
