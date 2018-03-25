@@ -15,7 +15,12 @@ fn main() {
 
     let species_list: Vec<Species> = speeqe_data.into_iter().map(|speeqe_item| Species {
         names: speeqe_item.0,
-        gender_ratio: speeqe_item.1,
+        gender: match speeqe_item.1 {
+            -1 => Gender::Agender,
+            0 => Gender::Male,
+            8 => Gender::Female,
+            ratio => Gender::Ratio(ratio as f32 / 8.0)
+        },
         tags: vec![]
     }).collect();
 

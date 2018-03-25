@@ -12,10 +12,18 @@ pub struct SpeeqeFormat(pub Vec<String>, pub i8);
 #[derive(Serialize, Deserialize)]
 pub struct Species {
     pub names: Vec<String>,
-    pub gender_ratio: i8,
+    pub gender: Gender,
 
     #[serde(skip_serializing_if = "Vec::is_empty")]
     pub tags: Vec<SpeciesTag>
+}
+
+#[derive(Serialize, Deserialize)]
+pub enum Gender {
+    Agender,
+    Male,
+    Female,
+    Ratio(f32)
 }
 
 /// Tags indicating a species is eligable for certain specific modifiers
