@@ -1,0 +1,4753 @@
+---
+- names:
+    - Missingno.
+    - "'M"
+    - hPoké
+    - けつばん
+  gender: Agender
+- names:
+    - Bulbasaur
+    - フシギダネ
+    - Bisasam
+    - Bulbizarre
+    - Bulbizaro
+  gender:
+    Ratio: 0.125
+- names:
+    - Ivysaur
+    - フシギソウ
+    - Bisaknosp
+    - Herbizarre
+    - Hedezaro
+  gender:
+    Ratio: 0.125
+- names:
+    - Venusaur
+    - フシギバナ
+    - Bisaflor
+    - Florizarre
+    - Florizaro
+  gender:
+    Ratio: 0.125
+- names:
+    - Charmander
+    - ヒトカゲ
+    - Glumanda
+    - Salameche
+    - Arlacerto
+    - CremalacertusCandela
+  gender:
+    Ratio: 0.125
+- names:
+    - Charmeleon
+    - リザード
+    - Glutexo
+    - Reptincel
+    - Brulacerto
+    - CremalacertusCorniger
+  gender:
+    Ratio: 0.125
+- names:
+    - Charizard
+    - リザードン
+    - Glurak
+    - Dracaufeu
+    - Ĉarizaro
+    - CremalacertusExtraho
+  gender:
+    Ratio: 0.125
+- names:
+    - Squirtle
+    - ゼニガメ
+    - Schiggy
+    - Carapuce
+    - Testido
+  gender:
+    Ratio: 0.125
+- names:
+    - Wartortle
+    - カメール
+    - Schillok
+    - Carabaffe
+    - Milittesto
+  gender:
+    Ratio: 0.125
+- names:
+    - Blastoise
+    - カメックス
+    - Turtok
+    - Tortank
+    - Kamekso
+  gender:
+    Ratio: 0.125
+- names:
+    - Caterpie
+    - キャタピー
+    - Raupy
+    - Chenipan
+  gender:
+    Ratio: 0.5
+- names:
+    - Metapod
+    - トランセル
+    - Safcon
+    - Chrysacier
+  gender:
+    Ratio: 0.5
+- names:
+    - Butterfree
+    - バタフリー
+    - Smettbo
+    - Papilusion
+  gender:
+    Ratio: 0.5
+- names:
+    - Weedle
+    - ビードル
+    - Hornliu
+    - Aspicot
+  gender:
+    Ratio: 0.5
+- names:
+    - Kakuna
+    - コクーン
+    - Kokuna
+    - Coconfort
+  gender:
+    Ratio: 0.5
+- names:
+    - Beedrill
+    - スピアー
+    - Bibor
+    - Dardagnan
+  gender:
+    Ratio: 0.5
+- names:
+    - Pidgey
+    - ポッポ
+    - Taubsi
+    - Roucool
+  gender:
+    Ratio: 0.5
+- names:
+    - Pidgeotto
+    - ピジョン
+    - Tauboga
+    - Roucoups
+  gender:
+    Ratio: 0.5
+- names:
+    - Pidgeot
+    - ピジョット
+    - Tauboss
+    - Roucarnage
+  gender:
+    Ratio: 0.5
+- names:
+    - Rattata
+    - コラッタ
+    - Rattfratz
+    - Rattet
+  gender:
+    Ratio: 0.5
+- names:
+    - Raticate
+    - ラッタ
+    - Rattikarl
+    - Rattatac
+  gender:
+    Ratio: 0.5
+- names:
+    - Spearow
+    - オニスズメ
+    - Habitak
+    - Piafabec
+  gender:
+    Ratio: 0.5
+- names:
+    - Fearow
+    - オニドリル
+    - Ibitak
+    - Rapasdepic
+  gender:
+    Ratio: 0.5
+- names:
+    - Ekans
+    - アーボ
+    - Rettan
+    - Abo
+  gender:
+    Ratio: 0.5
+- names:
+    - Arbok
+    - アーボック
+  gender:
+    Ratio: 0.5
+- names:
+    - Pikachu
+    - ピカチュウ
+  gender:
+    Ratio: 0.5
+- names:
+    - Raichu
+    - ライチュウ
+  gender:
+    Ratio: 0.5
+- names:
+    - Sandshrew
+    - サンド
+    - Sandan
+    - Sabelette
+  gender:
+    Ratio: 0.5
+- names:
+    - Sandslash
+    - サンドパン
+    - Sandamer
+    - Sablaireau
+  gender:
+    Ratio: 0.5
+- names:
+    - Nidoran
+    - ニドラン
+    - Nidoranjo
+    - VenemeumonasterienseLapin
+  gender: Female
+- names:
+    - Nidorina
+    - ニドリーナ
+    - Nidornja
+    - VenemeumonasterienseTrux
+  gender: Female
+- names:
+    - Nidoqueen
+    - ニドクイン
+    - Nidodamo
+    - VenemeumonasterienseAtrox
+  gender: Female
+- names:
+    - Nidoran
+    - ニドラン
+    - Nidoraĉjo
+    - VenemeumonasterienseLapin
+  gender: Male
+- names:
+    - Nidorino
+    - ニドリーノ
+    - Nidoro
+    - VenemeumonasterienseTrux
+  gender: Male
+- names:
+    - Nidoking
+    - ニドキング
+    - Nidoreĝo
+    - VenemeumonasterienseAtrox
+  gender: Male
+- names:
+    - Clefairy
+    - ピッピ
+    - Piepi
+    - Melofee
+  gender:
+    Ratio: 0.75
+- names:
+    - Clefable
+    - ピクシー
+    - Pixi
+    - Melodelfe
+  gender:
+    Ratio: 0.75
+- names:
+    - Vulpix
+    - ロコン
+    - Goupix
+    - Sesvulpo
+  gender:
+    Ratio: 0.75
+- names:
+    - Ninetales
+    - キュウコン
+    - Vulnona
+    - Feunard
+    - Vulpaŭ
+  gender:
+    Ratio: 0.75
+- names:
+    - Jigglypuff
+    - プリン
+    - Pummeluff
+    - Rondoudou
+  gender:
+    Ratio: 0.75
+- names:
+    - Wigglytuff
+    - プクリン
+    - Knuddeluff
+    - Grodoudou
+  gender:
+    Ratio: 0.75
+- names:
+    - Zubat
+    - ズバット
+    - Nosferapti
+  gender:
+    Ratio: 0.5
+- names:
+    - Golbat
+    - ゴルバット
+    - Nosferalto
+  gender:
+    Ratio: 0.5
+- names:
+    - Oddish
+    - ナゾノクサ
+    - Myrapla
+    - Mystherbe
+    - OddiosWanderus
+  gender:
+    Ratio: 0.5
+- names:
+    - Gloom
+    - クサイハナ
+    - Duflor
+    - Ortide
+  gender:
+    Ratio: 0.5
+- names:
+    - Vileplume
+    - ラフレシア
+    - Giflor
+    - Rafflesia
+  gender:
+    Ratio: 0.5
+- names:
+    - Paras
+    - パラス
+  gender:
+    Ratio: 0.5
+- names:
+    - Parasect
+    - パラセクト
+    - Parasek
+  gender:
+    Ratio: 0.5
+- names:
+    - Venonat
+    - コンパン
+    - Bluzuk
+    - Mimitoss
+    - Teneo
+  gender:
+    Ratio: 0.5
+- names:
+    - Venomoth
+    - モルフォン
+    - Omot
+    - Aeromite
+  gender:
+    Ratio: 0.5
+- names:
+    - Diglett
+    - ディグダ
+    - Digda
+    - Taupiqueur
+  gender:
+    Ratio: 0.5
+- names:
+    - Dugtrio
+    - ダグトリオ
+    - Digdri
+    - Triopikeur
+  gender:
+    Ratio: 0.5
+- names:
+    - Meowth
+    - ニャース
+    - Mauzi
+    - Miaouss
+  gender:
+    Ratio: 0.5
+- names:
+    - Persian
+    - ペルシアン
+    - Snobilikat
+  gender:
+    Ratio: 0.5
+- names:
+    - Psyduck
+    - コダック
+    - Enton
+    - Psykokwak
+  gender:
+    Ratio: 0.5
+- names:
+    - Golduck
+    - ゴルダック
+    - Entoron
+    - Akwakwak
+  gender:
+    Ratio: 0.5
+- names:
+    - Mankey
+    - マンキー
+    - Menki
+    - Ferosinge
+  gender:
+    Ratio: 0.5
+- names:
+    - Primeape
+    - オコリザル
+    - Rasaff
+    - Colossinge
+  gender:
+    Ratio: 0.5
+- names:
+    - Growlithe
+    - ガーディ
+    - Fukano
+    - Caninos
+  gender:
+    Ratio: 0.25
+- names:
+    - Arcanine
+    - ウインディ
+    - Arkani
+    - Arcanin
+  gender:
+    Ratio: 0.25
+- names:
+    - Poliwag
+    - ニョロモ
+    - Quapsel
+    - Ptitard
+    - Ranidjoro
+  gender:
+    Ratio: 0.5
+- names:
+    - Poliwhirl
+    - ニョロゾ
+    - Quaputzi
+    - Tetarte
+    - Ranjoro
+  gender:
+    Ratio: 0.5
+- names:
+    - Poliwrath
+    - ニョロボン
+    - Quappo
+    - Tartard
+    - Diluvjoro
+  gender:
+    Ratio: 0.5
+- names:
+    - Abra
+    - ケーシィ
+  gender:
+    Ratio: 0.25
+- names:
+    - Kadabra
+    - ユンゲラー
+  gender:
+    Ratio: 0.25
+- names:
+    - Alakazam
+    - フーディン
+    - Simsala
+  gender:
+    Ratio: 0.25
+- names:
+    - Machop
+    - ワンリキー
+    - Machollo
+    - Machoc
+  gender:
+    Ratio: 0.25
+- names:
+    - Machoke
+    - ゴーリキー
+    - Maschok
+    - Machopeur
+  gender:
+    Ratio: 0.25
+- names:
+    - Machamp
+    - カイリキー
+    - Machomei
+    - Mackogneur
+  gender:
+    Ratio: 0.25
+- names:
+    - Bellsprout
+    - マダツボミ
+    - Knofensa
+    - Chetiflor
+  gender:
+    Ratio: 0.5
+- names:
+    - Weepinbell
+    - ウツドン
+    - Ultrigaria
+    - Boustiflor
+  gender:
+    Ratio: 0.5
+- names:
+    - Victreebel
+    - Victreebell
+    - ウツボット
+    - Sarzenia
+    - Empiflor
+  gender:
+    Ratio: 0.5
+- names:
+    - Tentacool
+    - メノクラゲ
+    - Tentacha
+  gender:
+    Ratio: 0.5
+- names:
+    - Tentacruel
+    - ドククラゲ
+    - Tentoxa
+  gender:
+    Ratio: 0.5
+- names:
+    - Geodude
+    - イシツブテ
+    - Kleinstein
+    - Racaillou
+  gender:
+    Ratio: 0.5
+- names:
+    - Graveler
+    - ゴローン
+    - Georok
+    - Gravalanch
+  gender:
+    Ratio: 0.5
+- names:
+    - Golem
+    - ゴローニャ
+    - Geowaz
+    - Grolem
+  gender:
+    Ratio: 0.5
+- names:
+    - Ponyta
+    - ポニータ
+    - Ponita
+  gender:
+    Ratio: 0.5
+- names:
+    - Rapidash
+    - ギャロップ
+    - Gallopa
+    - Galopa
+  gender:
+    Ratio: 0.5
+- names:
+    - Slowpoke
+    - ヤドン
+    - Flegmon
+    - Ramoloss
+  gender:
+    Ratio: 0.5
+- names:
+    - Slowbro
+    - ヤドラン
+    - Lahmus
+    - Flagadoss
+  gender:
+    Ratio: 0.5
+- names:
+    - Magnemite
+    - コイル
+    - Magnetilo
+    - Magneti
+  gender: Agender
+- names:
+    - Magneton
+    - レアコイル
+    - Magneton
+  gender: Agender
+- names:
+    - "Farfetch'd"
+    - カモネギ
+    - Porenta
+    - Canarticho
+  gender:
+    Ratio: 0.5
+- names:
+    - Doduo
+    - ドードー
+    - Dodu
+  gender:
+    Ratio: 0.5
+- names:
+    - Dodrio
+    - ドードリオ
+    - Dodri
+  gender:
+    Ratio: 0.5
+- names:
+    - Seel
+    - パウワウ
+    - Jurob
+    - Otaria
+  gender:
+    Ratio: 0.5
+- names:
+    - Dewgong
+    - ジュゴン
+    - Jugong
+    - Lamantine
+  gender:
+    Ratio: 0.5
+- names:
+    - Grimer
+    - ベトベター
+    - Sleima
+    - Tadmorv
+  gender:
+    Ratio: 0.5
+- names:
+    - Muk
+    - ベトベトン
+    - Sleimok
+    - Grotadmorv
+  gender:
+    Ratio: 0.5
+- names:
+    - Shellder
+    - シェルダー
+    - Muschas
+    - Kokiyas
+  gender:
+    Ratio: 0.5
+- names:
+    - Cloyster
+    - パルシェン
+    - Austos
+    - Crustabri
+  gender:
+    Ratio: 0.5
+- names:
+    - Gastly
+    - ゴース
+    - Nebulak
+    - Fantominus
+  gender:
+    Ratio: 0.5
+- names:
+    - Haunter
+    - ゴースト
+    - Alpollo
+    - Spectrum
+  gender:
+    Ratio: 0.5
+- names:
+    - Gengar
+    - ゲンガー
+    - Ectoplasma
+  gender:
+    Ratio: 0.5
+- names:
+    - Onix
+    - イワーク
+    - TerravermisGigas
+  gender:
+    Ratio: 0.5
+- names:
+    - Drowzee
+    - スリープ
+    - Traumato
+    - Soporifik
+  gender:
+    Ratio: 0.5
+- names:
+    - Hypno
+    - スリーパー
+    - "Hypnomade "
+  gender:
+    Ratio: 0.5
+- names:
+    - Krabby
+    - クラブ
+  gender:
+    Ratio: 0.5
+- names:
+    - Kingler
+    - キングラー
+    - Krabboss
+  gender:
+    Ratio: 0.5
+- names:
+    - Voltorb
+    - ビリリダマ
+    - Voltobal
+  gender: Agender
+- names:
+    - Electrode
+    - マルマイン
+    - Lektrobal
+    - Voltorbe
+  gender: Agender
+- names:
+    - Exeggcute
+    - タマタマ
+    - Owei
+    - Noeunoeuf
+    - OvusUnicephalis
+  gender:
+    Ratio: 0.5
+- names:
+    - Exeggutor
+    - ナッシー
+    - Kokowei
+    - Noadkoko
+    - OvusArbrocephalis
+  gender:
+    Ratio: 0.5
+- names:
+    - Cubone
+    - カラカラ
+    - Tragosso
+    - Osselait
+  gender:
+    Ratio: 0.5
+- names:
+    - Marowak
+    - ガラガラ
+    - Knogga
+    - Ossatueur
+  gender:
+    Ratio: 0.5
+- names:
+    - Hitmonlee
+    - サワムラー
+    - Kicklee
+    - BellatorbestiaAcerpes
+  gender: Male
+- names:
+    - Hitmonchan
+    - エビワラー
+    - Nockchan
+    - Tygnon
+    - BellatorbestiaPugnus
+  gender: Male
+- names:
+    - Lickitung
+    - ベロリンガ
+    - Schlurp
+    - Excelangue
+  gender:
+    Ratio: 0.5
+- names:
+    - Koffing
+    - ドガース
+    - Smogon
+    - Smogo
+  gender:
+    Ratio: 0.5
+- names:
+    - Weezing
+    - マタドガス
+    - Smogmog
+    - Smogogo
+  gender:
+    Ratio: 0.5
+- names:
+    - Rhyhorn
+    - サイホーン
+    - Rihorn
+    - Rhinocorne
+  gender:
+    Ratio: 0.5
+- names:
+    - Rhydon
+    - サイドン
+    - Rizeros
+    - Rhinoferos
+  gender:
+    Ratio: 0.5
+- names:
+    - Chansey
+    - ラッキー
+    - Chaneira
+    - Leveinard
+  gender: Female
+- names:
+    - Tangela
+    - モンジャラ
+    - Saquedeneu
+  gender:
+    Ratio: 0.5
+- names:
+    - Kangaskhan
+    - ガルーラ
+    - Kangama
+    - Kangourex
+  gender: Female
+- names:
+    - Horsea
+    - タッツー
+    - Seeper
+    - Hypotrempe
+  gender:
+    Ratio: 0.5
+- names:
+    - Seadra
+    - シードラ
+    - Seemon
+    - Hypocean
+  gender:
+    Ratio: 0.5
+- names:
+    - Goldeen
+    - トサキント
+    - Goldini
+    - Poissirene
+  gender:
+    Ratio: 0.5
+- names:
+    - Seaking
+    - アズマオウ
+    - Golking
+    - Poissoroy
+  gender:
+    Ratio: 0.5
+- names:
+    - Staryu
+    - ヒトデマン
+    - Sterndu
+    - Stari
+  gender: Agender
+- names:
+    - Starmie
+    - スターミー
+    - Staross
+  gender: Agender
+- names:
+    - MrMime
+    - バリヤード
+    - Pantimos
+    - MMime
+  gender:
+    Ratio: 0.5
+- names:
+    - Scyther
+    - ストライク
+    - Sichlor
+    - Insecateur
+  gender:
+    Ratio: 0.5
+- names:
+    - Jynx
+    - ルージュラ
+    - Rossana
+    - Lippoutou
+  gender: Female
+- names:
+    - Electabuzz
+    - エレブー
+    - Elektek
+  gender:
+    Ratio: 0.25
+- names:
+    - Magmar
+    - ブーバー
+  gender:
+    Ratio: 0.25
+- names:
+    - Pinsir
+    - カイロス
+    - Scarabrute
+  gender:
+    Ratio: 0.5
+- names:
+    - Tauros
+    - ケンタロス
+  gender: Male
+- names:
+    - Magikarp
+    - コイキング
+    - Karpador
+    - Magicarpe
+  gender:
+    Ratio: 0.5
+- names:
+    - Gyarados
+    - ギャラドス
+    - Garados
+    - Leviator
+  gender:
+    Ratio: 0.5
+- names:
+    - Lapras
+    - ラプラス
+    - Lokhlass
+  gender:
+    Ratio: 0.5
+- names:
+    - Ditto
+    - メタモン
+    - Metamorph
+  gender: Agender
+- names:
+    - Eevee
+    - イーブイ
+    - Evoli
+  gender:
+    Ratio: 0.125
+- names:
+    - Vaporeon
+    - シャワーズ
+    - Aquana
+    - Aquali
+    - Akveva
+  gender:
+    Ratio: 0.125
+- names:
+    - Jolteon
+    - サンダース
+    - Blitza
+    - Voltali
+    - Volteva
+  gender:
+    Ratio: 0.125
+- names:
+    - Flareon
+    - ブースター
+    - Flamara
+    - Pyroli
+    - Flameva
+  gender:
+    Ratio: 0.125
+- names:
+    - Porygon
+    - ポリゴン
+  gender: Agender
+- names:
+    - Omanyte
+    - オムナイト
+    - Amonitas
+    - Amonita
+  gender:
+    Ratio: 0.125
+- names:
+    - Omastar
+    - オムスター
+    - Amoroso
+    - Amonistar
+  gender:
+    Ratio: 0.125
+- names:
+    - Kabuto
+    - カブト
+  gender:
+    Ratio: 0.125
+- names:
+    - Kabutops
+    - カブトプス
+  gender:
+    Ratio: 0.125
+- names:
+    - Aerodactyl
+    - プテラ
+    - Ptera
+  gender:
+    Ratio: 0.125
+- names:
+    - Snorlax
+    - カビゴン
+    - Relaxo
+    - Ronflex
+  gender:
+    Ratio: 0.125
+- names:
+    - Articuno
+    - フリーザー
+    - Arktos
+    - Artikodin
+  gender: Agender
+- names:
+    - Zapdos
+    - サンダー
+    - Electhor
+  gender: Agender
+- names:
+    - Moltres
+    - ファイヤー
+    - Lavados
+    - Sulfura
+  gender: Agender
+- names:
+    - Dratini
+    - ミニリュウ
+    - Minidraco
+  gender:
+    Ratio: 0.5
+- names:
+    - Dragonair
+    - ハクリュー
+    - Dragonir
+    - Draco
+  gender:
+    Ratio: 0.5
+- names:
+    - Dragonite
+    - カイリュー
+    - Dragoran
+    - Dracolosse
+  gender:
+    Ratio: 0.5
+- names:
+    - Mewtwo
+    - ミュウツー
+    - Mewtu
+    - "Mju-du"
+  gender: Agender
+- names:
+    - Mew
+    - ミュウ
+    - Mju
+  gender: Agender
+- names:
+    - Chikorita
+    - チコリータ
+    - Endivie
+    - Germignon
+    - Ĉikorjet
+  gender:
+    Ratio: 0.125
+- names:
+    - Bayleef
+    - ベイリーフ
+    - Lorblatt
+    - Macronium
+    - Laŭrafoli
+  gender:
+    Ratio: 0.125
+- names:
+    - Meganium
+    - メガニウム
+    - Meganie
+    - Greanjeg
+  gender:
+    Ratio: 0.125
+- names:
+    - Cyndaquil
+    - ヒノアラシ
+    - Feurigel
+    - Hericendre
+    - Cindsorikil
+  gender:
+    Ratio: 0.125
+- names:
+    - Quilava
+    - マグマラシ
+    - Igelavar
+    - Feurisson
+    - Magmhistriko
+  gender:
+    Ratio: 0.125
+- names:
+    - Typhlosion
+    - バクフーン
+    - Tornupto
+    - Bangfŭono
+  gender:
+    Ratio: 0.125
+- names:
+    - Totodile
+    - ワニノコ
+    - Karnimani
+    - Kaiminus
+    - AquacrocodilusImpiger
+    - Kaimetil
+  gender:
+    Ratio: 0.125
+- names:
+    - Croconaw
+    - アリゲイツ
+    - Tyracroc
+    - Crocrodil
+    - AquacrocodilusSempermordis
+    - Ronĝroko
+  gender:
+    Ratio: 0.125
+- names:
+    - Feraligatr
+    - Feraligator
+    - オーダイル
+    - Impergator
+    - Aligatueur
+    - AquacrocodilusDeimophobos
+    - Sovaĝrigator
+  gender:
+    Ratio: 0.125
+- names:
+    - Sentret
+    - オタチ
+    - Wiesor
+    - Fouinette
+  gender:
+    Ratio: 0.5
+- names:
+    - Furret
+    - オオタチ
+    - Wiesenior
+    - Fouinar
+  gender:
+    Ratio: 0.5
+- names:
+    - Hoothoot
+    - ホーホー
+  gender:
+    Ratio: 0.5
+- names:
+    - Noctowl
+    - ヨルノズク
+    - Noctuh
+    - Noarfang
+  gender:
+    Ratio: 0.5
+- names:
+    - Ledyba
+    - レディバ
+    - Coxy
+  gender:
+    Ratio: 0.5
+- names:
+    - Ledian
+    - レディアン
+    - Coxyclaque
+  gender:
+    Ratio: 0.5
+- names:
+    - Spinarak
+    - イトマル
+    - Webarak
+    - Mimigal
+  gender:
+    Ratio: 0.5
+- names:
+    - Ariados
+    - アリアドス
+    - Migalos
+  gender:
+    Ratio: 0.5
+- names:
+    - Crobat
+    - クロバット
+    - Iksbat
+    - Nostenfer
+  gender:
+    Ratio: 0.5
+- names:
+    - Chinchou
+    - チョンチー
+    - Lampi
+    - Loupio
+  gender:
+    Ratio: 0.5
+- names:
+    - Lanturn
+    - ランターン
+  gender:
+    Ratio: 0.5
+- names:
+    - Pichu
+    - ピチュー
+  gender:
+    Ratio: 0.5
+- names:
+    - Cleffa
+    - ピィ
+    - Pii
+    - Melo
+  gender:
+    Ratio: 0.75
+- names:
+    - Igglybuff
+    - ププリン
+    - Fluffeluff
+    - Toudoudou
+  gender:
+    Ratio: 0.75
+- names:
+    - Togepi
+    - トゲピー
+    - OvapteryxAnkilova
+    - Togepio
+  gender:
+    Ratio: 0.125
+- names:
+    - Togetic
+    - トゲチック
+    - OvapteryxMicropteryx
+    - Tokegio
+  gender:
+    Ratio: 0.125
+- names:
+    - Natu
+    - ネイティ
+    - VatesaquilaVegrandis
+  gender:
+    Ratio: 0.5
+- names:
+    - Xatu
+    - ネイティオ
+    - VatesaquilaEffigies
+  gender:
+    Ratio: 0.5
+- names:
+    - Mareep
+    - メリープ
+    - Voltilamm
+    - Wattouat
+  gender:
+    Ratio: 0.5
+- names:
+    - Flaaffy
+    - モココ
+    - Waaty
+    - Lainergie
+  gender:
+    Ratio: 0.5
+- names:
+    - Ampharos
+    - デンリュウ
+    - Pharamp
+  gender:
+    Ratio: 0.5
+- names:
+    - Bellossom
+    - キレイハナ
+    - Blubella
+    - Joliflor
+  gender:
+    Ratio: 0.5
+- names:
+    - Marill
+    - Pikablu
+    - マリル
+  gender:
+    Ratio: 0.5
+- names:
+    - Azumarill
+    - マリルリ
+  gender:
+    Ratio: 0.5
+- names:
+    - Sudowoodo
+    - ウソッキー
+    - Mogelbaum
+    - Simularbre
+  gender:
+    Ratio: 0.5
+- names:
+    - Politoed
+    - ニョロトノ
+    - Quaxo
+    - Tarpaud
+    - Verdinjoro
+  gender:
+    Ratio: 0.5
+- names:
+    - Hoppip
+    - ハネッコ
+    - Hoppsross
+    - Granivol
+  gender:
+    Ratio: 0.5
+- names:
+    - Skiploom
+    - ポポッコ
+    - Hubelupf
+    - Floravol
+  gender:
+    Ratio: 0.5
+- names:
+    - Jumpluff
+    - ワタッコ
+    - Papungha
+    - Cotovol
+  gender:
+    Ratio: 0.5
+- names:
+    - Aipom
+    - エイパム
+    - Griffel
+    - Capumain
+  gender:
+    Ratio: 0.5
+- names:
+    - Sunkern
+    - ヒマナッツ
+    - Sonnkern
+    - Tournegrin
+  gender:
+    Ratio: 0.5
+- names:
+    - Sunflora
+    - キマワリ
+    - Sonnflora
+    - Heliatronc
+  gender:
+    Ratio: 0.5
+- names:
+    - Yanma
+    - ヤンヤンマ
+  gender:
+    Ratio: 0.5
+- names:
+    - Wooper
+    - ウパー
+    - Felino
+    - Axoloto
+  gender:
+    Ratio: 0.5
+- names:
+    - Quagsire
+    - ヌオー
+    - Morlord
+    - Maraiste
+  gender:
+    Ratio: 0.5
+- names:
+    - Espeon
+    - エーフィ
+    - Psiana
+    - Mentali
+    - Psikeva
+  gender:
+    Ratio: 0.125
+- names:
+    - Umbreon
+    - ブラッキー
+    - Nachtara
+    - Noctali
+    - Nokteva
+  gender:
+    Ratio: 0.125
+- names:
+    - Murkrow
+    - ヤミカラス
+    - Kramurx
+    - Cornebre
+    - CorvustultusMaligna
+  gender:
+    Ratio: 0.5
+- names:
+    - Slowking
+    - ヤドキング
+    - Laschoking
+    - Roigada
+  gender:
+    Ratio: 0.5
+- names:
+    - Misdreavus
+    - ムウマ
+    - Traunfugil
+    - Feuforeve
+  gender:
+    Ratio: 0.5
+- names:
+    - Unown
+    - アンノーン
+    - Icognito
+    - Zarbi
+  gender: Agender
+- names:
+    - Wobbuffet
+    - ソーナンス
+    - Woingenau
+    - Qulbutoke
+  gender:
+    Ratio: 0.5
+- names:
+    - Girafarig
+    - キリンリキ
+  gender:
+    Ratio: 0.5
+- names:
+    - Pineco
+    - クヌギダマ
+    - Tannza
+    - Pomdepic
+  gender:
+    Ratio: 0.5
+- names:
+    - Forretress
+    - フォレトス
+    - Forstellka
+  gender:
+    Ratio: 0.5
+- names:
+    - Dunsparce
+    - ノコッチ
+    - Dummisel
+    - Insolourdo
+  gender:
+    Ratio: 0.5
+- names:
+    - Gligar
+    - グライガー
+    - Skorgla
+    - Scorplane
+    - ScorpiovolansVenenatis
+  gender:
+    Ratio: 0.5
+- names:
+    - Steelix
+    - ハガネール
+    - Stahlos
+    - TerravermisFerratum
+  gender:
+    Ratio: 0.5
+- names:
+    - Snubbull
+    - ブルー
+  gender:
+    Ratio: 0.75
+- names:
+    - Granbull
+    - グランブル
+  gender:
+    Ratio: 0.75
+- names:
+    - Qwilfish
+    - ハリーセン
+    - Baldorfish
+  gender:
+    Ratio: 0.5
+- names:
+    - Scizor
+    - ハッサム
+    - Scherox
+    - Cizayox
+  gender:
+    Ratio: 0.5
+- names:
+    - Shuckle
+    - ツボツボ
+    - Pottrott
+    - Caratroc
+  gender:
+    Ratio: 0.5
+- names:
+    - Heracross
+    - ヘラクロス
+    - Skaraborn
+    - Scarhino
+  gender:
+    Ratio: 0.5
+- names:
+    - Sneasel
+    - ニューラ
+    - Sniebel
+    - Farfuret
+  gender:
+    Ratio: 0.5
+- names:
+    - Teddiursa
+    - ヒメグマ
+    - UrsusTeddius
+    - Teddringulis
+  gender:
+    Ratio: 0.5
+- names:
+    - Ursaring
+    - リングマ
+    - UrsusMaxus
+  gender:
+    Ratio: 0.5
+- names:
+    - Slugma
+    - マグマッグ
+    - Schneckmag
+    - Limagma
+  gender:
+    Ratio: 0.5
+- names:
+    - Magcargo
+    - マグカルゴ
+    - Volcaropod
+  gender:
+    Ratio: 0.5
+- names:
+    - Swinub
+    - ウリムー
+    - Quiekel
+    - Marcacrin
+  gender:
+    Ratio: 0.5
+- names:
+    - Piloswine
+    - イノムー
+    - Keifel
+    - Cochignon
+  gender:
+    Ratio: 0.5
+- names:
+    - Corsola
+    - サニーゴ
+    - Corasonn
+    - Corayon
+  gender:
+    Ratio: 0.75
+- names:
+    - Remoraid
+    - テッポウオ
+  gender:
+    Ratio: 0.5
+- names:
+    - Octillery
+    - オクタン
+  gender:
+    Ratio: 0.5
+- names:
+    - Delibird
+    - デリバード
+    - Botogel
+    - Cadoizo
+  gender:
+    Ratio: 0.5
+- names:
+    - Mantine
+    - マンタイン
+    - Mantax
+    - Demanta
+  gender:
+    Ratio: 0.5
+- names:
+    - Skarmory
+    - エアームド
+    - Panzaeron
+    - Airmure
+  gender:
+    Ratio: 0.5
+- names:
+    - Houndour
+    - デルビル
+    - Hunduster
+    - Malosse
+  gender:
+    Ratio: 0.5
+- names:
+    - Houndoom
+    - ヘルガー
+    - Hundemon
+    - Demolosse
+  gender:
+    Ratio: 0.5
+- names:
+    - Kingdra
+    - キングドラ
+    - Seedraking
+    - Hyporoi
+  gender:
+    Ratio: 0.5
+- names:
+    - Phanpy
+    - ゴマゾウ
+  gender:
+    Ratio: 0.5
+- names:
+    - Donphan
+    - ドンファン
+  gender:
+    Ratio: 0.5
+- names:
+    - Porygon2
+    - ポリゴン２
+  gender: Agender
+- names:
+    - Stantler
+    - オドシシ
+    - Damhirplex
+    - Cerfrousse
+  gender:
+    Ratio: 0.5
+- names:
+    - Smeargle
+    - ドーブル
+    - Farbeagle
+    - Queulorior
+  gender:
+    Ratio: 0.5
+- names:
+    - Tyrogue
+    - バルキー
+    - Rabauz
+    - Debugant
+    - BellatorbestiaDiscipulus
+    - Batuzet
+  gender: Male
+- names:
+    - Hitmontop
+    - カポエラー
+    - Kapoera
+    - BellatorbestiaRotocapitis
+  gender: Male
+- names:
+    - Smoochum
+    - ムチュール
+    - Kussilla
+    - Lippouti
+  gender: Female
+- names:
+    - Elekid
+    - エレキッド
+  gender:
+    Ratio: 0.25
+- names:
+    - Magby
+    - ブビィ
+  gender:
+    Ratio: 0.25
+- names:
+    - Miltank
+    - ミルタンク
+    - Ecremeuh
+  gender: Female
+- names:
+    - Blissey
+    - ハピナス
+    - Heiteira
+    - Leuphorie
+  gender: Female
+- names:
+    - Raikou
+    - ライコウ
+  gender: Agender
+- names:
+    - Entei
+    - エンテイ
+  gender: Agender
+- names:
+    - Suicune
+    - スイクン
+  gender: Agender
+- names:
+    - Larvitar
+    - ヨーギラス
+    - Embrylex
+  gender:
+    Ratio: 0.5
+- names:
+    - Pupitar
+    - サナギラス
+    - Ymphect
+  gender:
+    Ratio: 0.5
+- names:
+    - Tyranitar
+    - バンギラス
+    - Despotar
+    - Tyranocif
+  gender:
+    Ratio: 0.5
+- names:
+    - Lugia
+    - ルギア
+  gender: Agender
+- names:
+    - "Ho-Oh"
+    - ホウオウ
+  gender: Agender
+- names:
+    - Celebi
+    - セレビィ
+  gender: Agender
+- names:
+    - Treecko
+    - キモリ
+    - Geckarbor
+    - Arcko
+    - Guarbeko
+  gender:
+    Ratio: 0.125
+- names:
+    - Grovyle
+    - ジュプトル
+    - Reptain
+    - Massko
+  gender:
+    Ratio: 0.125
+- names:
+    - Sceptile
+    - ジュカイン
+    - Gewaldro
+    - Jungko
+  gender:
+    Ratio: 0.125
+- names:
+    - Torchic
+    - アチャモ
+    - Flemmli
+    - Poussifeu
+    - Torŝamo
+  gender:
+    Ratio: 0.125
+- names:
+    - Combusken
+    - ワカシャモ
+    - Jungglut
+    - Galifeu
+  gender:
+    Ratio: 0.125
+- names:
+    - Blaziken
+    - バシャーモ
+    - Lohgock
+    - Brasegali
+  gender:
+    Ratio: 0.125
+- names:
+    - Mudkip
+    - ミズゴロウ
+    - Hydropi
+    - Gobou
+    - Mudkjo
+  gender:
+    Ratio: 0.125
+- names:
+    - Marshtomp
+    - ヌマクロー
+    - Moorabbel
+    - Flobio
+  gender:
+    Ratio: 0.125
+- names:
+    - Swampert
+    - ラグラージ
+    - Sumpex
+    - Laggron
+  gender:
+    Ratio: 0.125
+- names:
+    - Poochyena
+    - ポチエナ
+    - Fiffyen
+    - Medhyena
+    - Poŭhieno
+  gender:
+    Ratio: 0.5
+- names:
+    - Mightyena
+    - グラエナ
+    - Magnayen
+    - Grahyena
+    - Brunlupo
+  gender:
+    Ratio: 0.5
+- names:
+    - Zigzagoon
+    - ジグザグマ
+    - Zigzachs
+    - Zigzaton
+    - Zigzanuko
+    - Tanuprocio
+  gender:
+    Ratio: 0.5
+- names:
+    - Linoone
+    - マッスグマ
+    - Geradaks
+    - Lineon
+    - Rektofojn
+    - Massumelus
+  gender:
+    Ratio: 0.5
+- names:
+    - Wurmple
+    - ケムッソ
+    - Waumpel
+    - Chenipotte
+  gender:
+    Ratio: 0.5
+- names:
+    - Silcoon
+    - カラサリス
+    - Schaloko
+    - Armulys
+  gender:
+    Ratio: 0.5
+- names:
+    - Beautifly
+    - アゲハント
+    - Papinella
+    - Charmillon
+  gender:
+    Ratio: 0.5
+- names:
+    - Cascoon
+    - マユルド
+    - Panekon
+    - Blindalys
+  gender:
+    Ratio: 0.5
+- names:
+    - Dustox
+    - ドクケイル
+    - Pudox
+    - Papinox
+  gender:
+    Ratio: 0.5
+- names:
+    - Lotad
+    - ハスボー
+    - Loturzel
+    - Nenupiot
+  gender:
+    Ratio: 0.5
+- names:
+    - Lombre
+    - ハスブレロ
+    - Lombrero
+  gender:
+    Ratio: 0.5
+- names:
+    - Ludicolo
+    - ルンパッパ
+    - Kappalores
+  gender:
+    Ratio: 0.5
+- names:
+    - Seedot
+    - タネボー
+    - Samurzel
+    - Grainipiot
+  gender:
+    Ratio: 0.5
+- names:
+    - Nuzleaf
+    - コノハナ
+    - Blanas
+    - Pifeuil
+  gender:
+    Ratio: 0.5
+- names:
+    - Shiftry
+    - ダーテング
+    - Tengulist
+    - Tengalice
+  gender:
+    Ratio: 0.5
+- names:
+    - Taillow
+    - スバメ
+    - Schwalbini
+    - Nirondelle
+  gender:
+    Ratio: 0.5
+- names:
+    - Swellow
+    - オオスバメ
+    - Schwalboss
+    - Heledelle
+  gender:
+    Ratio: 0.5
+- names:
+    - Wingull
+    - キャモメ
+    - Goelise
+  gender:
+    Ratio: 0.5
+- names:
+    - Pelipper
+    - ペリッパー
+    - Bekipan
+  gender:
+    Ratio: 0.5
+- names:
+    - Ralts
+    - ラルトス
+    - Trasla
+    - Tarsal
+  gender:
+    Ratio: 0.5
+- names:
+    - Kirlia
+    - キルリア
+  gender:
+    Ratio: 0.5
+- names:
+    - Gardevoir
+    - サーナイト
+    - Guardevoir
+  gender:
+    Ratio: 0.5
+- names:
+    - Surskit
+    - アメタマ
+    - Gehweiher
+    - Arakdo
+  gender:
+    Ratio: 0.5
+- names:
+    - Masquerain
+    - アメモース
+    - Maskeregen
+    - Maskadra
+  gender:
+    Ratio: 0.5
+- names:
+    - Shroomish
+    - キノココ
+    - Knilz
+    - Balignon
+  gender:
+    Ratio: 0.5
+- names:
+    - Breloom
+    - キノガッサ
+    - Kapilz
+    - Chapignon
+  gender:
+    Ratio: 0.5
+- names:
+    - Slakoth
+    - ナマケロ
+    - Bummelz
+    - Parecool
+  gender:
+    Ratio: 0.5
+- names:
+    - Vigoroth
+    - ヤルキモノ
+    - Muntier
+  gender:
+    Ratio: 0.5
+- names:
+    - Slaking
+    - ケッキング
+    - Letarking
+    - Monaflemit
+  gender:
+    Ratio: 0.5
+- names:
+    - Nincada
+    - ツチニン
+    - Ningale
+  gender:
+    Ratio: 0.5
+- names:
+    - Ninjask
+    - テッカニン
+  gender:
+    Ratio: 0.5
+- names:
+    - Shedinja
+    - ヌケニン
+    - Ninjatom
+    - Munja
+  gender: Agender
+- names:
+    - Whismur
+    - ゴニョニョ
+    - Flurmel
+    - Chuchmur
+  gender:
+    Ratio: 0.5
+- names:
+    - Loudred
+    - ドゴーム
+    - Krakeelo
+    - Ramboum
+  gender:
+    Ratio: 0.5
+- names:
+    - Exploud
+    - バクオング
+    - Krawumms
+    - Brouhabam
+  gender:
+    Ratio: 0.5
+- names:
+    - Makuhita
+    - マクノシタ
+  gender:
+    Ratio: 0.25
+- names:
+    - Hariyama
+    - ハリテヤマ
+  gender:
+    Ratio: 0.25
+- names:
+    - Azurill
+    - ルリリ
+  gender:
+    Ratio: 0.75
+- names:
+    - Nosepass
+    - ノズパス
+    - Nasgnet
+    - Tarinor
+  gender:
+    Ratio: 0.5
+- names:
+    - Skitty
+    - エネコ
+    - Eneco
+    - Rozoneko
+  gender:
+    Ratio: 0.75
+- names:
+    - Delcatty
+    - エネコロロ
+    - Enekoro
+    - Tikloneko
+  gender:
+    Ratio: 0.75
+- names:
+    - Sableye
+    - ヤミラミ
+    - Zobiris
+    - Tenefix
+  gender:
+    Ratio: 0.5
+- names:
+    - Mawile
+    - クチート
+    - Flunkifer
+    - Mysdibule
+  gender:
+    Ratio: 0.5
+- names:
+    - Aron
+    - ココドラ
+    - Stollunior
+    - Galekid
+  gender:
+    Ratio: 0.5
+- names:
+    - Lairon
+    - コドラ
+    - Stollrak
+    - Galegon
+  gender:
+    Ratio: 0.5
+- names:
+    - Aggron
+    - ボスゴドラ
+    - Stolloss
+    - Galeking
+  gender:
+    Ratio: 0.5
+- names:
+    - Meditite
+    - アサナン
+    - Meditie
+    - Meditikka
+  gender:
+    Ratio: 0.5
+- names:
+    - Medicham
+    - チャーレム
+    - Meditalis
+    - Charmina
+  gender:
+    Ratio: 0.5
+- names:
+    - Electrike
+    - ラクライ
+    - Frizelbliz
+    - Dynavolt
+  gender:
+    Ratio: 0.5
+- names:
+    - Manectric
+    - ライボルト
+    - Voltenso
+    - Elecsprint
+  gender:
+    Ratio: 0.5
+- names:
+    - Plusle
+    - プラスル
+    - Posipi
+    - RedPikaclone
+  gender:
+    Ratio: 0.5
+- names:
+    - Minun
+    - マイナン
+    - Negapi
+    - BluePikaclone
+  gender:
+    Ratio: 0.5
+- names:
+    - Volbeat
+    - バルビート
+    - Muciole
+  gender: Male
+- names:
+    - Illumise
+    - イルミーゼ
+    - Lumivole
+  gender: Female
+- names:
+    - Roselia
+    - ロゼリア
+  gender:
+    Ratio: 0.5
+- names:
+    - Gulpin
+    - ゴクリン
+    - Schluppuck
+    - Gloupti
+  gender:
+    Ratio: 0.5
+- names:
+    - Swalot
+    - マルノーム
+    - Schlukwech
+    - Avaltout
+  gender:
+    Ratio: 0.5
+- names:
+    - Carvanha
+    - キバニア
+    - Kanivanha
+  gender:
+    Ratio: 0.5
+- names:
+    - Sharpedo
+    - サメハダー
+    - Tohaido
+  gender:
+    Ratio: 0.5
+- names:
+    - Wailmer
+    - ホエルコ
+  gender:
+    Ratio: 0.5
+- names:
+    - Wailord
+    - ホエルオー
+  gender:
+    Ratio: 0.5
+- names:
+    - Numel
+    - ドンメル
+    - Camaub
+    - Chamallot
+  gender:
+    Ratio: 0.5
+- names:
+    - Camerupt
+    - バクーダ
+  gender:
+    Ratio: 0.5
+- names:
+    - Torkoal
+    - コータス
+    - Qurtel
+    - Chartor
+  gender:
+    Ratio: 0.5
+- names:
+    - Spoink
+    - バネブー
+  gender:
+    Ratio: 0.5
+- names:
+    - Grumpig
+    - ブーピッグ
+    - Groink
+    - Groret
+  gender:
+    Ratio: 0.5
+- names:
+    - Spinda
+    - パッチール
+    - Pandir
+  gender:
+    Ratio: 0.5
+- names:
+    - Trapinch
+    - ナックラー
+    - Knacklion
+    - Kraknoix
+  gender:
+    Ratio: 0.5
+- names:
+    - Vibrava
+    - ビブラーバ
+    - Vibraninf
+  gender:
+    Ratio: 0.5
+- names:
+    - Flygon
+    - フライゴン
+    - Libelldra
+    - Libegon
+  gender:
+    Ratio: 0.5
+- names:
+    - Cacnea
+    - サボネア
+    - Tuska
+  gender:
+    Ratio: 0.5
+- names:
+    - Cacturne
+    - ノクタス
+    - Noktuska
+  gender:
+    Ratio: 0.5
+- names:
+    - Swablu
+    - チルット
+    - Wablu
+    - Tylton
+  gender:
+    Ratio: 0.5
+- names:
+    - Altaria
+    - チルタリス
+  gender:
+    Ratio: 0.5
+- names:
+    - Zangoose
+    - ザングース
+    - Sengo
+    - Mangriff
+    - Ungoosu
+  gender:
+    Ratio: 0.5
+- names:
+    - Seviper
+    - ハブネーク
+    - Vipitis
+  gender:
+    Ratio: 0.5
+- names:
+    - Lunatone
+    - ルナトーン
+    - Lunastein
+    - Seleroc
+  gender: Agender
+- names:
+    - Solrock
+    - ソルロック
+    - Sonnfel
+    - Solaroc
+  gender: Agender
+- names:
+    - Barboach
+    - ドジョッチ
+    - Schmerbe
+    - Barloche
+  gender:
+    Ratio: 0.5
+- names:
+    - Whiscash
+    - ナマズン
+    - Welsar
+    - Barbicha
+  gender:
+    Ratio: 0.5
+- names:
+    - Corphish
+    - ヘイガニ
+    - Krebscorps
+    - Ecrapince
+  gender:
+    Ratio: 0.5
+- names:
+    - Crawdaunt
+    - シザリガー
+    - Krebutack
+    - Colhomard
+  gender:
+    Ratio: 0.5
+- names:
+    - Baltoy
+    - ヤジロン
+    - Puppance
+    - Balbuto
+  gender: Agender
+- names:
+    - Claydol
+    - ネンドール
+    - Lepumentas
+    - Kaorine
+  gender: Agender
+- names:
+    - Lileep
+    - リリーラ
+    - Liliep
+    - Lilia
+    - GeoseraMultitelum
+  gender:
+    Ratio: 0.125
+- names:
+    - Cradily
+    - ユレイドル
+    - Wielie
+    - Vacilys
+    - GeoseraMegatelum
+  gender:
+    Ratio: 0.125
+- names:
+    - Anorith
+    - アノプス
+  gender:
+    Ratio: 0.125
+- names:
+    - Armaldo
+    - アーマルド
+  gender:
+    Ratio: 0.125
+- names:
+    - Feebas
+    - ヒンバス
+    - Barschwa
+    - Barpau
+  gender:
+    Ratio: 0.5
+- names:
+    - Milotic
+    - ミロカロス
+    - Milobellus
+  gender:
+    Ratio: 0.5
+- names:
+    - Castform
+    - ポワルン
+    - Formeo
+  gender:
+    Ratio: 0.5
+- names:
+    - Kecleon
+    - カクレオン
+  gender:
+    Ratio: 0.5
+- names:
+    - Shuppet
+    - カゲボウズ
+  gender:
+    Ratio: 0.5
+- names:
+    - Banette
+    - ジュペッタ
+  gender:
+    Ratio: 0.5
+- names:
+    - Duskull
+    - ヨマワル
+    - Zwirrlicht
+  gender:
+    Ratio: 0.5
+- names:
+    - Dusclops
+    - サマヨール
+    - Zwirrklop
+  gender:
+    Ratio: 0.5
+- names:
+    - Tropius
+    - トロピウス
+  gender:
+    Ratio: 0.5
+- names:
+    - Chimecho
+    - チリーン
+    - Palimpalim
+  gender:
+    Ratio: 0.5
+- names:
+    - Absol
+    - アブソル
+    - PantheraAntecursor
+  gender:
+    Ratio: 0.5
+- names:
+    - Wynaut
+    - ソーナノ
+    - Isso
+  gender:
+    Ratio: 0.5
+- names:
+    - Snorunt
+    - ユキワラシ
+    - Schneppke
+  gender:
+    Ratio: 0.5
+- names:
+    - Glalie
+    - オニゴーリ
+    - Firnontor
+  gender:
+    Ratio: 0.5
+- names:
+    - Spheal
+    - タマザラシ
+    - Seemops
+  gender:
+    Ratio: 0.5
+- names:
+    - Sealeo
+    - トドグラー
+    - Seejong
+  gender:
+    Ratio: 0.5
+- names:
+    - Walrein
+    - トドゼルガ
+    - Walraisa
+  gender:
+    Ratio: 0.5
+- names:
+    - Clamperl
+    - パールル
+    - Perlu
+  gender:
+    Ratio: 0.5
+- names:
+    - Huntail
+    - ハンテール
+    - Aalabyss
+  gender:
+    Ratio: 0.5
+- names:
+    - Gorebyss
+    - サクラビス
+    - Saganabyss
+  gender:
+    Ratio: 0.5
+- names:
+    - Relicanth
+    - ジーランス
+  gender:
+    Ratio: 0.125
+- names:
+    - Luvdisc
+    - ラブカス
+    - Liebiskus
+  gender:
+    Ratio: 0.75
+- names:
+    - Bagon
+    - タツベイ
+    - Kindwurm
+    - Lindvorju
+  gender:
+    Ratio: 0.5
+- names:
+    - Shelgon
+    - コモルー
+    - Draschel
+    - Seskaraprju
+  gender:
+    Ratio: 0.5
+- names:
+    - Salamence
+    - ボーマンダ
+    - Brutalanda
+    - Stratofortrju
+  gender:
+    Ratio: 0.5
+- names:
+    - Beldum
+    - ダンバル
+    - Tanhel
+  gender: Agender
+- names:
+    - Metang
+    - メタング
+  gender: Agender
+- names:
+    - Metagross
+    - メタグロス
+  gender: Agender
+- names:
+    - Regirock
+    - レジロック
+  gender: Agender
+- names:
+    - Regice
+    - レジアイス
+  gender: Agender
+- names:
+    - Registeel
+    - レジスチル
+  gender: Agender
+- names:
+    - Latias
+    - ラティアス
+  gender: Female
+- names:
+    - Latios
+    - ラティオス
+  gender: Male
+- names:
+    - Kyogre
+    - カイオーガ
+  gender: Agender
+- names:
+    - Groudon
+    - グラードン
+  gender: Agender
+- names:
+    - Rayquaza
+    - レックウザ
+  gender: Agender
+- names:
+    - Jirachi
+    - ジラーチ
+  gender: Agender
+- names:
+    - Deoxys
+    - デオキシス
+  gender: Agender
+- names:
+    - Turtwig
+    - ナエトル
+    - Chelast
+    - Tortipouss
+  gender:
+    Ratio: 0.125
+- names:
+    - Grotle
+    - ハヤシガメ
+    - Chelcarain
+    - Boskara
+  gender:
+    Ratio: 0.125
+- names:
+    - Torterra
+    - ドダイトス
+    - Chelterrar
+  gender:
+    Ratio: 0.125
+- names:
+    - Chimchar
+    - ヒコザル
+    - Panflam
+    - Ouisticram
+  gender:
+    Ratio: 0.125
+- names:
+    - Monferno
+    - モウカザル
+    - Panpyro
+    - Chimpenfeu
+  gender:
+    Ratio: 0.125
+- names:
+    - Infernape
+    - ゴウカザル
+    - Panferno
+    - Simiabraz
+  gender:
+    Ratio: 0.125
+- names:
+    - Piplup
+    - ポッチャマ
+    - Plinfa
+    - Tiplouf
+  gender:
+    Ratio: 0.125
+- names:
+    - Prinplup
+    - ポッタイシ
+    - Pliprin
+    - Prinplouf
+  gender:
+    Ratio: 0.125
+- names:
+    - Empoleon
+    - エンペルト
+    - Impoleon
+    - Pingoleon
+  gender:
+    Ratio: 0.125
+- names:
+    - Starly
+    - ムックル
+    - Staralili
+    - Etourmi
+  gender:
+    Ratio: 0.5
+- names:
+    - Staravia
+    - ムクバード
+    - Etourvol
+  gender:
+    Ratio: 0.5
+- names:
+    - Staraptor
+    - ムクホーク
+    - Etouraptor
+  gender:
+    Ratio: 0.5
+- names:
+    - Bidoof
+    - ビッパ
+    - Bidiza
+    - Keunotor
+  gender:
+    Ratio: 0.5
+- names:
+    - Bibarel
+    - ビーダル
+    - Bidifas
+    - Castorno
+  gender:
+    Ratio: 0.5
+- names:
+    - Kricketot
+    - コロボーシ
+    - Zirpurze
+    - Crikzik
+  gender:
+    Ratio: 0.5
+- names:
+    - Kricketune
+    - コロトック
+    - Zirpeise
+    - Melokrik
+  gender:
+    Ratio: 0.5
+- names:
+    - Shinx
+    - コリンク
+    - Sheinux
+    - Lixy
+    - Kolinko
+  gender:
+    Ratio: 0.5
+- names:
+    - Luxio
+    - ルクシオ
+    - Lumileo
+  gender:
+    Ratio: 0.5
+- names:
+    - Luxray
+    - レントラー
+    - Luxtra
+    - Roentokat
+  gender:
+    Ratio: 0.5
+- names:
+    - Budew
+    - スボミー
+    - Knospi
+    - Rozbouton
+  gender:
+    Ratio: 0.5
+- names:
+    - Roserade
+    - ロズレイド
+  gender:
+    Ratio: 0.5
+- names:
+    - Cranidos
+    - ズガイドス
+    - Koknodon
+    - Kranidos
+  gender:
+    Ratio: 0.125
+- names:
+    - Rampardos
+    - ラムパルド
+    - Rameidon
+    - Charkos
+  gender:
+    Ratio: 0.125
+- names:
+    - Shieldon
+    - タテトプス
+    - Schilterus
+    - Dinoclier
+  gender:
+    Ratio: 0.125
+- names:
+    - Bastiodon
+    - トリテプス
+    - Bollterus
+  gender:
+    Ratio: 0.125
+- names:
+    - Burmy
+    - ミノムッチ
+    - Cheniti
+  gender:
+    Ratio: 0.5
+- names:
+    - Wormadam
+    - ミノマダム
+    - Burmadame
+    - Cheniselle
+  gender: Female
+- names:
+    - Mothim
+    - ガーメイル
+    - Moterpel
+    - Papilord
+  gender: Male
+- names:
+    - Combee
+    - ミツハニー
+    - Wadribie
+    - Apitrini
+  gender:
+    Ratio: 0.125
+- names:
+    - Vespiquen
+    - ビークイン
+    - Honweisel
+    - Apireine
+  gender: Female
+- names:
+    - Pachirisu
+    - パチリス
+  gender:
+    Ratio: 0.5
+- names:
+    - Buizel
+    - ブイゼル
+    - Bamelin
+    - Mustebouee
+    - Buutrel
+  gender:
+    Ratio: 0.5
+- names:
+    - Floatzel
+    - フローゼル
+    - Bojelin
+    - Musteflott
+    - Floatrel
+  gender:
+    Ratio: 0.5
+- names:
+    - Cherubi
+    - チェリンボ
+    - Kikugi
+    - Ceribou
+  gender:
+    Ratio: 0.5
+- names:
+    - Cherrim
+    - チェリム
+    - Kinoso
+    - Ceriflor
+  gender:
+    Ratio: 0.5
+- names:
+    - Shellos
+    - カラナクシ
+    - Schalellos
+    - Sancoki
+  gender:
+    Ratio: 0.5
+- names:
+    - Gastrodon
+    - トリトドン
+    - Tritosor
+  gender:
+    Ratio: 0.5
+- names:
+    - Ambipom
+    - エテボース
+    - Ambidiffel
+    - Capidextre
+  gender:
+    Ratio: 0.5
+- names:
+    - Drifloon
+    - フワンテ
+    - Driftlon
+    - Baudrive
+  gender:
+    Ratio: 0.5
+- names:
+    - Drifblim
+    - フワライド
+    - Drifzepeli
+    - Grodrive
+  gender:
+    Ratio: 0.5
+- names:
+    - Buneary
+    - ミミロル
+    - Haspiror
+    - Laporeille
+  gender:
+    Ratio: 0.5
+- names:
+    - Lopunny
+    - ミミロップ
+    - Schlapor
+    - Lockpin
+  gender:
+    Ratio: 0.5
+- names:
+    - Mismagius
+    - ムウマージ
+    - Traunmagil
+    - Magireve
+  gender:
+    Ratio: 0.5
+- names:
+    - Honchkrow
+    - ドンカラス
+    - Kramshef
+    - Corboss
+    - CorvustultusMagnus
+  gender:
+    Ratio: 0.5
+- names:
+    - Glameow
+    - ニャルマー
+    - Charmian
+    - Chaglam
+  gender:
+    Ratio: 0.75
+- names:
+    - Purugly
+    - ブニャット
+    - Shnurgarst
+    - Chaffreux
+  gender:
+    Ratio: 0.75
+- names:
+    - Chingling
+    - リーシャン
+    - Klingplim
+    - Korillon
+  gender:
+    Ratio: 0.5
+- names:
+    - Stunky
+    - スカンプー
+    - Skunkapuh
+    - Moufouette
+  gender:
+    Ratio: 0.5
+- names:
+    - Skuntank
+    - スカタンク
+    - Skunktank
+    - Moufflair
+  gender:
+    Ratio: 0.5
+- names:
+    - Bronzor
+    - ドーミラー
+    - Bronzel
+    - Archeomire
+  gender: Agender
+- names:
+    - Bronzong
+    - ドータクン
+    - Archeodong
+  gender: Agender
+- names:
+    - Bonsly
+    - ウソハチ
+    - Mobai
+    - Manzai
+  gender:
+    Ratio: 0.5
+- names:
+    - MimeJr
+    - マネネ
+    - Pantimimi
+  gender:
+    Ratio: 0.5
+- names:
+    - Happiny
+    - ピンプク
+    - Wonneira
+    - Ptiravi
+  gender: Female
+- names:
+    - Chatot
+    - ペラップ
+    - Plaudagei
+    - Pijako
+  gender:
+    Ratio: 0.5
+- names:
+    - Spiritomb
+    - ミカルゲ
+    - Kryppuk
+    - LemuresMaledicus
+    - Marĉanmures
+  gender:
+    Ratio: 0.5
+- names:
+    - Gible
+    - フカマル
+    - Kaumalat
+    - Griknot
+  gender:
+    Ratio: 0.5
+- names:
+    - Gabite
+    - ガバイト
+    - Knarksel
+    - Carmache
+  gender:
+    Ratio: 0.5
+- names:
+    - Garchomp
+    - ガブリアス
+    - Knakrack
+    - Carchacrok
+  gender:
+    Ratio: 0.5
+- names:
+    - Munchlax
+    - ゴンベ
+    - Mampfaxo
+    - Goinfrex
+  gender:
+    Ratio: 0.125
+- names:
+    - Riolu
+    - リオル
+  gender:
+    Ratio: 0.125
+- names:
+    - Lucario
+    - ルカリオ
+  gender:
+    Ratio: 0.125
+- names:
+    - Hippopotas
+    - ヒポポタス
+  gender:
+    Ratio: 0.5
+- names:
+    - Hippowdon
+    - カバルドン
+    - Hippoterus
+    - Hippodocus
+  gender:
+    Ratio: 0.5
+- names:
+    - Skorupi
+    - スコルピ
+    - Pionskora
+    - Rapion
+  gender:
+    Ratio: 0.5
+- names:
+    - Drapion
+    - ドラピオン
+    - Piondragi
+    - Drascore
+  gender:
+    Ratio: 0.5
+- names:
+    - Croagunk
+    - グレッグル
+    - Glibunkel
+    - Cradopaud
+  gender:
+    Ratio: 0.5
+- names:
+    - Toxicroak
+    - ドクロッグ
+    - Toxiquak
+    - Coatox
+  gender:
+    Ratio: 0.5
+- names:
+    - Carnivine
+    - マスキッパ
+    - Venuflibis
+    - Vortente
+  gender:
+    Ratio: 0.5
+- names:
+    - Finneon
+    - ケイコウオ
+    - Ecayon
+  gender:
+    Ratio: 0.5
+- names:
+    - Lumineon
+    - ネオラント
+  gender:
+    Ratio: 0.5
+- names:
+    - Mantyke
+    - タマンタ
+    - Mantirps
+    - Babimanta
+  gender:
+    Ratio: 0.5
+- names:
+    - Snover
+    - ユキカブリ
+    - Shnebedeck
+    - Blizzi
+  gender:
+    Ratio: 0.5
+- names:
+    - Abomasnow
+    - ユキノオー
+    - Rexblisar
+    - Blizzaroi
+  gender:
+    Ratio: 0.5
+- names:
+    - Weavile
+    - マニューラ
+    - Snibunna
+    - Dimoret
+  gender:
+    Ratio: 0.5
+- names:
+    - Magnezone
+    - ジバコイル
+  gender: Agender
+- names:
+    - Lickilicky
+    - ベロベルト
+    - Schlurplek
+    - Coudlangue
+  gender:
+    Ratio: 0.5
+- names:
+    - Rhyperior
+    - ドサイドン
+    - Rihornior
+    - Rhinastoc
+  gender:
+    Ratio: 0.5
+- names:
+    - Tangrowth
+    - モジャンボ
+    - Tangoloss
+    - Bouldeneu
+  gender:
+    Ratio: 0.5
+- names:
+    - Electivire
+    - エレキブル
+    - Elevoltek
+    - Elekable
+  gender:
+    Ratio: 0.25
+- names:
+    - Magmortar
+    - ブーバーン
+    - Magbrant
+    - Maganon
+  gender:
+    Ratio: 0.25
+- names:
+    - Togekiss
+    - トゲキッス
+    - OvapteryxImperator
+    - Tokegiŝo
+  gender:
+    Ratio: 0.125
+- names:
+    - Yanmega
+    - メガヤンマ
+  gender:
+    Ratio: 0.5
+- names:
+    - Leafeon
+    - リーフィア
+    - Folipurba
+    - Phyllali
+    - Foleva
+  gender:
+    Ratio: 0.125
+- names:
+    - Glaceon
+    - グレイシア
+    - Glaziola
+    - Givrali
+    - Glaceva
+  gender:
+    Ratio: 0.125
+- names:
+    - Gliscor
+    - グライオン
+    - Skorgro
+    - Scorvol
+    - ScorpiovolansTerribilis
+  gender:
+    Ratio: 0.5
+- names:
+    - Mamoswine
+    - マンムー
+    - Mamutel
+    - Mammochon
+  gender:
+    Ratio: 0.5
+- names:
+    - "Porygon-Z"
+    - ポリゴンＺ
+  gender: Agender
+- names:
+    - Gallade
+    - エルレイド
+    - Galagladi
+    - Gallame
+  gender: Male
+- names:
+    - Probopass
+    - ダイノーズ
+    - Voluminas
+    - Tarinorme
+  gender:
+    Ratio: 0.5
+- names:
+    - Dusknoir
+    - ヨノワール
+    - Zwirrfinst
+    - Noctunoir
+  gender:
+    Ratio: 0.5
+- names:
+    - Froslass
+    - ユキメノコ
+    - Frosdedje
+    - Momartik
+  gender: Female
+- names:
+    - Rotom
+    - ロトム
+    - Motisma
+  gender: Agender
+- names:
+    - Uxie
+    - ユクシー
+    - Selfe
+    - Crehelf
+  gender: Agender
+- names:
+    - Mesprit
+    - エムリット
+    - Vesprit
+    - Crefollet
+  gender: Agender
+- names:
+    - Azelf
+    - アグノム
+    - Tobutz
+    - Crefadet
+  gender: Agender
+- names:
+    - Dialga
+    - ディアルガ
+  gender: Agender
+- names:
+    - Palkia
+    - パルキア
+  gender: Agender
+- names:
+    - Heatran
+    - ヒードラン
+  gender:
+    Ratio: 0.5
+- names:
+    - Regigigas
+    - レジギガス
+    - Reggie_Giygas
+  gender: Agender
+- names:
+    - Giratina
+    - ギラティナ
+  gender: Agender
+- names:
+    - Cresselia
+    - クレセリア
+  gender: Female
+- names:
+    - Phione
+    - フィオネ
+  gender: Agender
+- names:
+    - Manaphy
+    - マナフィ
+  gender: Agender
+- names:
+    - Darkrai
+    - ダークライ
+  gender: Agender
+- names:
+    - Shaymin
+    - シェイミ
+    - Ŝaimjo
+  gender: Agender
+- names:
+    - Arceus
+    - アルセウス
+  gender: Agender
+- names:
+    - Victini
+    - ビクティニ
+  gender: Agender
+- names:
+    - Snivy
+    - ツタージャ
+    - Serpifeu
+    - Vipélierre
+    - Smugleaf
+    - ArbroserpensSuperior
+    - Aroglis
+  gender:
+    Ratio: 0.125
+- names:
+    - Servine
+    - ジャノビー
+    - Efoserp
+    - Lianaja
+    - Smugprince
+    - ArbroserpensCoeloraptor
+    - Arorovitos
+  gender:
+    Ratio: 0.125
+- names:
+    - Serperior
+    - ジャローダ
+    - Serpiroyal
+    - Majaspic
+    - Smuglord
+    - ArbroserpensMajoris
+    - Smerperitos
+  gender:
+    Ratio: 0.125
+- names:
+    - Tepig
+    - ポカブ
+    - Floink
+    - Gruikui
+    - Varmorkis
+  gender:
+    Ratio: 0.125
+- names:
+    - Pignite
+    - チャオブー
+    - Ferkokel
+    - Grotichon
+  gender:
+    Ratio: 0.125
+- names:
+    - Emboar
+    - エンブオー
+    - Flambirex
+    - Roitiflam
+  gender:
+    Ratio: 0.125
+- names:
+    - Oshawott
+    - ミジュマル
+    - Ottaro
+    - Moustillon
+    - Mizustro
+  gender:
+    Ratio: 0.125
+- names:
+    - Dewott
+    - フタチマル
+    - Zwottronin
+    - Mateloutre
+  gender:
+    Ratio: 0.125
+- names:
+    - Samurott
+    - ダイケンキ
+    - Admurai
+    - Clamiral
+  gender:
+    Ratio: 0.125
+- names:
+    - Patrat
+    - ミネズミ
+    - Nagelotz
+    - Ratentif
+  gender:
+    Ratio: 0.5
+- names:
+    - Watchog
+    - ミルホッグ
+    - Kukmarda
+    - Miradar
+  gender:
+    Ratio: 0.5
+- names:
+    - Lillipup
+    - ヨーテリー
+    - Yorkleff
+    - Ponchiot
+  gender:
+    Ratio: 0.5
+- names:
+    - Herdier
+    - ハーデリア
+    - Terribark
+    - Ponchien
+  gender:
+    Ratio: 0.5
+- names:
+    - Stoutland
+    - ムーランド
+    - Bissbark
+    - Mastouffe
+  gender:
+    Ratio: 0.5
+- names:
+    - Purrloin
+    - チョロネコ
+    - Felilou
+    - Chacripan
+  gender:
+    Ratio: 0.5
+- names:
+    - Liepard
+    - レパルダス
+    - Kleoparda
+    - Léopardas
+  gender:
+    Ratio: 0.5
+- names:
+    - Pansage
+    - ヤナップ
+    - Vegimak
+    - Feuillajou
+  gender:
+    Ratio: 0.125
+- names:
+    - Simisage
+    - ヤナッキー
+    - Vegichita
+    - Feuiloutan
+  gender:
+    Ratio: 0.125
+- names:
+    - Pansear
+    - バオップ
+    - Grillmak
+    - Flamajou
+  gender:
+    Ratio: 0.125
+- names:
+    - Simisear
+    - バオッキー
+    - Grillchita
+    - Flamoutan
+  gender:
+    Ratio: 0.125
+- names:
+    - Panpour
+    - ヒヤップ
+    - Sodamak
+    - Flotajou
+  gender:
+    Ratio: 0.125
+- names:
+    - Simipour
+    - ヒヤッキー
+    - Sodachita
+    - Flotoutan
+  gender:
+    Ratio: 0.125
+- names:
+    - Munna
+    - ムンナ
+    - Somniam
+  gender:
+    Ratio: 0.5
+- names:
+    - Musharna
+    - ムシャーナ
+    - Somnivora
+    - Mushana
+  gender:
+    Ratio: 0.5
+- names:
+    - Pidove
+    - マメパト
+    - Dusselgurr
+    - Poichigeon
+    - Plumpuu
+  gender:
+    Ratio: 0.5
+- names:
+    - Tranquill
+    - ハトーボー
+    - Navitaub
+    - Colombeau
+    - Koloturno
+  gender:
+    Ratio: 0.5
+- names:
+    - Unfezant
+    - ケンホロウ
+    - Fasasnob
+    - Déflaisan
+    - Netimfezan
+  gender:
+    Ratio: 0.5
+- names:
+    - Blitzle
+    - シママ
+    - Elezeba
+    - Zébribon
+    - EquusVoltera
+  gender:
+    Ratio: 0.5
+- names:
+    - Zebstrika
+    - ゼブライカ
+    - Zebritz
+    - Zéblitz
+    - EquusTeslus
+  gender:
+    Ratio: 0.5
+- names:
+    - Roggenrola
+    - ダンゴロ
+    - Kiesling
+    - Nodulithe
+  gender:
+    Ratio: 0.5
+- names:
+    - Boldore
+    - ガントル
+    - Sedimantur
+    - Géolithe
+  gender:
+    Ratio: 0.5
+- names:
+    - Gigalith
+    - ギガイアス
+    - Brockoloss
+    - Gigalithe
+  gender:
+    Ratio: 0.5
+- names:
+    - Woobat
+    - コロモリ
+    - Fleknoil
+    - Chovsourir
+  gender:
+    Ratio: 0.5
+- names:
+    - Swoobat
+    - ココロモリ
+    - Fletiamo
+    - Rhinolove
+  gender:
+    Ratio: 0.5
+- names:
+    - Drilbur
+    - モグリュー
+    - Rotomurf
+    - Rototaupe
+  gender:
+    Ratio: 0.5
+- names:
+    - Excadrill
+    - ドリュウズ
+    - Stalobor
+    - Minotaupe
+  gender:
+    Ratio: 0.5
+- names:
+    - Audino
+    - タブンネ
+    - Ohrdoch
+    - Nanméouïe
+  gender:
+    Ratio: 0.5
+- names:
+    - Timburr
+    - ドッコラー
+    - Praktibalk
+    - Charpenti
+  gender:
+    Ratio: 0.25
+- names:
+    - Gurdurr
+    - ドテッコツ
+    - Strepoli
+    - Ouvrifier
+  gender:
+    Ratio: 0.25
+- names:
+    - Conkeldurr
+    - ローブシン
+    - Meistagrif
+    - Bétochef
+  gender:
+    Ratio: 0.25
+- names:
+    - Tympole
+    - オタマロ
+    - Schallquap
+    - Tritonde
+  gender:
+    Ratio: 0.5
+- names:
+    - Palpitoad
+    - ガマガル
+    - Mebrana
+    - Batracné
+  gender:
+    Ratio: 0.5
+- names:
+    - Seismitoad
+    - ガマゲロゲ
+    - Branawarz
+    - Crapustule
+  gender:
+    Ratio: 0.5
+- names:
+    - Throh
+    - ナゲキ
+    - Jiutesto
+    - Judokrak
+  gender: Male
+- names:
+    - Sawk
+    - ダゲキ
+    - Karadonis
+    - Karaclée
+  gender: Male
+- names:
+    - Sewaddle
+    - クルミル
+    - Strawickl
+    - Larveyette
+  gender:
+    Ratio: 0.5
+- names:
+    - Swadloon
+    - クルマユ
+    - Folikon
+    - Couverdure
+  gender:
+    Ratio: 0.5
+- names:
+    - Leavanny
+    - ハハコモリ
+    - Matrifol
+    - Manternel
+  gender:
+    Ratio: 0.5
+- names:
+    - Venipede
+    - フシデ
+    - Toxiped
+    - Venipatte
+  gender:
+    Ratio: 0.5
+- names:
+    - Whirlipede
+    - ホイーガ
+    - Rollum
+    - Scobolide
+  gender:
+    Ratio: 0.5
+- names:
+    - Scolipede
+    - ペンドラー
+    - Cerapendra
+    - Brutapode
+  gender:
+    Ratio: 0.5
+- names:
+    - Cottonee
+    - モンメン
+    - Waumboll
+    - Doudouvet
+  gender:
+    Ratio: 0.5
+- names:
+    - Whimsicott
+    - エルフーン
+    - Elfun
+    - Farfaduvet
+  gender:
+    Ratio: 0.5
+- names:
+    - Petilil
+    - チュリネ
+    - Lilminip
+    - Chlorobule
+  gender: Female
+- names:
+    - Lilligant
+    - ドレディア
+    - Dressella
+    - Fragilady
+  gender: Female
+- names:
+    - Basculin
+    - バスラオ
+    - Barschuft
+    - Bargantua
+  gender:
+    Ratio: 0.5
+- names:
+    - Sandile
+    - メグロコ
+    - Ganovil
+    - Mascaïman
+  gender:
+    Ratio: 0.5
+- names:
+    - Krokorok
+    - ワルビル
+    - Rokkaiman
+    - Escroco
+  gender:
+    Ratio: 0.5
+- names:
+    - Krookodile
+    - ワルビアル
+    - Rabigator
+    - Crocorible
+  gender:
+    Ratio: 0.5
+- names:
+    - Darumaka
+    - ダルマッカ
+    - Flampion
+    - Darumarond
+  gender:
+    Ratio: 0.5
+- names:
+    - Darmanitan
+    - ヒヒダルマ
+    - Flampivian
+    - Darumacho
+  gender:
+    Ratio: 0.5
+- names:
+    - Maractus
+    - マラカッチ
+    - Maracamba
+    - Maracachi
+  gender:
+    Ratio: 0.5
+- names:
+    - Dwebble
+    - イシズマイ
+    - Lithomith
+    - Crabicoque
+  gender:
+    Ratio: 0.5
+- names:
+    - Crustle
+    - イワパレス
+    - Castellith
+    - Crabaraque
+  gender:
+    Ratio: 0.5
+- names:
+    - Scraggy
+    - ズルッグ
+    - Zurrokex
+    - Baggiguane
+  gender:
+    Ratio: 0.5
+- names:
+    - Scrafty
+    - ズルズキン
+    - Irokex
+    - Baggaïd
+  gender:
+    Ratio: 0.5
+- names:
+    - Sigilyph
+    - シンボラー
+    - Symvolara
+    - Cryptéro
+  gender:
+    Ratio: 0.5
+- names:
+    - Yamask
+    - デスマス
+    - Makabaja
+    - Tutafeh
+  gender:
+    Ratio: 0.5
+- names:
+    - Cofagrigus
+    - デスカーン
+    - Echnatoll
+    - Tutankafer
+  gender:
+    Ratio: 0.5
+- names:
+    - Tirtouga
+    - プロトーガ
+    - Galapaflos
+    - Carapagos
+  gender:
+    Ratio: 0.125
+- names:
+    - Carracosta
+    - アバゴーラ
+    - Karippas
+    - Mégapagos
+  gender:
+    Ratio: 0.125
+- names:
+    - Archen
+    - アーケン
+    - Flapteryx
+    - Arkéapti
+  gender:
+    Ratio: 0.125
+- names:
+    - Archeops
+    - アーケオス
+    - Aeropteryx
+    - Aéroptéryx
+  gender:
+    Ratio: 0.125
+- names:
+    - Trubbish
+    - ヤブクロン
+    - Unratütox
+    - Miamiasme
+  gender:
+    Ratio: 0.5
+- names:
+    - Garbodor
+    - ダストダス
+    - Deponitox
+    - Miasmax
+  gender:
+    Ratio: 0.5
+- names:
+    - Zorua
+    - ゾロア
+  gender:
+    Ratio: 0.125
+- names:
+    - Zoroark
+    - ゾロアーク
+  gender:
+    Ratio: 0.125
+- names:
+    - Minccino
+    - チラーミィ
+    - Picochilla
+    - Chinchidou
+    - PulchystricensPeregrinocax
+  gender:
+    Ratio: 0.75
+- names:
+    - Cinccino
+    - チラチーノ
+    - Chillabell
+    - Pashmilla
+    - PulchystricensTogacaudam
+  gender:
+    Ratio: 0.75
+- names:
+    - Gothita
+    - ゴチム
+    - Mollimorba
+    - Scrutella
+  gender:
+    Ratio: 0.75
+- names:
+    - Gothorita
+    - ゴチミル
+    - Hypnomorba
+    - Mesmérella
+  gender:
+    Ratio: 0.75
+- names:
+    - Gothitelle
+    - ゴチルゼル
+    - Morbitesse
+    - Sidérella
+  gender:
+    Ratio: 0.75
+- names:
+    - Solosis
+    - ユニラン
+    - Monozyto
+    - Nucléos
+  gender:
+    Ratio: 0.5
+- names:
+    - Duosion
+    - ダブラン
+    - Mitodos
+    - Méios
+  gender:
+    Ratio: 0.5
+- names:
+    - Reuniclus
+    - ランクルス
+    - Zytomega
+    - Symbios
+  gender:
+    Ratio: 0.5
+- names:
+    - Ducklett
+    - コアルヒー
+    - Piccolente
+    - Couaneton
+  gender:
+    Ratio: 0.5
+- names:
+    - Swanna
+    - スワンナ
+    - Swaroness
+    - Lakmécygne
+  gender:
+    Ratio: 0.5
+- names:
+    - Vanillite
+    - バニプッチ
+    - Gelatini
+    - Sorbébé
+  gender:
+    Ratio: 0.5
+- names:
+    - Vanillish
+    - バニリッチ
+    - Gelatroppo
+    - Sorboul
+  gender:
+    Ratio: 0.5
+- names:
+    - Vanilluxe
+    - バイバニラ
+    - Gelatwino
+    - Sorbouboul
+  gender:
+    Ratio: 0.5
+- names:
+    - Deerling
+    - シキジカ
+    - Sesokitz
+    - Vivaldaim
+  gender:
+    Ratio: 0.5
+- names:
+    - Sawsbuck
+    - メブキジカ
+    - Kronjuwild
+    - Haydaim
+  gender:
+    Ratio: 0.5
+- names:
+    - Emolga
+    - エモンガ
+  gender:
+    Ratio: 0.5
+- names:
+    - Karrablast
+    - カブルモ
+    - Laukaps
+    - Carabing
+  gender:
+    Ratio: 0.5
+- names:
+    - Escavalier
+    - シュバルゴ
+    - Cavalanzas
+    - Lançargot
+  gender:
+    Ratio: 0.5
+- names:
+    - Foongus
+    - タマゲタケ
+    - Tarnpignon
+    - Trompignon
+  gender:
+    Ratio: 0.5
+- names:
+    - Amoonguss
+    - モロバレル
+    - Hutsassa
+    - Gaulet
+  gender:
+    Ratio: 0.5
+- names:
+    - Frillish
+    - プルリル
+    - Quabbel
+    - Viskuse
+  gender:
+    Ratio: 0.5
+- names:
+    - Jellicent
+    - ブルンゲル
+    - Apoquallyp
+    - Moyade
+  gender:
+    Ratio: 0.5
+- names:
+    - Alomomola
+    - ママンボウ
+    - Mamolida
+    - Mamanbo
+  gender:
+    Ratio: 0.5
+- names:
+    - Joltik
+    - バチュル
+    - Wattzapf
+    - Statitik
+    - AponophelmaJoltus
+  gender:
+    Ratio: 0.5
+- names:
+    - Galvantula
+    - デンチュラ
+    - Voltula
+    - Mygavolt
+    - AponophelmaGalvantus
+  gender:
+    Ratio: 0.5
+- names:
+    - Ferroseed
+    - テッシード
+    - Kastadur
+    - Grindur
+  gender:
+    Ratio: 0.5
+- names:
+    - Ferrothorn
+    - テッシード
+    - Tentantel
+    - Noacier
+  gender:
+    Ratio: 0.5
+- names:
+    - Klink
+    - ギアル
+    - Klikk
+    - Tic
+  gender: Agender
+- names:
+    - Klang
+    - ギギアル
+    - Kliklak
+    - Clic
+  gender: Agender
+- names:
+    - Klinklang
+    - ギギギアル
+    - Klikdiklak
+    - Cliticlic
+  gender: Agender
+- names:
+    - Tynamo
+    - シビシラス
+    - Zapplardin
+    - Anchwatt
+  gender:
+    Ratio: 0.5
+- names:
+    - Eelektrik
+    - シビビール
+    - Zapplalek
+    - Lampéroie
+  gender:
+    Ratio: 0.5
+- names:
+    - Eelektross
+    - シビルドン
+    - Zapplarang
+    - Ohmassacre
+  gender:
+    Ratio: 0.5
+- names:
+    - Elgyem
+    - リグレー
+    - Pygraulon
+    - Lewsor
+  gender:
+    Ratio: 0.5
+- names:
+    - Beheeyem
+    - オーベム
+    - Megalon
+    - Neitram
+  gender:
+    Ratio: 0.5
+- names:
+    - Litwick
+    - ヒトモシ
+    - Lichtel
+    - Funécire
+  gender:
+    Ratio: 0.5
+- names:
+    - Lampent
+    - ランプラー
+    - Laternecto
+    - Mélancolux
+  gender:
+    Ratio: 0.5
+- names:
+    - Chandelure
+    - シャンデラ
+    - Skelabra
+    - Lugulabre
+  gender:
+    Ratio: 0.5
+- names:
+    - Axew
+    - キバゴ
+    - Milza
+    - Coupenotte
+  gender:
+    Ratio: 0.5
+- names:
+    - Fraxure
+    - オノンド
+    - Sharfax
+    - Incisache
+  gender:
+    Ratio: 0.5
+- names:
+    - Haxorus
+    - オノノクス
+    - Maxax
+    - Tranchodon
+  gender:
+    Ratio: 0.5
+- names:
+    - Cubchoo
+    - クマシュン
+    - Petznief
+    - Polarhume
+  gender:
+    Ratio: 0.5
+- names:
+    - Beartic
+    - ツンベアー
+    - Siberio
+    - Polagriffe
+  gender:
+    Ratio: 0.5
+- names:
+    - Cryogonal
+    - フリージオ
+    - Frigimetri
+    - Hexagel
+  gender: Agender
+- names:
+    - Shelmet
+    - チョボマキ
+    - Schnuthelm
+    - Escargaume
+  gender:
+    Ratio: 0.5
+- names:
+    - Accelgor
+    - アギルダー
+    - Hydragil
+    - Limaspeed
+  gender:
+    Ratio: 0.5
+- names:
+    - Stunfisk
+    - マッギョ
+    - Flunschlik
+    - Limonde
+  gender:
+    Ratio: 0.5
+- names:
+    - Mienfoo
+    - コジョフー
+    - "Lin-Fu"
+    - Kungfouine
+  gender:
+    Ratio: 0.5
+- names:
+    - Mienshao
+    - コジョンド
+    - "Wie-Shu"
+    - Shaofouine
+  gender:
+    Ratio: 0.5
+- names:
+    - Druddigon
+    - クリムガン
+    - Shardrago
+    - Drakkarmin
+    - SquadilosaurusFidelus
+  gender:
+    Ratio: 0.5
+- names:
+    - Golett
+    - ゴビット
+    - Golbit
+    - Gringolem
+  gender: Agender
+- names:
+    - Golurk
+    - ゴルーグ
+    - Golgantes
+    - Golemastoc
+  gender: Agender
+- names:
+    - Pawniard
+    - コマタナ
+    - Gladiantri
+    - Scalpion
+  gender:
+    Ratio: 0.5
+- names:
+    - Bisharp
+    - キリキザン
+    - Caesurio
+    - Scalproie
+  gender:
+    Ratio: 0.5
+- names:
+    - Bouffalant
+    - バッフロン
+    - Bisofank
+    - Frison
+  gender:
+    Ratio: 0.5
+- names:
+    - Rufflet
+    - ワシボン
+    - Geronimatz
+    - Furaiglon
+  gender: Male
+- names:
+    - Braviary
+    - ウォーグル
+    - Washakwil
+    - Gueriaigle
+  gender: Male
+- names:
+    - Vullaby
+    - バルチャイ
+    - Skallyk
+    - Vostourno
+  gender: Female
+- names:
+    - Mandibuzz
+    - バルジーナ
+    - Grypheldis
+    - Vaututrice
+  gender: Female
+- names:
+    - Heatmor
+    - クイタラン
+    - Furnifraß
+    - Aflamanoir
+  gender:
+    Ratio: 0.5
+- names:
+    - Durant
+    - アイアント
+    - Fermicula
+    - Fermite
+  gender:
+    Ratio: 0.5
+- names:
+    - Deino
+    - モノズ
+    - Kapuno
+    - Solochi
+    - CryptodracoMelanoculusMonocephalus
+  gender:
+    Ratio: 0.5
+- names:
+    - Zweilous
+    - ジヘッド
+    - Duodino
+    - Diamat
+    - CryptodracoMelanoculusBicephalus
+  gender:
+    Ratio: 0.5
+- names:
+    - Hydreigon
+    - サザンドラ
+    - Trikephalo
+    - Trioxhydre
+    - CryptodracoMelanoculusCephalocheirus
+  gender:
+    Ratio: 0.5
+- names:
+    - Larvesta
+    - メラルバ
+    - Ignivor
+    - Pyronille
+  gender:
+    Ratio: 0.5
+- names:
+    - Volcarona
+    - ウルガモス
+    - Ramoth
+    - Pyrax
+  gender:
+    Ratio: 0.5
+- names:
+    - Cobalion
+    - コバルオン
+    - Kobalium
+    - Cobaltium
+  gender: Agender
+- names:
+    - Terrakion
+    - テラキオン
+    - Terrakium
+  gender: Agender
+- names:
+    - Virizion
+    - ビリジオン
+    - Viridium
+  gender: Agender
+- names:
+    - Tornadus
+    - トルネロス
+    - Boreos
+    - Boréas
+  gender: Male
+- names:
+    - Thundurus
+    - ボルトロス
+    - Voltolos
+    - Fulguris
+  gender: Male
+- names:
+    - Reshiram
+    - レシラム
+  gender: Agender
+- names:
+    - Zekrom
+    - ゼクロム
+  gender: Agender
+- names:
+    - Landorus
+    - ランドロス
+    - Demeteros
+    - Démétéros
+  gender: Male
+- names:
+    - Kyurem
+    - キュレム
+  gender: Agender
+- names:
+    - Keldeo
+    - ケルディオ
+  gender: Agender
+- names:
+    - Meloetta
+    - メロエッタ
+  gender: Agender
+- names:
+    - Genesect
+    - ゲノセクト
+  gender: Agender
+- names:
+    - Chespin
+    - Marisson
+    - Igamaro
+    - ハリマロン
+  gender:
+    Ratio: 0.125
+- names:
+    - Quilladin
+    - Boguérisse
+    - Igastarnish
+    - バリボーグ
+  gender:
+    Ratio: 0.125
+- names:
+    - Chesnaught
+    - Blindépique
+    - Brigaron
+    - ブリガロン
+  gender:
+    Ratio: 0.125
+- names:
+    - Fennekin
+    - Feunnec
+    - Fynx
+    - フォッコ
+  gender:
+    Ratio: 0.125
+- names:
+    - Braixen
+    - Roussil
+    - Rutena
+    - テールナー
+  gender:
+    Ratio: 0.125
+- names:
+    - Delphox
+    - Goupelin
+    - Fennexis
+    - マフォクシー
+  gender:
+    Ratio: 0.125
+- names:
+    - Froakie
+    - Grenousse
+    - Froxy
+    - ケロマツ
+  gender:
+    Ratio: 0.125
+- names:
+    - Frogadier
+    - Croâporal
+    - Amphizel
+    - ゲコガシラ
+  gender:
+    Ratio: 0.125
+- names:
+    - Greninja
+    - Amphinobi
+    - Quajutsu
+    - ゲッコウガ
+  gender:
+    Ratio: 0.125
+- names:
+    - Bunnelby
+    - Saperaeu
+    - Scoppel
+    - ホルビー
+  gender:
+    Ratio: 0.5
+- names:
+    - Diggersby
+    - Excavarenne
+    - Grebbit
+    - ホルード
+  gender:
+    Ratio: 0.5
+- names:
+    - Fletchling
+    - Passerouge
+    - Dartiri
+    - ヤヤコマ
+  gender:
+    Ratio: 0.5
+- names:
+    - Fletchinder
+    - Braisillon
+    - Dartignis
+    - ヒノヤコマ
+  gender:
+    Ratio: 0.5
+- names:
+    - Talonflame
+    - Flambusard
+    - Fiaro
+    - ファイアロー
+  gender:
+    Ratio: 0.5
+- names:
+    - Scatterbug
+    - Lépidonille
+    - Purmel
+    - コフキムシ
+  gender:
+    Ratio: 0.5
+- names:
+    - Spewpa
+    - Pérégrain
+    - Puponcho
+    - コフーライ
+  gender:
+    Ratio: 0.5
+- names:
+    - Vivillon
+    - Prismillon
+    - Vivillon
+    - ビビヨン
+  gender:
+    Ratio: 0.5
+- names:
+    - Litleo
+    - Hélionceau
+    - Leufeo
+    - シシコ
+  gender:
+    Ratio: 0.75
+- names:
+    - Pyroar
+    - Némélios
+    - Pyroleo
+    - カエンジシ
+  gender:
+    Ratio: 0.75
+- names:
+    - Flabébé
+    - Flabébé
+    - Flabébé
+    - フラべべ
+  gender: Female
+- names:
+    - Floette
+    - Floette
+    - Fleoette
+    - フラエッテ
+  gender: Female
+- names:
+    - Florges
+    - Florges
+    - Florges
+    - フラージェス
+  gender: Female
+- names:
+    - Skiddo
+    - Cabriolaine
+    - Mähikel
+    - メェークル
+  gender:
+    Ratio: 0.5
+- names:
+    - Gogoat
+    - Chevroum
+    - Chevrumm
+    - ゴーゴート
+  gender:
+    Ratio: 0.5
+- names:
+    - Pancham
+    - Pandespiègle
+    - "Pam-Pam"
+    - ヤンチャム
+  gender:
+    Ratio: 0.5
+- names:
+    - Pangoro
+    - Pandarbare
+    - Pandagro
+    - ゴロンダ
+  gender:
+    Ratio: 0.5
+- names:
+    - Furfrou
+    - Coufarel
+    - Coiffwaff
+    - トリミアン
+  gender:
+    Ratio: 0.5
+- names:
+    - Espurr
+    - Psystigri
+    - Psiau
+    - ニャスパー
+  gender:
+    Ratio: 0.5
+- names:
+    - Meowstic
+    - Mistigrix
+    - Psiaugon
+    - ニャオニクス
+  gender:
+    Ratio: 0.5
+- names:
+    - Honedge
+    - Monorpale
+    - Gramokles
+    - ヒトツキ
+  gender:
+    Ratio: 0.5
+- names:
+    - Doublade
+    - Dimoclès
+    - Duokles
+    - ニダンギル
+  gender:
+    Ratio: 0.5
+- names:
+    - Aegislash
+    - Exagide
+    - Durengard
+    - ギルガルド
+  gender:
+    Ratio: 0.5
+- names:
+    - Spritzee
+    - Fluvetin
+    - Parfi
+    - シュシュプ
+  gender:
+    Ratio: 0.5
+- names:
+    - Aromatisse
+    - Cocotine
+    - Parfinesse
+    - フレフワン
+  gender:
+    Ratio: 0.5
+- names:
+    - Swirlix
+    - Sucroquin
+    - Flauschling
+    - ペロッパフ
+  gender:
+    Ratio: 0.5
+- names:
+    - Slurpuff
+    - Cupcanaille
+    - Sabbaione
+    - ペロリーム
+  gender:
+    Ratio: 0.5
+- names:
+    - Inkay
+    - Sepiatop
+    - Iscalar
+    - マーイーカ
+  gender:
+    Ratio: 0.5
+- names:
+    - Malamar
+    - Sepiatroce
+    - Calamanero
+    - カラマネロ
+  gender:
+    Ratio: 0.5
+- names:
+    - Binacle
+    - Opermine
+    - Bithora
+    - カメテテ
+  gender:
+    Ratio: 0.5
+- names:
+    - Barbaracle
+    - Golgopathe
+    - Thanathora
+    - ガメノデス
+  gender:
+    Ratio: 0.5
+- names:
+    - Skrelp
+    - Venalgue
+    - Algitt
+    - クズモー
+  gender:
+    Ratio: 0.5
+- names:
+    - Dragalge
+    - Kravarech
+    - Tandrak
+    - ドラミドロ
+  gender:
+    Ratio: 0.5
+- names:
+    - Clauncher
+    - Flingouste
+    - Scampisto
+    - ウデッポウ
+  gender:
+    Ratio: 0.5
+- names:
+    - Clawitzer
+    - Gamblast
+    - Wummer
+    - ブロスター
+  gender:
+    Ratio: 0.5
+- names:
+    - Helioptile
+    - Galvaran
+    - Eguana
+    - エリキテル
+  gender:
+    Ratio: 0.5
+- names:
+    - Heliolisk
+    - Iguolta
+    - Elezard
+    - エレザード
+  gender:
+    Ratio: 0.5
+- names:
+    - Tyrunt
+    - Ptyranidur
+    - Balgoras
+    - チゴラス
+  gender:
+    Ratio: 0.125
+- names:
+    - Tyrantrum
+    - Rexillius
+    - Monagoras
+    - ガチゴラス
+  gender:
+    Ratio: 0.125
+- names:
+    - Amaura
+    - Amagara
+    - Amarino
+    - アマルス
+  gender:
+    Ratio: 0.125
+- names:
+    - Aurorus
+    - Dragmara
+    - Amagarga
+    - アマルルガ
+  gender:
+    Ratio: 0.125
+- names:
+    - Sylveon
+    - Nymphali
+    - Feelinara
+    - ニンフィア
+  gender:
+    Ratio: 0.125
+- names:
+    - Hawlucha
+    - Brutalibré
+    - Resladero
+    - ルチャブル
+  gender:
+    Ratio: 0.5
+- names:
+    - Dedenne
+    - Dedenne
+    - Dedenne
+    - デデンネ
+  gender:
+    Ratio: 0.5
+- names:
+    - Carbink
+    - Strassie
+    - Rocara
+    - メレシー
+  gender: Agender
+- names:
+    - Goomy
+    - Mucuscule
+    - Viscora
+    - ヌメラ
+  gender:
+    Ratio: 0.5
+- names:
+    - Sliggoo
+    - Colimucus
+    - Viscargot
+    - ヌメイル
+  gender:
+    Ratio: 0.5
+- names:
+    - Goodra
+    - Muplodocus
+    - Viscorgon
+    - ヌメルゴン
+  gender:
+    Ratio: 0.5
+- names:
+    - Klefki
+    - Trousselin
+    - Clavion
+    - クレッフィ
+  gender:
+    Ratio: 0.5
+- names:
+    - Phantump
+    - Brocélôme
+    - Paragoni
+    - ボクレー
+  gender:
+    Ratio: 0.5
+- names:
+    - Trevenant
+    - Desséliande
+    - Trombork
+    - オーロット
+  gender:
+    Ratio: 0.5
+- names:
+    - Pumpkaboo
+    - Pitrouille
+    - Irrbis
+    - バケッチャ
+  gender:
+    Ratio: 0.5
+- names:
+    - Gourgeist
+    - Banshitrouye
+    - Pumpdjinn
+    - パンプジン
+  gender:
+    Ratio: 0.5
+- names:
+    - Bergmite
+    - Grelaçon
+    - Arktip
+    - カチコール
+  gender:
+    Ratio: 0.5
+- names:
+    - Avalugg
+    - Séracrawl
+    - Arktillas
+    - クレベース
+  gender:
+    Ratio: 0.5
+- names:
+    - Noibat
+    - Sonistrelle
+    - "eF-eM"
+    - オンバット
+  gender:
+    Ratio: 0.5
+- names:
+    - Noivern
+    - Bruyverne
+    - UHaFnir
+    - オンバーン
+  gender:
+    Ratio: 0.5
+- names:
+    - Xerneas
+    - Xerneas
+    - Xerneas
+    - ゼルネアス
+  gender: Agender
+- names:
+    - Yveltal
+    - Yveltal
+    - Yveltal
+    - イベルタル
+  gender: Agender
+- names:
+    - Zygarde
+    - Zygarde
+    - Zygarde
+    - ジガルデ
+  gender: Agender
+- names:
+    - Diancie
+    - Diancie
+    - Diancie
+    - ディアンシー
+  gender: Agender
+- names:
+    - Hoopa
+    - Hoopa
+    - Hoopa
+    - フーパ
+  gender: Agender
+- names:
+    - Volcanion
+    - Volcanion
+    - Volcanion
+    - ボルケニオン
+  gender: Agender
+- names:
+    - Substitute
+  gender: Agender
