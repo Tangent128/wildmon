@@ -47,7 +47,7 @@ mod tests {
         let speeqe_data: Vec<SpeeqeFormat> = serde_json::from_reader(&speeqe_file).unwrap();
 
         assert_eq!(speeqe_data[0].0[0], "Missingno.");
-        // NidoranM is always male, gender ratio value = 8
+        // NidoranF is always female, gender ratio value = 8
         assert_eq!(speeqe_data[29].1, 8);
         assert_eq!(speeqe_data[151].0[0], "Mew");
     }
