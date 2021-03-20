@@ -1,9 +1,4 @@
-#[macro_use]
-extern crate serde_derive;
-
-extern crate serde;
-extern crate serde_json;
-extern crate serde_yaml;
+use serde_derive::{Deserialize, Serialize};
 
 /// The shape of the list of Pokémon used in the original Speeqe-based name generator
 #[derive(Serialize, Deserialize, Debug)]
@@ -17,7 +12,7 @@ pub struct Species {
 
     #[serde(skip_serializing_if = "Vec::is_empty")]
     #[serde(default = "Vec::new")]
-    pub tags: Vec<SpeciesTag>
+    pub tags: Vec<SpeciesTag>,
 }
 
 #[derive(Serialize, Deserialize, Debug, PartialEq)]
@@ -25,7 +20,7 @@ pub enum Gender {
     Agender,
     Male,
     Female,
-    Ratio(f32)
+    Ratio(f32),
 }
 
 /// Tags indicating a species is eligable for certain specific modifiers
@@ -33,7 +28,7 @@ pub enum Gender {
 pub enum SpeciesTag {
     Mega,
     MegaXY,
-    AlolaForm
+    AlolaForm,
 }
 
 
@@ -42,7 +37,7 @@ mod tests {
     use serde_json;
     use serde_yaml;
     use std::fs::File;
-    use ::*;
+    use super::*;
 
     #[test]
     fn parse_speeqe_format() {
