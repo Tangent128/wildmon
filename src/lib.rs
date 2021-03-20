@@ -1,9 +1,5 @@
 use serde_derive::{Deserialize, Serialize};
 
-/// The shape of the list of Pokémon used in the original Speeqe-based name generator
-#[derive(Serialize, Deserialize, Debug)]
-pub struct SpeeqeFormat(pub Vec<String>, pub i8);
-
 /// The shape of the new Pokémon list format
 #[derive(Serialize, Deserialize, Debug, PartialEq)]
 pub struct Species {
@@ -31,24 +27,11 @@ pub enum SpeciesTag {
     AlolaForm,
 }
 
-
 #[cfg(test)]
 mod tests {
-    use serde_json;
     use serde_yaml;
     use std::fs::File;
     use super::*;
-
-    #[test]
-    fn parse_speeqe_format() {
-        let speeqe_file = File::open("src/data/speeqe.json").unwrap();
-        let speeqe_data: Vec<SpeeqeFormat> = serde_json::from_reader(&speeqe_file).unwrap();
-
-        assert_eq!(speeqe_data[0].0[0], "Missingno.");
-        // NidoranF is always female, gender ratio value = 8
-        assert_eq!(speeqe_data[29].1, 8);
-        assert_eq!(speeqe_data[151].0[0], "Mew");
-    }
 
     #[test]
     fn parse_species_format() {
