@@ -1,5 +1,7 @@
 use serde_derive::{Deserialize, Serialize};
 
+pub const POKEDEX_YAML: &'static str = include_str!("data/species.yaml");
+
 /// The shape of the new Pokémon list format
 #[derive(Serialize, Deserialize, Debug, PartialEq)]
 pub struct Species {
@@ -29,14 +31,12 @@ pub enum SpeciesTag {
 
 #[cfg(test)]
 mod tests {
-    use serde_yaml;
-    use std::fs::File;
     use super::*;
+    use serde_yaml;
 
     #[test]
     fn parse_species_format() {
-        let species_file = File::open("src/data/species.yaml").unwrap();
-        let species_data: Vec<Species> = serde_yaml::from_reader(&species_file).unwrap();
+        let species_data: Vec<Species> = serde_yaml::from_str(POKEDEX_YAML).unwrap();
 
         assert_eq!(species_data[0].names[0], "Missingno.");
         // Charmander has a defined gender ratio
