@@ -5,6 +5,7 @@ authors = ["Tangent 128 <Tangent128@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+rand = "0.8"
 serde = "1.0"
 serde_derive = "1.0"
 serde_yaml = "0.8"
