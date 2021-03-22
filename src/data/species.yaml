@@ -39,7 +39,7 @@
     - Charmander
     - ヒトカゲ
     - Glumanda
-    - Salameche
+    - Salamèche
     - 파이리
     - 小火龙
     - Arlacerto
@@ -103,6 +103,8 @@
     - キャタピー
     - Raupy
     - Chenipan
+    - 캐터피
+    - 绿毛虫
   gender:
     Ratio: 0.5
 - names:
@@ -110,6 +112,8 @@
     - トランセル
     - Safcon
     - Chrysacier
+    - 단데기
+    - 铁甲蛹
   gender:
     Ratio: 0.5
 - names:
@@ -117,6 +121,8 @@
     - バタフリー
     - Smettbo
     - Papilusion
+    - 버터플
+    - 巴大蝶
   gender:
     Ratio: 0.5
 - names:
@@ -124,6 +130,8 @@
     - ビードル
     - Hornliu
     - Aspicot
+    - 뿔충이
+    - 独角虫
   gender:
     Ratio: 0.5
 - names:
@@ -131,13 +139,17 @@
     - コクーン
     - Kokuna
     - Coconfort
+    - 딱충이
+    - 铁壳蛹
   gender:
     Ratio: 0.5
 - names:
     - Beedrill
     - スピアー
     - Bibor
-    - Dardagnan
+    - Dardargnan
+    - 독침붕
+    - 大针蜂
   gender:
     Ratio: 0.5
 - names:
@@ -145,6 +157,8 @@
     - ポッポ
     - Taubsi
     - Roucool
+    - 구구
+    - 波波
   gender:
     Ratio: 0.5
 - names:
@@ -152,6 +166,8 @@
     - ピジョン
     - Tauboga
     - Roucoups
+    - 피죤
+    - 比比鸟
   gender:
     Ratio: 0.5
 - names:
@@ -159,13 +175,16 @@
     - ピジョット
     - Tauboss
     - Roucarnage
+    - 피죤투
+    - 大比鸟
   gender:
     Ratio: 0.5
 - names:
     - Rattata
     - コラッタ
     - Rattfratz
-    - Rattet
+    - 꼬렛
+    - 小拉达
   gender:
     Ratio: 0.5
 - names:
@@ -173,6 +192,8 @@
     - ラッタ
     - Rattikarl
     - Rattatac
+    - 레트라
+    - 拉达
   gender:
     Ratio: 0.5
 - names:
@@ -714,6 +735,8 @@
     - タマタマ
     - Owei
     - Noeunoeuf
+    - 아라리
+    - 蛋蛋
     - OvusUnicephalis
   gender:
     Ratio: 0.5
@@ -722,6 +745,8 @@
     - ナッシー
     - Kokowei
     - Noadkoko
+    - 나시
+    - 椰蛋树
     - OvusArbrocephalis
   gender:
     Ratio: 0.5
@@ -1352,7 +1377,9 @@
     - Murkrow
     - ヤミカラス
     - Kramurx
-    - Cornebre
+    - Cornèbre
+    - 니로우
+    - 黑暗鸦
     - CorvustultusMaligna
   gender:
     Ratio: 0.5
@@ -1367,7 +1394,9 @@
     - Misdreavus
     - ムウマ
     - Traunfugil
-    - Feuforeve
+    - Feuforêve
+    - 무우마
+    - 梦妖
   gender:
     Ratio: 0.5
 - names:
@@ -1375,6 +1404,8 @@
     - アンノーン
     - Icognito
     - Zarbi
+    - 안농
+    - 未知图腾
   gender: Agender
 - names:
     - Wobbuffet
@@ -2375,11 +2406,16 @@
     - Chimecho
     - チリーン
     - Palimpalim
+    - Éoko
+    - 치렁
+    - 风铃铃
   gender:
     Ratio: 0.5
 - names:
     - Absol
     - アブソル
+    - 앱솔
+    - 阿勃梭鲁
     - PantheraAntecursor
   gender:
     Ratio: 0.5
@@ -2387,18 +2423,27 @@
     - Wynaut
     - ソーナノ
     - Isso
+    - Okéoké
+    - 마자
+    - 小果然
   gender:
     Ratio: 0.5
 - names:
     - Snorunt
     - ユキワラシ
     - Schneppke
+    - Stalgamin
+    - 눈꼬마
+    - 雪童子
   gender:
     Ratio: 0.5
 - names:
     - Glalie
     - オニゴーリ
     - Firnontor
+    - Oniglali
+    - 얼음귀신
+    - 冰鬼护
   gender:
     Ratio: 0.5
 - names:
@@ -2517,6 +2562,8 @@
 - names:
     - Jirachi
     - ジラーチ
+    - 지라치
+    - 基拉祈
   gender: Agender
 - names:
     - Deoxys
@@ -2809,7 +2856,9 @@
     - Mismagius
     - ムウマージ
     - Traunmagil
-    - Magireve
+    - Magirêve
+    - 무우마직
+    - 梦妖魔
   gender:
     Ratio: 0.5
 - names:
@@ -2817,6 +2866,8 @@
     - ドンカラス
     - Kramshef
     - Corboss
+    - 돈크로우
+    - 乌鸦头头
     - CorvustultusMagnus
   gender:
     Ratio: 0.5
