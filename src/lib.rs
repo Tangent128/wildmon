@@ -1,3 +1,5 @@
+use std::ops::Not;
+
 use once_cell::sync::Lazy;
 use rand::{seq::SliceRandom, Rng};
 use serde_derive::{Deserialize, Serialize};
@@ -20,7 +22,7 @@ pub struct Species {
     pub tags: Vec<SpeciesTag>,
 }
 
-#[derive(Serialize, Deserialize, Debug, PartialEq)]
+#[derive(Copy, Clone, Serialize, Deserialize, Debug, PartialEq)]
 pub enum Gender {
     Agender,
     Male,
@@ -67,6 +69,7 @@ pub enum SpeciesTag {
 pub struct WildmonSettings {
     canon: bool,
     whitespace: bool,
+    allow_genders: Vec<Gender>,
 }
 
 impl Default for WildmonSettings {
@@ -74,6 +77,7 @@ impl Default for WildmonSettings {
         WildmonSettings {
             canon: true,
             whitespace: false,
+            allow_genders: vec![Gender::Male, Gender::Female, Gender::Agender],
         }
     }
 }
@@ -93,7 +97,16 @@ pub fn wildmon<R: Rng + ?Sized>(
         Some(name) => name.as_ref(),
         None => MISSINGNO,
     };
-    let gender = species.gender.randomize(rng);
+
+    let mut gender = species.gender.randomize(rng);
+    if opts.allow_genders.contains(&gender).not() {
+        gender = opts
+            .allow_genders
+            .choose(rng)
+            .copied()
+            .unwrap_or(Gender::Agender);
+    }
+
     let level = rng.gen_range(1..=100);
 
     if opts.whitespace {
