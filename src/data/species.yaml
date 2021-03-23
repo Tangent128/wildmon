@@ -10,6 +10,8 @@
     - フシギダネ
     - Bisasam
     - Bulbizarre
+    - 이상해씨
+    - 妙蛙种子
     - Bulbizaro
   gender:
     Ratio: 0.125
@@ -18,6 +20,8 @@
     - フシギソウ
     - Bisaknosp
     - Herbizarre
+    - 이상해풀
+    - 妙蛙草
     - Hedezaro
   gender:
     Ratio: 0.125
@@ -26,6 +30,8 @@
     - フシギバナ
     - Bisaflor
     - Florizarre
+    - 이상해꽃
+    - 妙蛙花
     - Florizaro
   gender:
     Ratio: 0.125
@@ -33,7 +39,9 @@
     - Charmander
     - ヒトカゲ
     - Glumanda
-    - Salameche
+    - Salamèche
+    - 파이리
+    - 小火龙
     - Arlacerto
     - CremalacertusCandela
   gender:
@@ -43,6 +51,8 @@
     - リザード
     - Glutexo
     - Reptincel
+    - 리자드
+    - 火恐龙
     - Brulacerto
     - CremalacertusCorniger
   gender:
@@ -52,6 +62,8 @@
     - リザードン
     - Glurak
     - Dracaufeu
+    - 리자몽
+    - 喷火龙
     - Ĉarizaro
     - CremalacertusExtraho
   gender:
@@ -61,6 +73,8 @@
     - ゼニガメ
     - Schiggy
     - Carapuce
+    - 꼬부기
+    - 杰尼龟
     - Testido
   gender:
     Ratio: 0.125
@@ -69,6 +83,8 @@
     - カメール
     - Schillok
     - Carabaffe
+    - 어니부기
+    - 卡咪龟
     - Milittesto
   gender:
     Ratio: 0.125
@@ -77,6 +93,8 @@
     - カメックス
     - Turtok
     - Tortank
+    - 거북왕
+    - 水箭龟
     - Kamekso
   gender:
     Ratio: 0.125
@@ -85,6 +103,8 @@
     - キャタピー
     - Raupy
     - Chenipan
+    - 캐터피
+    - 绿毛虫
   gender:
     Ratio: 0.5
 - names:
@@ -92,6 +112,8 @@
     - トランセル
     - Safcon
     - Chrysacier
+    - 단데기
+    - 铁甲蛹
   gender:
     Ratio: 0.5
 - names:
@@ -99,6 +121,8 @@
     - バタフリー
     - Smettbo
     - Papilusion
+    - 버터플
+    - 巴大蝶
   gender:
     Ratio: 0.5
 - names:
@@ -106,6 +130,8 @@
     - ビードル
     - Hornliu
     - Aspicot
+    - 뿔충이
+    - 独角虫
   gender:
     Ratio: 0.5
 - names:
@@ -113,13 +139,17 @@
     - コクーン
     - Kokuna
     - Coconfort
+    - 딱충이
+    - 铁壳蛹
   gender:
     Ratio: 0.5
 - names:
     - Beedrill
     - スピアー
     - Bibor
-    - Dardagnan
+    - Dardargnan
+    - 독침붕
+    - 大针蜂
   gender:
     Ratio: 0.5
 - names:
@@ -127,6 +157,8 @@
     - ポッポ
     - Taubsi
     - Roucool
+    - 구구
+    - 波波
   gender:
     Ratio: 0.5
 - names:
@@ -134,6 +166,8 @@
     - ピジョン
     - Tauboga
     - Roucoups
+    - 피죤
+    - 比比鸟
   gender:
     Ratio: 0.5
 - names:
@@ -141,13 +175,16 @@
     - ピジョット
     - Tauboss
     - Roucarnage
+    - 피죤투
+    - 大比鸟
   gender:
     Ratio: 0.5
 - names:
     - Rattata
     - コラッタ
     - Rattfratz
-    - Rattet
+    - 꼬렛
+    - 小拉达
   gender:
     Ratio: 0.5
 - names:
@@ -155,6 +192,8 @@
     - ラッタ
     - Rattikarl
     - Rattatac
+    - 레트라
+    - 拉达
   gender:
     Ratio: 0.5
 - names:
@@ -162,6 +201,8 @@
     - オニスズメ
     - Habitak
     - Piafabec
+    - 깨비참
+    - 烈雀
   gender:
     Ratio: 0.5
 - names:
@@ -169,6 +210,8 @@
     - オニドリル
     - Ibitak
     - Rapasdepic
+    - 깨비드릴조
+    - 大嘴雀
   gender:
     Ratio: 0.5
 - names:
@@ -176,21 +219,29 @@
     - アーボ
     - Rettan
     - Abo
+    - 아보
+    - 阿柏蛇
   gender:
     Ratio: 0.5
 - names:
     - Arbok
     - アーボック
+    - 아보크
+    - 阿柏怪
   gender:
     Ratio: 0.5
 - names:
     - Pikachu
     - ピカチュウ
+    - 피카츄
+    - 皮卡丘
   gender:
     Ratio: 0.5
 - names:
     - Raichu
     - ライチュウ
+    - 라이츄
+    - 雷丘
   gender:
     Ratio: 0.5
 - names:
@@ -198,6 +249,8 @@
     - サンド
     - Sandan
     - Sabelette
+    - 모래두지
+    - 穿山鼠
   gender:
     Ratio: 0.5
 - names:
@@ -205,41 +258,55 @@
     - サンドパン
     - Sandamer
     - Sablaireau
+    - 고지
+    - 穿山王
   gender:
     Ratio: 0.5
 - names:
     - Nidoran
     - ニドラン
+    - 니드런
+    - 尼多兰
     - Nidoranjo
     - VenemeumonasterienseLapin
   gender: Female
 - names:
     - Nidorina
     - ニドリーナ
+    - 니드리나
+    - 尼多娜
     - Nidornja
     - VenemeumonasterienseTrux
   gender: Female
 - names:
     - Nidoqueen
     - ニドクイン
+    - 니드퀸
+    - 尼多后
     - Nidodamo
     - VenemeumonasterienseAtrox
   gender: Female
 - names:
     - Nidoran
     - ニドラン
+    - 니드런
+    - 尼多朗
     - Nidoraĉjo
     - VenemeumonasterienseLapin
   gender: Male
 - names:
     - Nidorino
     - ニドリーノ
+    - 니드리노
+    - 尼多力诺
     - Nidoro
     - VenemeumonasterienseTrux
   gender: Male
 - names:
     - Nidoking
     - ニドキング
+    - 니드킹
+    - 尼多王
     - Nidoreĝo
     - VenemeumonasterienseAtrox
   gender: Male
@@ -247,20 +314,26 @@
     - Clefairy
     - ピッピ
     - Piepi
-    - Melofee
+    - Mélofée
+    - 삐삐
+    - 皮皮
   gender:
     Ratio: 0.75
 - names:
     - Clefable
     - ピクシー
     - Pixi
-    - Melodelfe
+    - Mélodelfe
+    - 픽시
+    - 皮可西
   gender:
     Ratio: 0.75
 - names:
     - Vulpix
     - ロコン
     - Goupix
+    - 식스테일
+    - 六尾
     - Sesvulpo
   gender:
     Ratio: 0.75
@@ -269,6 +342,8 @@
     - キュウコン
     - Vulnona
     - Feunard
+    - 나인테일
+    - 九尾
     - Vulpaŭ
   gender:
     Ratio: 0.75
@@ -277,6 +352,8 @@
     - プリン
     - Pummeluff
     - Rondoudou
+    - 푸린
+    - 胖丁
   gender:
     Ratio: 0.75
 - names:
@@ -284,18 +361,24 @@
     - プクリン
     - Knuddeluff
     - Grodoudou
+    - 푸크린
+    - 胖可丁
   gender:
     Ratio: 0.75
 - names:
     - Zubat
     - ズバット
     - Nosferapti
+    - 주뱃
+    - 超音蝠
   gender:
     Ratio: 0.5
 - names:
     - Golbat
     - ゴルバット
     - Nosferalto
+    - 골뱃
+    - 大嘴蝠
   gender:
     Ratio: 0.5
 - names:
@@ -303,6 +386,8 @@
     - ナゾノクサ
     - Myrapla
     - Mystherbe
+    - 뚜벅쵸
+    - 走路草
     - OddiosWanderus
   gender:
     Ratio: 0.5
@@ -318,17 +403,23 @@
     - ラフレシア
     - Giflor
     - Rafflesia
+    - 라플레시아
+    - 霸王花
   gender:
     Ratio: 0.5
 - names:
     - Paras
     - パラス
+    - 파라스
+    - 派拉斯
   gender:
     Ratio: 0.5
 - names:
     - Parasect
     - パラセクト
     - Parasek
+    - 파라섹트
+    - 派拉斯特
   gender:
     Ratio: 0.5
 - names:
@@ -336,6 +427,8 @@
     - コンパン
     - Bluzuk
     - Mimitoss
+    - 콘팡
+    - 毛球
     - Teneo
   gender:
     Ratio: 0.5
@@ -343,7 +436,9 @@
     - Venomoth
     - モルフォン
     - Omot
-    - Aeromite
+    - Aéromite
+    - 도나리
+    - 摩鲁蛾
   gender:
     Ratio: 0.5
 - names:
@@ -351,6 +446,8 @@
     - ディグダ
     - Digda
     - Taupiqueur
+    - 디그다
+    - 地鼠
   gender:
     Ratio: 0.5
 - names:
@@ -358,6 +455,8 @@
     - ダグトリオ
     - Digdri
     - Triopikeur
+    - 닥트리오
+    - 三地鼠
   gender:
     Ratio: 0.5
 - names:
@@ -365,12 +464,17 @@
     - ニャース
     - Mauzi
     - Miaouss
+    - 나옹
+    - 喵喵
   gender:
     Ratio: 0.5
 - names:
     - Persian
     - ペルシアン
     - Snobilikat
+    - Persian
+    - 페르시온
+    - 猫老大
   gender:
     Ratio: 0.5
 - names:
@@ -378,6 +482,8 @@
     - コダック
     - Enton
     - Psykokwak
+    - 고라파덕
+    - 可达鸭
   gender:
     Ratio: 0.5
 - names:
@@ -385,13 +491,17 @@
     - ゴルダック
     - Entoron
     - Akwakwak
+    - 골덕
+    - 哥达鸭
   gender:
     Ratio: 0.5
 - names:
     - Mankey
     - マンキー
     - Menki
-    - Ferosinge
+    - Férosinge
+    - 망키
+    - 猴怪
   gender:
     Ratio: 0.5
 - names:
@@ -399,6 +509,8 @@
     - オコリザル
     - Rasaff
     - Colossinge
+    - 성원숭
+    - 火爆猴
   gender:
     Ratio: 0.5
 - names:
@@ -406,6 +518,8 @@
     - ガーディ
     - Fukano
     - Caninos
+    - 가디
+    - 卡蒂狗
   gender:
     Ratio: 0.25
 - names:
@@ -420,6 +534,8 @@
     - ニョロモ
     - Quapsel
     - Ptitard
+    - 발챙이
+    - 蚊香蝌蚪
     - Ranidjoro
   gender:
     Ratio: 0.5
@@ -427,7 +543,9 @@
     - Poliwhirl
     - ニョロゾ
     - Quaputzi
-    - Tetarte
+    - Têtarte
+    - 슈륙챙이
+    - 蚊香君
     - Ranjoro
   gender:
     Ratio: 0.5
@@ -436,23 +554,31 @@
     - ニョロボン
     - Quappo
     - Tartard
+    - 강챙이
+    - 蚊香泳士
     - Diluvjoro
   gender:
     Ratio: 0.5
 - names:
     - Abra
     - ケーシィ
+    - 캐이시
+    - 凯西
   gender:
     Ratio: 0.25
 - names:
     - Kadabra
     - ユンゲラー
+    - 윤겔라
+    - 勇基拉
   gender:
     Ratio: 0.25
 - names:
     - Alakazam
     - フーディン
     - Simsala
+    - 후딘
+    - 胡地
   gender:
     Ratio: 0.25
 - names:
@@ -460,13 +586,17 @@
     - ワンリキー
     - Machollo
     - Machoc
+    - 알통몬
+    - 腕力
   gender:
     Ratio: 0.25
 - names:
     - Machoke
     - ゴーリキー
-    - Maschok
+    - Maschock
     - Machopeur
+    - 근육몬
+    - 豪力
   gender:
     Ratio: 0.25
 - names:
@@ -474,13 +604,17 @@
     - カイリキー
     - Machomei
     - Mackogneur
+    - 괴력몬
+    - 怪力
   gender:
     Ratio: 0.25
 - names:
     - Bellsprout
     - マダツボミ
     - Knofensa
-    - Chetiflor
+    - Chétiflor
+    - 모다피
+    - 喇叭芽
   gender:
     Ratio: 0.5
 - names:
@@ -488,6 +622,8 @@
     - ウツドン
     - Ultrigaria
     - Boustiflor
+    - 우츠동
+    - 口呆花
   gender:
     Ratio: 0.5
 - names:
@@ -496,18 +632,24 @@
     - ウツボット
     - Sarzenia
     - Empiflor
+    - 우츠보트
+    - 大食花
   gender:
     Ratio: 0.5
 - names:
     - Tentacool
     - メノクラゲ
     - Tentacha
+    - 왕눈해
+    - 玛瑙水母
   gender:
     Ratio: 0.5
 - names:
     - Tentacruel
     - ドククラゲ
     - Tentoxa
+    - 독파리
+    - 毒刺水母
   gender:
     Ratio: 0.5
 - names:
@@ -515,6 +657,8 @@
     - イシツブテ
     - Kleinstein
     - Racaillou
+    - 꼬마돌
+    - 小拳石
   gender:
     Ratio: 0.5
 - names:
@@ -522,6 +666,8 @@
     - ゴローン
     - Georok
     - Gravalanch
+    - 데구리
+    - 隆隆石
   gender:
     Ratio: 0.5
 - names:
@@ -529,12 +675,16 @@
     - ゴローニャ
     - Geowaz
     - Grolem
+    - 딱구리
+    - 隆隆岩
   gender:
     Ratio: 0.5
 - names:
     - Ponyta
     - ポニータ
     - Ponita
+    - 포니타
+    - 小火马
   gender:
     Ratio: 0.5
 - names:
@@ -542,6 +692,8 @@
     - ギャロップ
     - Gallopa
     - Galopa
+    - 날쌩마
+    - 烈焰马
   gender:
     Ratio: 0.5
 - names:
@@ -549,6 +701,8 @@
     - ヤドン
     - Flegmon
     - Ramoloss
+    - 야돈
+    - 呆呆兽
   gender:
     Ratio: 0.5
 - names:
@@ -556,36 +710,48 @@
     - ヤドラン
     - Lahmus
     - Flagadoss
+    - 야도란
+    - 呆壳兽
   gender:
     Ratio: 0.5
 - names:
     - Magnemite
     - コイル
     - Magnetilo
-    - Magneti
+    - Magnéti
+    - 코일
+    - 小磁怪
   gender: Agender
 - names:
     - Magneton
     - レアコイル
-    - Magneton
+    - Magnéton
+    - 레어코일
+    - 三合一磁怪
   gender: Agender
 - names:
-    - "Farfetch'd"
+    - Farfetch’d
     - カモネギ
     - Porenta
     - Canarticho
+    - 파오리
+    - 大葱鸭
   gender:
     Ratio: 0.5
 - names:
     - Doduo
     - ドードー
     - Dodu
+    - 두두
+    - 嘟嘟
   gender:
     Ratio: 0.5
 - names:
     - Dodrio
     - ドードリオ
     - Dodri
+    - 두트리오
+    - 嘟嘟利
   gender:
     Ratio: 0.5
 - names:
@@ -593,6 +759,8 @@
     - パウワウ
     - Jurob
     - Otaria
+    - 쥬쥬
+    - 小海狮
   gender:
     Ratio: 0.5
 - names:
@@ -600,6 +768,8 @@
     - ジュゴン
     - Jugong
     - Lamantine
+    - 쥬레곤
+    - 白海狮
   gender:
     Ratio: 0.5
 - names:
@@ -607,6 +777,8 @@
     - ベトベター
     - Sleima
     - Tadmorv
+    - 질퍽이
+    - 臭泥
   gender:
     Ratio: 0.5
 - names:
@@ -614,6 +786,8 @@
     - ベトベトン
     - Sleimok
     - Grotadmorv
+    - 질뻐기
+    - 臭臭泥
   gender:
     Ratio: 0.5
 - names:
@@ -621,6 +795,8 @@
     - シェルダー
     - Muschas
     - Kokiyas
+    - 셀러
+    - 大舌贝
   gender:
     Ratio: 0.5
 - names:
@@ -628,6 +804,8 @@
     - パルシェン
     - Austos
     - Crustabri
+    - 파르셀
+    - 刺甲贝
   gender:
     Ratio: 0.5
 - names:
@@ -635,6 +813,8 @@
     - ゴース
     - Nebulak
     - Fantominus
+    - 고오스
+    - 鬼斯
   gender:
     Ratio: 0.5
 - names:
@@ -642,17 +822,23 @@
     - ゴースト
     - Alpollo
     - Spectrum
+    - 고우스트
+    - 鬼斯通
   gender:
     Ratio: 0.5
 - names:
     - Gengar
     - ゲンガー
     - Ectoplasma
+    - 팬텀
+    - 耿鬼
   gender:
     Ratio: 0.5
 - names:
     - Onix
     - イワーク
+    - 롱스톤
+    - 大岩蛇
     - TerravermisGigas
   gender:
     Ratio: 0.5
@@ -661,41 +847,56 @@
     - スリープ
     - Traumato
     - Soporifik
+    - 슬리프
+    - 催眠貘
   gender:
     Ratio: 0.5
 - names:
     - Hypno
     - スリーパー
-    - "Hypnomade "
+    - Hypnomade
+    - 슬리퍼
+    - 引梦貘人
   gender:
     Ratio: 0.5
 - names:
     - Krabby
     - クラブ
+    - 크랩
+    - 大钳蟹
   gender:
     Ratio: 0.5
 - names:
     - Kingler
     - キングラー
     - Krabboss
+    - 킹크랩
+    - 巨钳蟹
   gender:
     Ratio: 0.5
 - names:
     - Voltorb
     - ビリリダマ
     - Voltobal
+    - Voltorbe
+    - 찌리리공
+    - 霹雳电球
   gender: Agender
 - names:
     - Electrode
     - マルマイン
     - Lektrobal
-    - Voltorbe
+    - Électrode
+    - 붐볼
+    - 顽皮雷弹
   gender: Agender
 - names:
     - Exeggcute
     - タマタマ
     - Owei
     - Noeunoeuf
+    - 아라리
+    - 蛋蛋
     - OvusUnicephalis
   gender:
     Ratio: 0.5
@@ -704,6 +905,8 @@
     - ナッシー
     - Kokowei
     - Noadkoko
+    - 나시
+    - 椰蛋树
     - OvusArbrocephalis
   gender:
     Ratio: 0.5
@@ -712,6 +915,8 @@
     - カラカラ
     - Tragosso
     - Osselait
+    - 탕구리
+    - 卡拉卡拉
   gender:
     Ratio: 0.5
 - names:
@@ -719,12 +924,16 @@
     - ガラガラ
     - Knogga
     - Ossatueur
+    - 텅구리
+    - 嘎啦嘎啦
   gender:
     Ratio: 0.5
 - names:
     - Hitmonlee
     - サワムラー
     - Kicklee
+    - 시라소몬
+    - 飞腿郎
     - BellatorbestiaAcerpes
   gender: Male
 - names:
@@ -732,6 +941,8 @@
     - エビワラー
     - Nockchan
     - Tygnon
+    - 홍수몬
+    - 快拳郎
     - BellatorbestiaPugnus
   gender: Male
 - names:
@@ -739,6 +950,8 @@
     - ベロリンガ
     - Schlurp
     - Excelangue
+    - 내루미
+    - 大舌头
   gender:
     Ratio: 0.5
 - names:
@@ -746,6 +959,8 @@
     - ドガース
     - Smogon
     - Smogo
+    - 또가스
+    - 瓦斯弹
   gender:
     Ratio: 0.5
 - names:
@@ -753,6 +968,8 @@
     - マタドガス
     - Smogmog
     - Smogogo
+    - 또도가스
+    - 双弹瓦斯
   gender:
     Ratio: 0.5
 - names:
@@ -760,13 +977,17 @@
     - サイホーン
     - Rihorn
     - Rhinocorne
+    - 뿔카노
+    - 独角犀牛
   gender:
     Ratio: 0.5
 - names:
     - Rhydon
     - サイドン
     - Rizeros
-    - Rhinoferos
+    - Rhinoféros
+    - 코뿌리
+    - 钻角犀兽
   gender:
     Ratio: 0.5
 - names:
@@ -774,11 +995,15 @@
     - ラッキー
     - Chaneira
     - Leveinard
+    - 럭키
+    - 吉利蛋
   gender: Female
 - names:
     - Tangela
     - モンジャラ
     - Saquedeneu
+    - 덩쿠리
+    - 蔓藤怪
   gender:
     Ratio: 0.5
 - names:
@@ -786,26 +1011,34 @@
     - ガルーラ
     - Kangama
     - Kangourex
+    - 캥카
+    - 袋兽
   gender: Female
 - names:
     - Horsea
     - タッツー
     - Seeper
     - Hypotrempe
+    - 쏘드라
+    - 墨海马
   gender:
     Ratio: 0.5
 - names:
     - Seadra
     - シードラ
     - Seemon
-    - Hypocean
+    - Hypocéan
+    - 시드라
+    - 海刺龙
   gender:
     Ratio: 0.5
 - names:
     - Goldeen
     - トサキント
     - Goldini
-    - Poissirene
+    - Poissirène
+    - 콘치
+    - 角金鱼
   gender:
     Ratio: 0.5
 - names:
@@ -813,6 +1046,8 @@
     - アズマオウ
     - Golking
     - Poissoroy
+    - 왕콘치
+    - 金鱼王
   gender:
     Ratio: 0.5
 - names:
@@ -820,24 +1055,32 @@
     - ヒトデマン
     - Sterndu
     - Stari
+    - 별가사리
+    - 海星星
   gender: Agender
 - names:
     - Starmie
     - スターミー
     - Staross
+    - 아쿠스타
+    - 宝石海星
   gender: Agender
 - names:
-    - MrMime
+    - "Mr. Mime"
     - バリヤード
     - Pantimos
-    - MMime
+    - "M. Mime"
+    - 마임맨
+    - 魔墙人偶
   gender:
     Ratio: 0.5
 - names:
     - Scyther
     - ストライク
     - Sichlor
-    - Insecateur
+    - Insécateur
+    - 스라크
+    - 飞天螳螂
   gender:
     Ratio: 0.5
 - names:
@@ -845,57 +1088,79 @@
     - ルージュラ
     - Rossana
     - Lippoutou
+    - 루주라
+    - 迷唇姐
   gender: Female
 - names:
     - Electabuzz
     - エレブー
     - Elektek
+    - Élektek
+    - 에레브
+    - 电击兽
   gender:
     Ratio: 0.25
 - names:
     - Magmar
     - ブーバー
+    - 마그마
+    - 鸭嘴火兽
   gender:
     Ratio: 0.25
 - names:
     - Pinsir
     - カイロス
     - Scarabrute
+    - 쁘사이저
+    - 凯罗斯
   gender:
     Ratio: 0.5
 - names:
     - Tauros
     - ケンタロス
+    - 켄타로스
+    - 肯泰罗
   gender: Male
 - names:
     - Magikarp
     - コイキング
     - Karpador
     - Magicarpe
+    - 잉어킹
+    - 鲤鱼王
   gender:
     Ratio: 0.5
 - names:
     - Gyarados
     - ギャラドス
     - Garados
-    - Leviator
+    - Léviator
+    - 갸라도스
+    - 暴鲤龙
   gender:
     Ratio: 0.5
 - names:
     - Lapras
     - ラプラス
     - Lokhlass
+    - 라프라스
+    - 拉普拉斯
   gender:
     Ratio: 0.5
 - names:
     - Ditto
     - メタモン
-    - Metamorph
+    - Métamorph
+    - 메타몽
+    - 百变怪
   gender: Agender
 - names:
     - Eevee
     - イーブイ
     - Evoli
+    - Évoli
+    - 이브이
+    - 伊布
   gender:
     Ratio: 0.125
 - names:
@@ -903,6 +1168,8 @@
     - シャワーズ
     - Aquana
     - Aquali
+    - 샤미드
+    - 水伊布
     - Akveva
   gender:
     Ratio: 0.125
@@ -911,6 +1178,8 @@
     - サンダース
     - Blitza
     - Voltali
+    - 쥬피썬더
+    - 雷伊布
     - Volteva
   gender:
     Ratio: 0.125
@@ -919,18 +1188,24 @@
     - ブースター
     - Flamara
     - Pyroli
+    - 부스터
+    - 火伊布
     - Flameva
   gender:
     Ratio: 0.125
 - names:
     - Porygon
     - ポリゴン
+    - 폴리곤
+    - 多边兽
   gender: Agender
 - names:
     - Omanyte
     - オムナイト
     - Amonitas
     - Amonita
+    - 암나이트
+    - 菊石兽
   gender:
     Ratio: 0.125
 - names:
@@ -938,22 +1213,30 @@
     - オムスター
     - Amoroso
     - Amonistar
+    - 암스타
+    - 多刺菊石兽
   gender:
     Ratio: 0.125
 - names:
     - Kabuto
     - カブト
+    - 투구
+    - 化石盔
   gender:
     Ratio: 0.125
 - names:
     - Kabutops
     - カブトプス
+    - 투구푸스
+    - 镰刀盔
   gender:
     Ratio: 0.125
 - names:
     - Aerodactyl
     - プテラ
-    - Ptera
+    - Ptéra
+    - 프테라
+    - 化石翼龙
   gender:
     Ratio: 0.125
 - names:
@@ -961,6 +1244,8 @@
     - カビゴン
     - Relaxo
     - Ronflex
+    - 잠만보
+    - 卡比兽
   gender:
     Ratio: 0.125
 - names:
@@ -968,22 +1253,31 @@
     - フリーザー
     - Arktos
     - Artikodin
+    - 프리져
+    - 急冻鸟
   gender: Agender
 - names:
     - Zapdos
     - サンダー
-    - Electhor
+    - Zapdos
+    - Électhor
+    - 썬더
+    - 闪电鸟
   gender: Agender
 - names:
     - Moltres
     - ファイヤー
     - Lavados
     - Sulfura
+    - 파이어
+    - 火焰鸟
   gender: Agender
 - names:
     - Dratini
     - ミニリュウ
     - Minidraco
+    - 미뇽
+    - 迷你龙
   gender:
     Ratio: 0.5
 - names:
@@ -991,6 +1285,8 @@
     - ハクリュー
     - Dragonir
     - Draco
+    - 신뇽
+    - 哈克龙
   gender:
     Ratio: 0.5
 - names:
@@ -998,17 +1294,25 @@
     - カイリュー
     - Dragoran
     - Dracolosse
+    - 망나뇽
+    - 快龙
   gender:
     Ratio: 0.5
 - names:
     - Mewtwo
     - ミュウツー
     - Mewtu
+    - 뮤츠
+    - 超梦
     - "Mju-du"
   gender: Agender
 - names:
     - Mew
     - ミュウ
+    - Mew
+    - Mew
+    - 뮤
+    - 梦幻
     - Mju
   gender: Agender
 - names:
@@ -4749,5 +5053,1648 @@
     - ボルケニオン
   gender: Agender
 - names:
+    - Rowlet
+    - Brindibou
+    - Bauz
+    - モクロー
+    - 나몰빼미
+    - 木木梟
+  gender:
+    Ratio: 0.125
+- names:
+    - Dartrix
+    - Efflèche
+    - Arboretoss
+    - フクスロー
+    - 빼미스로우
+    - 投羽梟
+  gender:
+    Ratio: 0.125
+- names:
+    - Decidueye
+    - Archéduc
+    - Silvarro
+    - ジュナイパー
+    - 모크나이퍼
+    - 狙射樹梟
+  gender:
+    Ratio: 0.125
+- names:
+    - Litten
+    - Flamiaou‎‎
+    - Flamiau
+    - ニャビー
+    - 냐오불
+    - 火斑喵
+  gender:
+    Ratio: 0.125
+- names:
+    - Torracat
+    - Matoufeu
+    - Miezunder
+    - ニャヒート
+    - 냐오히트
+    - 炎熱喵
+  gender:
+    Ratio: 0.125
+- names:
+    - Incineroar
+    - Félinferno
+    - Fuegro
+    - ガオガエン
+    - 어흥염
+    - 熾焰咆哮虎
+  gender:
+    Ratio: 0.125
+- names:
+    - Popplio
+    - Otaquin
+    - Robball
+    - アシマリ
+    - 누리공
+    - 球球海獅
+  gender:
+    Ratio: 0.125
+- names:
+    - Brionne
+    - Otarlette
+    - Marikeck
+    - オシャマリ
+    - 키요공
+    - 花漾海獅
+  gender:
+    Ratio: 0.125
+- names:
+    - Primarina
+    - Oratoria
+    - Primarene
+    - アシレーヌ
+    - 누리레느
+    - 西獅海壬
+  gender:
+    Ratio: 0.125
+- names:
+    - Pikipek
+    - Picassaut
+    - Peppeck
+    - ツツケラ
+    - 콕코구리
+    - 小篤兒
+  gender:
+    Ratio: 0.5
+- names:
+    - Trumbeak
+    - Piclairon
+    - Trompeck
+    - ケララッパ
+    - 크라파
+    - 喇叭啄鳥
+  gender:
+    Ratio: 0.5
+- names:
+    - Toucannon
+    - Bazoucan
+    - Tukanon
+    - ドデカバシ
+    - 왕큰부리
+    - 銃嘴大鳥
+  gender:
+    Ratio: 0.5
+- names:
+    - Yungoos
+    - Manglouton
+    - Mangunior
+    - ヤングース
+    - 영구스
+    - 貓鼬少
+  gender:
+    Ratio: 0.5
+- names:
+    - Gumshoos
+    - Argouste
+    - Manguspektor
+    - デカグース
+    - 형사구스
+    - 貓鼬探長
+  gender:
+    Ratio: 0.5
+- names:
+    - Grubbin
+    - Larvibule
+    - Mabula
+    - アゴジムシ
+    - 턱지충이
+    - 強顎雞母蟲
+  gender:
+    Ratio: 0.5
+- names:
+    - Charjabug
+    - Chrysapile
+    - Akkup
+    - デンヂムシ
+    - 전지충이
+    - 蟲電寶
+  gender:
+    Ratio: 0.5
+- names:
+    - Vikavolt
+    - Lucanon
+    - Donarion
+    - クワガノン
+    - 투구뿌논
+    - 鍬農炮蟲
+  gender:
+    Ratio: 0.5
+- names:
+    - Crabrawler
+    - Crabagarre
+    - Krabbox
+    - マケンカニ
+    - 오기지게
+    - 好勝蟹
+  gender:
+    Ratio: 0.5
+- names:
+    - Crabominable
+    - Crabominable
+    - Krawell
+    - ケケンカニ
+    - 모단단게
+    - 好勝毛蟹
+  gender:
+    Ratio: 0.5
+- names:
+    - Oricorio
+    - Plumeline
+    - Choreogel
+    - オドリドリ
+    - 춤추새
+    - 花舞鳥
+  gender:
+    Ratio: 0.5
+- names:
+    - Cutiefly
+    - Bombydou
+    - Wommel
+    - アブリー
+    - 에블리
+    - 萌虻
+  gender:
+    Ratio: 0.5
+- names:
+    - Ribombee
+    - Rubombelle
+    - Bandelby
+    - アブリボン
+    - 에리본
+    - 蝶結萌虻
+  gender:
+    Ratio: 0.5
+- names:
+    - Rockruff
+    - Rocabot
+    - Wuffels
+    - イワンコ
+    - 암멍이
+    - 岩狗狗
+  gender:
+    Ratio: 0.5
+- names:
+    - Lycanroc
+    - Lougaroc
+    - Wolwerock
+    - ルガルガン
+    - 루가루암
+    - 鬃岩狼人
+  gender:
+    Ratio: 0.5
+- names:
+    - Wishiwashi
+    - Froussardine
+    - Lusardin
+    - ヨワシ
+    - 약어리
+    - 弱丁魚
+  gender:
+    Ratio: 0.5
+- names:
+    - Mareanie
+    - Vorastérie
+    - Garstella
+    - ヒドイデ
+    - 시마사리
+    - 好壞星
+  gender:
+    Ratio: 0.5
+- names:
+    - Toxapex
+    - Prédastérie
+    - Aggrostella
+    - ドヒドイデ
+    - 더시마사리
+    - 超壞星
+  gender:
+    Ratio: 0.5
+- names:
+    - Mudbray
+    - Tiboudet
+    - Pampuli
+    - ドロバンコ
+    - 머드나기
+    - 泥驢仔
+  gender:
+    Ratio: 0.5
+- names:
+    - Mudsdale
+    - Bourrinos
+    - Pampross
+    - バンバドロ
+    - 만마드
+    - 重泥挽馬
+  gender:
+    Ratio: 0.5
+- names:
+    - Dewpider
+    - Araqua
+    - Araqua
+    - シズクモ
+    - 물거미
+    - 滴蛛
+  gender:
+    Ratio: 0.5
+- names:
+    - Araquanid
+    - Tarenbulle
+    - Aranestro
+    - オニシズクモ
+    - 깨비물거미
+    - 滴蛛霸
+  gender:
+    Ratio: 0.5
+- names:
+    - Fomantis
+    - Mimantis
+    - Imantis
+    - カリキリ
+    - 짜랑랑
+    - 偽螳草
+  gender:
+    Ratio: 0.5
+- names:
+    - Lurantis
+    - Floramantis
+    - Mantidea
+    - ラランテス
+    - 라란티스
+    - 蘭螳花
+  gender:
+    Ratio: 0.5
+- names:
+    - Morelull
+    - Spododo
+    - Bubungus
+    - ネマシュ
+    - 자마슈
+    - 睡睡菇
+  gender:
+    Ratio: 0.5
+- names:
+    - Shiinotic
+    - Lampignon
+    - Lamellux
+    - マシェード
+    - 마셰이드
+    - 燈罩夜菇
+  gender:
+    Ratio: 0.5
+- names:
+    - Salandit
+    - Tritox
+    - Molunk
+    - ヤトウモリ
+    - 야도뇽
+    - 夜盜火蜥
+  gender:
+    Ratio: 0.125
+- names:
+    - Salazzle
+    - Malamandre
+    - Amfira
+    - エンニュート
+    - 염뉴트
+    - 焰后蜥
+  gender: Female
+- names:
+    - Stufful
+    - Nounourson
+    - Velursi
+    - ヌイコグマ
+    - 포곰곰
+    - 童偶熊
+  gender:
+    Ratio: 0.5
+- names:
+    - Bewear
+    - Chelours
+    - Kosturso
+    - キテルグマ
+    - 이븐곰
+    - 穿著熊
+  gender:
+    Ratio: 0.5
+- names:
+    - Bounsweet
+    - Croquine
+    - Frubberl
+    - アマカジ
+    - 달콤아
+    - 甜竹竹
+  gender: Female
+- names:
+    - Steenee
+    - Candine
+    - Frubaila
+    - アママイコ
+    - 달무리나
+    - 甜舞妮
+  gender: Female
+- names:
+    - Tsareena
+    - Sucreine
+    - Fruyal
+    - アマージョ
+    - 달코퀸
+    - 甜冷美后
+  gender: Female
+- names:
+    - Comfey
+    - Guérilande
+    - Curelei
+    - キュワワー
+    - 큐아링
+    - 花療環環
+  gender:
+    Ratio: 0.75
+- names:
+    - Oranguru
+    - Gouroutan
+    - Kommandutan
+    - ヤレユータン
+    - 하랑우탄
+    - 智揮猩
+  gender:
+    Ratio: 0.5
+- names:
+    - Passimian
+    - Quartermac
+    - Quartermak
+    - ナゲツケサル
+    - 내던숭이
+    - 投擲猴
+  gender:
+    Ratio: 0.5
+- names:
+    - Wimpod
+    - Sovkipou
+    - Reißlaus
+    - コソクムシ\
+    - 꼬시레
+    - 膽小蟲
+  gender:
+    Ratio: 0.5
+- names:
+    - Golisopod
+    - Sarmuraï
+    - Tectass
+    - グソクムシャ
+    - 갑주무사
+    - 具甲武者
+  gender:
+    Ratio: 0.5
+- names:
+    - Sandygast
+    - Bacabouh
+    - Sankabuh
+    - スナバァ
+    - 모래꿍
+    - 沙丘娃
+  gender:
+    Ratio: 0.5
+- names:
+    - Palossand
+    - Trépassable
+    - Colossand
+    - シロデスナ
+    - 모래성이당
+    - 噬沙堡爺
+  gender:
+    Ratio: 0.5
+- names:
+    - Pyukumuku
+    - Concombaffe
+    - Gufa
+    - ナマコブシ
+    - 해무기
+    - 拳海參
+  gender:
+    Ratio: 0.5
+- names:
+    - "Type: Null"
+    - "Type:0:"
+    - "Código Cero"
+    - "Typ:Null"
+    - "Tipo Zero"
+    - "タイプ：ヌル"
+    - "타입:널"
+    - "屬性：空"
+    - "Tipo Nulo"
+    - "Soort: Null"
+    - "Type: Full"
+    - "Type:18"
+    - "Typ:Full"
+    - Omnitipo
+    - "Código Omnia"
+    - "タイプ：フル"
+    - "타입:풀"
+    - "屬性：滿"
+  gender: Agender
+- names:
+    - Silvally
+    - Silvallié
+    - Amigento
+    - Silvady
+    - シルヴァディ
+    - 실버디
+    - 銀伴戰獸
+  gender: Agender
+- names:
+    - Minior
+    - Météno
+    - Meteno
+    - メテノ
+    - 메테노
+    - 小隕星
+  gender: Agender
+- names:
+    - Komala
+    - Dodoala
+    - Koalelu
+    - ネッコアラ
+    - 자말라
+    - 樹枕尾熊
+  gender:
+    Ratio: 0.5
+- names:
+    - Turtonator
+    - Boumata
+    - Tortunator
+    - バクガメス
+    - 폭거북스
+    - 爆焰龜獸
+  gender:
+    Ratio: 0.5
+- names:
+    - Togedemaru
+    - Togedemaru
+    - Togedemaru
+    - トゲデマル
+    - 토게데마루
+    - 托戈德瑪爾
+  gender:
+    Ratio: 0.5
+- names:
+    - Mimikyu
+    - Mimiqui
+    - Mimigma
+    - ミミッキュ
+    - 따라큐
+    - "謎擬Q"
+  gender:
+    Ratio: 0.5
+- names:
+    - Bruxish
+    - Denticrisse
+    - Knirfish
+    - ハギギシリ
+    - 치갈기
+    - 磨牙彩皮魚
+  gender:
+    Ratio: 0.5
+- names:
+    - Drampa
+    - Draïeul
+    - "Sen-Long"
+    - ジジーロン
+    - 할비롱
+    - 老翁龍
+  gender:
+    Ratio: 0.5
+- names:
+    - Dhelmise
+    - Sinistrail
+    - Moruda
+    - ダダリン
+    - 타타륜
+    - 破破舵輪
+  gender: Agender
+- names:
+    - Jangmo-o
+    - Bébécaille
+    - Miniras
+    - ジャラコ
+    - 짜랑꼬
+    - 心鱗寶
+  gender:
+    Ratio: 0.5
+- names:
+    - Hakamo-o
+    - Écaïd
+    - Mediras
+    - ジャランゴ
+    - 짜랑고우
+    - 鱗甲龍
+  gender:
+    Ratio: 0.5
+- names:
+    - Kommo-o
+    - Ékaïser
+    - Grandiras
+    - ジャラランガ
+    - 짜랑고우거
+    - 杖尾鱗甲龍
+  gender:
+    Ratio: 0.5
+- names:
+    - "Tapu Koko"
+    - Tokorico
+    - "Kapu-Riki"
+    - "カプ・コケコ"
+    - 카푸꼬꼬꼭
+    - "卡璞・鳴鳴"
+  gender: Agender
+- names:
+    - "Tapu Lele"
+    - Tokopiyon
+    - "Kapu-Fala"
+    - "カプ・テテフ"
+    - 카푸나비나
+    - "卡璞・蝶蝶"
+  gender: Agender
+- names:
+    - "Tapu Bulu"
+    - Tokotoro
+    - "Kapu-Toro"
+    - "カプ・ブルル"
+    - 카푸브루루
+    - "卡璞・哞哞"
+  gender: Agender
+- names:
+    - "Tapu Fini"
+    - Tokopisco
+    - "Kapu-Kime"
+    - "カプ・レヒレ"
+    - 카푸느지느
+    - "卡璞・鰭鰭"
+  gender: Agender
+- names:
+    - Cosmog
+    - Cosmog
+    - Cosmog
+    - コスモッグ
+    - 코스모그
+    - 科斯莫古
+    - Nebby
+  gender: Agender
+- names:
+    - Cosmoem
+    - Cosmovum
+    - Cosmovum
+    - コスモウム
+    - 코스모움
+    - 科斯莫姆
+  gender: Agender
+- names:
+    - Solgaleo
+    - Solgaleo
+    - Solgaleo
+    - ソルガレオ
+    - 솔가레오
+    - 索爾迦雷歐
+  gender: Agender
+- names:
+    - Lunala
+    - Lunala
+    - Lunala
+    - ルナアーラ
+    - 루나아라
+    - 露奈雅拉
+  gender: Agender
+- names:
+    - Nihilego
+    - Zéroïd
+    - Anego
+    - ウツロイド
+    - 텅비드
+    - 虛吾伊德
+    - "UB-01 Symbiont"
+    - "UB-01 Parasite"
+    - "UC-01 Parasite"
+    - "UE-01 Parásito"
+    - "UC-01 Parasitus"
+    - "UB-01 Schmarotzer"
+    - "UB01:패러사이트"
+    - "UB01:寄生物"
+  gender: Agender
+- names:
+    - Buzzwole
+    - Mouscoto
+    - Masskito
+    - マッシブーン
+    - 매시붕
+    - 爆肌蚊
+    - "UB-02 Absorption"
+    - "UB-02 Expansion"
+    - "UC-02 Expansion"
+    - "UC-02 Expansio"
+    - "UE-02 Expansión"
+    - "UB-02 Expander"
+    - "UB02:익스팬션"
+    - "UB02:膨脹"
+  gender: Agender
+- names:
+    - Pheromosa
+    - Cancrelove
+    - Schabelle
+    - フェローチェ
+    - 페로코체
+    - 費洛美螂
+    - "UB-02 Beauty"
+    - "UC-02 Beauté"
+    - "UB-02 Schönheit"
+    - "UC-02 Elegantia"
+    - "UE-02 Elegancia"
+    - "UB02:뷰티"
+    - "UB02:美麗"
+  gender: Agender
+- names:
+    - Xurkitree
+    - Câblifère
+    - Voltriant
+    - デンジュモク
+    - 전수목
+    - 電束木
+    - "UB-03 Lighting"
+    - "UB-03 Lightning"
+    - "UC-03 Éclair"
+    - "UB-03 Lichtblitz"
+    - "UC-03 Lumen"
+    - "UE-03 Resplandor"
+    - "UB03:라이트닝"
+    - "UB03:雷電"
+  gender: Agender
+- names:
+    - Celesteela
+    - Bamboiselle
+    - Kaguron
+    - テッカグヤ
+    - 철화구야
+    - 鐵火輝夜
+    - "UB-04 Blaster"
+    - "UC-04 Réacteur"
+    - "UB-04 Zündung"
+    - "UC-04 Propulsus"
+    - "UE-04 Cohete"
+    - "UB04:블래스터"
+    - "UB04:噴射器"
+  gender: Agender
+- names:
+    - Kartana
+    - Katagami
+    - Katagami
+    - カミツルギ
+    - 종이신도
+    - 紙御劍
+    - "UB-04 Blade"
+    - "UB-04 Slash"
+    - "UC-04 Lame"
+    - "UB-04 Schwerthieb"
+    - "UC-04 Sectio"
+    - "UE-04 Tajo"
+    - "UB04:슬래시"
+    - "UB04:劈斬"
+  gender: Agender
+- names:
+    - Guzzlord
+    - Engloutyran
+    - Schlingking
+    - アクジキング
+    - 악식킹
+    - 惡食大王
+    - "UB-05 Glutton"
+    - "UB-05 Gluttony"
+    - "UC-05 Gourmandise"
+    - "UB-05 Vielfraß"
+    - "UC-05 Voracitas"
+    - "UE-05 Voracidad"
+    - "UB05:글러터니"
+    - "UB05:大胃王"
+  gender: Agender
+- names:
+    - Necrozma
+    - Necrozma
+    - Necrozma
+    - ネクロズマ
+    - 네크로즈마
+    - 奈克洛茲瑪
+  gender: Agender
+- names:
+    - Magearna
+    - Magearna
+    - Magearna
+    - マギアナ
+    - 마기아나
+    - 瑪機雅娜
+  gender: Agender
+- names:
+    - Marshadow
+    - Marshadow
+    - Marshadow
+    - マーシャドー
+    - 마샤도
+    - 瑪夏多
+  gender: Agender
+- names:
+    - Poipole
+    - Vémini
+    - Venicro
+    - ベベノム
+    - 베베놈
+    - 毒貝比
+    - "UB Adhesive"
+    - "UB Sticky"
+    - "UC-Glu"
+    - "UB Klebrigkeit"
+    - "UC Viscosus"
+    - "UE Viscoso"
+    - "UB스티키"
+    - "UB:沾黏"
+  gender: Agender
+- names:
+    - Naganadel
+    - Mandrillon
+    - Agoyon
+    - アーゴヨン
+    - 아고용
+    - 四顎針龍
+    - "UB Stinger"
+    - "UC-Aiguillon"
+    - "UB Stachel"
+    - "UC Aculeus"
+    - "UE Aguijón"
+    - "UB스팅어"
+    - "UB:刺針"
+  gender: Agender
+- names:
+    - Stakataka
+    - "Ama-Ama"
+    - Muramura
+    - ツンデツンデ
+    - 차곡차곡
+    - 壘磊石
+    - "UB Assembly"
+    - "UB Lay"
+    - "UC-Empilage"
+    - "UB Mauerwerk"
+    - "UC Structura"
+    - "UE Bloques"
+    - "UB레이"
+    - "UB:堆砌"
+  gender: Agender
+- names:
+    - Blacephalon
+    - Pierroteknik
+    - Kopplosio
+    - ズガドーン
+    - 두파팡
+    - 砰頭小丑
+    - "UB Burst"
+    - "UC-Détonation"
+    - "UB Detonation"
+    - "UC Fragor"
+    - "UE Explosivo"
+    - "UB버스트"
+    - "UB:爆炸"
+  gender: Agender
+- names:
+    - Zeraora
+    - Zeraora
+    - Zeraora
+    - ゼラオラ
+    - 제라오라
+    - 捷拉奧拉
+  gender: Agender
+- names:
+    - Meltan
+    - Meltan
+    - Meltan
+    - メルタン
+    - 멜탄
+    - 美錄坦
+  gender: Agender
+- names:
+    - Melmetal
+    - Melmetal
+    - Melmetal
+    - メルメタル
+    - 멜메탈
+    - 美錄梅塔
+  gender: Agender
+- names:
+    - Grookey
+    - サルノリ
+    - Chimpep
+    - Ouistempo
+    - 흥나숭
+    - 敲音猴
+  gender:
+    Ratio: 0.125
+- names:
+    - Thwackey
+    - バチンキー
+    - Chimstix
+    - Badabouin
+    - 채키몽
+    - 啪咚猴
+  gender:
+    Ratio: 0.125
+- names:
+    - Rillaboom
+    - ゴリランダー
+    - Gortrom
+    - Gorythmic
+    - 고릴타
+    - 轰擂金刚猩
+  gender:
+    Ratio: 0.125
+- names:
+    - Scorbunny
+    - ヒバニー
+    - Hopplo
+    - Flambino
+    - 염버니
+    - 炎兔儿
+  gender:
+    Ratio: 0.125
+- names:
+    - Raboot
+    - ラビフット
+    - Kickerlo
+    - Lapyro
+    - 래비풋
+    - 腾蹴小将
+  gender:
+    Ratio: 0.125
+- names:
+    - Cinderace
+    - エースバーン
+    - Liberlo
+    - Pyrobut
+    - 에이스번
+    - 闪焰王牌
+  gender:
+    Ratio: 0.125
+- names:
+    - Sobble
+    - メッソン
+    - Memmeon
+    - Larméléon
+    - 울머기
+    - 泪眼蜥
+  gender:
+    Ratio: 0.125
+- names:
+    - Drizzile
+    - ジメレオン
+    - Phlegleon
+    - Arrozard
+    - 누겔레온-
+    - 变涩蜥
+  gender:
+    Ratio: 0.125
+- names:
+    - Inteleon
+    - インテレオン
+    - Intelleon
+    - Lézargus
+    - 인텔리레온-
+    - 千面避役
+  gender:
+    Ratio: 0.125
+- names:
+    - Skwovet
+    - ホシガリス
+    - Raffel
+    - Rongourmand
+    - 탐리스
+    - 贪心栗鼠
+  gender:
+    Ratio: 0.5
+- names:
+    - Greedent
+    - ヨクバリス
+    - Schlaraffel
+    - Rongrigou
+    - 요씽리스
+    - 藏饱栗鼠
+  gender:
+    Ratio: 0.5
+- names:
+    - Rookidee
+    - ココガラ
+    - Meikro
+    - Minisange
+    - 파라꼬
+    - 稚山雀
+  gender:
+    Ratio: 0.5
+- names:
+    - Corvisquire
+    - アオガラス
+    - Kranoviz
+    - Bleuseille
+    - 파크로우
+    - 蓝鸦
+  gender:
+    Ratio: 0.5
+- names:
+    - Corviknight
+    - アーマーガア
+    - Krarmor
+    - Corvaillus
+    - 아머까오
+    - 钢铠鸦
+  gender:
+    Ratio: 0.5
+- names:
+    - Blipbug
+    - サッチムシ
+    - Sensect
+    - Larvadar
+    - 두루지벌레
+    - 索侦虫
+  gender:
+    Ratio: 0.5
+- names:
+    - Dottler
+    - レドームシ
+    - Keradar
+    - Coléodôme
+    - 레돔벌레
+    - 天罩虫
+  gender:
+    Ratio: 0.5
+- names:
+    - Orbeetle
+    - イオルブ
+    - Maritellit
+    - Astronelle
+    - 이올브
+    - 以欧路普
+  gender:
+    Ratio: 0.5
+- names:
+    - Nickit
+    - クスネ
+    - Kleptifux
+    - Goupilou
+    - 훔처우
+    - 偷儿狐
+  gender:
+    Ratio: 0.5
+- names:
+    - Thievul
+    - フォクスライ
+    - Gaunux
+    - Roublenard
+    - 폭슬라이
+    - 狐大盗
+  gender:
+    Ratio: 0.5
+- names:
+    - Gossifleur
+    - ヒメンカ
+    - Cottini
+    - Tournicoton
+    - 꼬모카
+    - 幼棉棉
+  gender:
+    Ratio: 0.5
+- names:
+    - Eldegoss
+    - ワタシラガ
+    - Cottomi
+    - Blancoton
+    - 백솜모카
+    - 白蓬蓬
+  gender:
+    Ratio: 0.5
+- names:
+    - Wooloo
+    - ウールー
+    - Wolly
+    - Moumouton
+    - 우르
+    - 毛辫羊
+  gender:
+    Ratio: 0.5
+- names:
+    - Dubwool
+    - バイウールー
+    - Zwollock
+    - Moumouflon
+    - 배우르
+    - 毛毛角羊
+  gender:
+    Ratio: 0.5
+- names:
+    - Chewtle
+    - カムカメ
+    - Kamehaps
+    - Khélocrok
+    - 깨물부기
+    - 咬咬龟
+  gender:
+    Ratio: 0.5
+- names:
+    - Drednaw
+    - カジリガメ
+    - Kamalm
+    - Torgamord
+    - 갈가부기
+    - 暴噬龟
+  gender:
+    Ratio: 0.5
+- names:
+    - Yamper
+    - ワンパチ
+    - Voldi
+    - Voltoutou
+    - 멍파치
+    - 来电汪
+  gender:
+    Ratio: 0.5
+- names:
+    - Boltund
+    - パルスワン
+    - Bellektro
+    - Fulgudog
+    - 펄스멍
+    - 逐电犬
+  gender:
+    Ratio: 0.5
+- names:
+    - Rolycoly
+    - タンドン
+    - Klonkett
+    - Charbi
+    - 탄동
+    - 小炭仔
+  gender:
+    Ratio: 0.5
+- names:
+    - Carkol
+    - トロッゴン
+    - Wagong
+    - Wagomine
+    - 탄차곤
+    - 大炭车
+  gender:
+    Ratio: 0.5
+- names:
+    - Coalossal
+    - セキタンザン
+    - Montecarbo
+    - Monthracite
+    - 석탄산
+    - 巨炭山
+  gender:
+    Ratio: 0.5
+- names:
+    - Applin
+    - カジッチュ
+    - Knapfel
+    - Verpom
+    - 과사삭벌레
+    - 啃果虫
+  gender:
+    Ratio: 0.5
+- names:
+    - Flapple
+    - アップリュー
+    - Drapfel
+    - Pomdrapi
+    - 애프룡
+    - 苹裹龙
+  gender:
+    Ratio: 0.5
+- names:
+    - Appletun
+    - タルップル
+    - Schlapfel
+    - Dratatin
+    - 단지래플
+    - 丰蜜龙
+  gender:
+    Ratio: 0.5
+- names:
+    - Silicobra
+    - スナヘビ
+    - Salanga
+    - Dunaja
+    - 모래뱀
+    - 沙包蛇
+  gender:
+    Ratio: 0.5
+- names:
+    - Sandaconda
+    - サダイジャ
+    - Sanaconda
+    - Dunaconda
+    - 사다이사
+    - 沙螺蟒
+  gender:
+    Ratio: 0.5
+- names:
+    - Cramorant
+    - ウッウ
+    - Urgl
+    - Nigosier
+    - 윽우지
+    - 古月鸟
+  gender:
+    Ratio: 0.5
+- names:
+    - Arrokuda
+    - サシカマス
+    - Pikuda
+    - Embrochet
+    - 찌로꼬치
+    - 刺梭鱼
+  gender:
+    Ratio: 0.5
+- names:
+    - Barraskewda
+    - カマスジョー
+    - Barrakiefa
+    - Hastacuda
+    - 꼬치조
+    - 戽斗尖梭
+  gender:
+    Ratio: 0.5
+- names:
+    - Toxel
+    - エレズン
+    - Toxel
+    - Toxizap
+    - 일레즌
+    - 毒电婴
+  gender:
+    Ratio: 0.5
+- names:
+    - Toxtricity
+    - ストリンダー
+    - Riffex
+    - Salarsen
+    - 스트린더
+    - 颤弦蝾螈
+  gender:
+    Ratio: 0.5
+- names:
+    - Sizzlipede
+    - ヤクデ
+    - Thermopod
+    - Grillepattes
+    - 태우지네
+    - 烧火蚣
+  gender:
+    Ratio: 0.5
+- names:
+    - Centiskorch
+    - マルヤクデ
+    - Infernopod
+    - Centiskorch
+    - 다태우지네
+    - 焚焰蚣
+  gender:
+    Ratio: 0.5
+- names:
+    - Clobbopus
+    - タタッコ
+    - Klopptopus
+    - Poulpaf
+    - 때때무노
+    - 拳拳蛸
+  gender:
+    Ratio: 0.5
+- names:
+    - Grapploct
+    - オトスパス
+    - Kaocto
+    - Krakos
+    - 케오퍼스-
+    - 八爪武师
+  gender:
+    Ratio: 0.5
+- names:
+    - Sinistea
+    - ヤバチャ
+    - Fatalitee
+    - Théffroi
+    - 데인차
+    - 来悲茶
+  gender: Agender
+- names:
+    - Polteageist
+    - ポットデス
+    - Mortipot
+    - Polthégeist
+    - 포트데스
+    - 怖思壶
+  gender: Agender
+- names:
+    - Hatenna
+    - ミブリム
+    - Brimova
+    - Bibichut
+    - 몸지브림
+    - 迷布莉姆
+  gender: Female
+- names:
+    - Hattrem
+    - テブリム
+    - Brimano
+    - Chapotus
+    - 손지브림
+    - 提布莉姆
+  gender: Female
+- names:
+    - Hatterene
+    - ブリムオン
+    - Silembrim
+    - Sorcilence
+    - 브리무음
+    - 布莉姆温
+  gender: Female
+- names:
+    - Impidimp
+    - ベロバー
+    - Bähmon
+    - Grimalin
+    - 메롱꿍
+    - 捣蛋小妖
+  gender: Male
+- names:
+    - Morgrem
+    - ギモー
+    - Pelzebub
+    - Fourbelin
+    - 쏘겨모
+    - 诈唬魔
+  gender: Male
+- names:
+    - Grimmsnarl
+    - オーロンゲ
+    - Olangaar
+    - Angoliath
+    - 오롱털
+    - 长毛巨魔
+  gender: Male
+- names:
+    - Obstagoon
+    - タチフサグマ
+    - Barrikadax
+    - Ixon
+    - 가로막구리
+    - 堵拦熊
+  gender:
+    Ratio: 0.5
+- names:
+    - Perrserker
+    - ニャイキング
+    - Mauzinger
+    - Berserkatt
+    - 나이킹
+    - 喵头目
+  gender:
+    Ratio: 0.5
+- names:
+    - Cursola
+    - サニゴーン
+    - Gorgasonn
+    - Corayôme
+    - 산호르곤
+    - 魔灵珊瑚
+  gender:
+    Ratio: 0.75
+- names:
+    - "Sirfetch’d"
+    - ネギガナイト
+    - Lauchzelot
+    - Palarticho
+    - 창파나이트
+    - 葱游兵
+  gender:
+    Ratio: 0.5
+- names:
+    - "Mr. Rime"
+    - バリコオル
+    - Pantifrost
+    - "M. Glaquette"
+    - 마임꽁꽁
+    - 踏冰人偶
+  gender:
+    Ratio: 0.5
+- names:
+    - Runerigus
+    - デスバーン
+    - Oghnatoll
+    - Tutétékri
+    - 데스판
+    - 死神板
+  gender:
+    Ratio: 0.5
+- names:
+    - Milcery
+    - マホミル
+    - Hokumil
+    - Crèmy
+    - 마빌크
+    - 小仙奶
+  gender: Female
+- names:
+    - Alcremie
+    - マホイップ
+    - Pokusan
+    - Charmilly
+    - 마휘핑
+    - 霜奶仙
+  gender: Female
+- names:
+    - Falinks
+    - タイレーツ
+    - Legios
+    - Hexadron
+    - 대여르
+    - 列阵兵
+  gender: Agender
+- names:
+    - Pincurchin
+    - バチンウニ
+    - Britzigel
+    - Wattapik
+    - 찌르성게-
+    - 啪嚓海胆
+  gender:
+    Ratio: 0.5
+- names:
+    - Snom
+    - ユキハミ
+    - Snomnom
+    - Frissonille
+    - 누니머기
+    - 雪吞虫
+  gender:
+    Ratio: 0.5
+- names:
+    - Frosmoth
+    - モスノウ
+    - Mottineva
+    - Beldeneige
+    - 모스노우
+    - 雪绒蛾
+  gender:
+    Ratio: 0.5
+- names:
+    - Stonjourner
+    - イシヘンジン
+    - Humanolith
+    - Dolman
+    - 돌헨진
+    - 巨石丁
+  gender:
+    Ratio: 0.5
+- names:
+    - Eiscue
+    - コオリッポ
+    - Kubuin
+    - Bekaglaçon
+    - 빙큐보
+    - 冰砌鹅
+  gender:
+    Ratio: 0.5
+- names:
+    - Indeedee
+    - イエッサン
+    - Servol
+    - Wimessir
+    - 에써르
+    - 爱管侍
+  gender:
+    Ratio: 0.5
+- names:
+    - Morpeko
+    - モルペコ
+    - Morpeko
+    - Morpeko
+    - 모르페코
+    - 莫鲁贝可
+  gender:
+    Ratio: 0.5
+- names:
+    - Cufant
+    - ゾウドウ
+    - Kupfanti
+    - Charibari
+    - 끼리동
+    - 铜象
+  gender:
+    Ratio: 0.5
+- names:
+    - Copperajah
+    - ダイオウドウ
+    - Patinaraja
+    - Pachyradjah
+    - 대왕끼리동
+    - 大王铜象
+  gender:
+    Ratio: 0.5
+- names:
+    - Dracozolt
+    - パッチラゴン
+    - Lectragon
+    - Galvagon
+    - 파치래곤
+    - 雷鸟龙
+  gender: Agender
+- names:
+    - Arctozolt
+    - パッチルドン
+    - Lecryodon
+    - Galvagla
+    - 파치르돈
+    - 雷鸟海兽
+  gender: Agender
+- names:
+    - Dracovish
+    - ウオノラゴン
+    - Pescragon
+    - Hydragon
+    - 어래곤
+    - 鳃鱼龙
+  gender: Agender
+- names:
+    - Arctovish
+    - ウオチルドン
+    - Pescryodon
+    - Hydragla
+    - 어치르돈
+    - 鳃鱼海兽
+  gender: Agender
+- names:
+    - Duraludon
+    - ジュラルドン
+    - Duraludon
+    - Duralugon
+    - 두랄루돈
+    - 铝钢龙
+  gender:
+    Ratio: 0.5
+- names:
+    - Dreepy
+    - ドラメシヤ
+    - Grolldra
+    - Fantyrm
+    - 드라꼰
+    - 多龙梅西亚
+  gender:
+    Ratio: 0.5
+- names:
+    - Drakloak
+    - ドロンチ
+    - Phandra
+    - Dispareptil
+    - 드래런치
+    - 多龙奇
+  gender:
+    Ratio: 0.5
+- names:
+    - Dragapult
+    - ドラパルト
+    - Katapuldra
+    - Lanssorien
+    - 드래펄트
+    - 多龙巴鲁托
+  gender:
+    Ratio: 0.5
+- names:
+    - Zacian
+    - ザシアン
+    - Zacian
+    - Zacian
+    - 자시안
+    - 苍响
+  gender: Agender
+- names:
+    - Zamazenta
+    - ザマゼンタ
+    - Zamazenta
+    - Zamazenta
+    - 자마젠타
+    - 藏玛然特
+  gender: Agender
+- names:
+    - Eternatus
+    - ムゲンダイナ
+    - Endynalos
+    - Éthernatos
+    - 무한다이노
+    - 无极汰那
+  gender: Agender
+- names:
+    - Kubfu
+    - ダクマ
+    - Dakuma
+    - Wushours
+    - 치고마
+    - 熊徒弟
+  gender:
+    Ratio: 0.125
+- names:
+    - Urshifu
+    - ウーラオス
+    - Wulaosu
+    - Shifours
+    - 우라오스
+    - 武道熊师
+  gender:
+    Ratio: 0.125
+- names:
+    - Zarude
+    - ザルード
+    - Zarude
+    - Zarude
+    - 자루도
+    - 萨戮德
+  gender: Agender
+- names:
+    - Regieleki
+    - レジエレキ
+    - Regieleki
+    - Regieleki
+    - 레지에레키
+    - 雷吉艾勒奇
+  gender: Agender
+- names:
+    - Regidrago
+    - レジドラゴ
+    - Regidrago
+    - Regidrago
+    - 레지드래고
+    - 雷吉铎拉戈
+  gender: Agender
+- names:
+    - Glastrier
+    - ブリザポス
+    - Polaross
+    - Blizzeval
+    - 블리자포스
+    - 雪暴马
+  gender: Agender
+- names:
+    - Spectrier
+    - レイスポス
+    - Phantoross
+    - Spectreval
+    - 레이스포스
+    - 灵幽马
+  gender: Agender
+- names:
+    - Calyrex
+    - バドレックス
+    - Coronospa
+    - Sylveroy
+    - 버드렉스
+    - 蕾冠王
+  gender: Agender
+- names:
     - Substitute
+  gender: Agender
+- names:
+    - Unigma
+  gender: Agender
+- names:
+    - Stellerica
+  gender: Agender
+- names:
+    - Asterious
   gender: Agender
