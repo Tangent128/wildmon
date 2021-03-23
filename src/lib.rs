@@ -1,8 +1,14 @@
-use rand::{Rng, seq::SliceRandom};
+use std::ops::Not;
+
+use once_cell::sync::Lazy;
+use rand::{seq::SliceRandom, Rng};
 use serde_derive::{Deserialize, Serialize};
 use serde_yaml;
 
-pub const POKEDEX_YAML: &'static str = include_str!("data/species.yaml");
+pub static POKEDEX: Lazy<Vec<Species>> = Lazy::new(|| {
+    serde_yaml::from_str(include_str!("data/species.yaml")).expect("Parsing embedded YAML pokédex")
+});
+
 pub const MISSINGNO: &'static str = "Missingno.";
 
 /// The shape of the new Pokémon list format
@@ -16,7 +22,7 @@ pub struct Species {
     pub tags: Vec<SpeciesTag>,
 }
 
-#[derive(Serialize, Deserialize, Debug, PartialEq)]
+#[derive(Copy, Clone, Serialize, Deserialize, Debug, PartialEq)]
 pub enum Gender {
     Agender,
     Male,
@@ -63,7 +69,7 @@ pub enum SpeciesTag {
 pub struct WildmonSettings {
     canon: bool,
     whitespace: bool,
-    pokedex: Vec<Species>,
+    allow_genders: Vec<Gender>,
 }
 
 impl Default for WildmonSettings {
@@ -71,23 +77,36 @@ impl Default for WildmonSettings {
         WildmonSettings {
             canon: true,
             whitespace: false,
-            pokedex: serde_yaml::from_str(POKEDEX_YAML).expect("Parsing embedded YAML pokédex"),
+            allow_genders: vec![Gender::Male, Gender::Female, Gender::Agender],
         }
     }
 }
 
-pub fn wildmon<R: Rng + ?Sized>(rng: &mut R, opts: &WildmonSettings) -> String {
-    drop(opts.canon );
+pub fn wildmon<R: Rng + ?Sized>(
+    rng: &mut R,
+    pokedex: &Vec<Species>,
+    opts: &WildmonSettings,
+) -> String {
+    drop(opts.canon);
 
-    let species = match opts.pokedex.choose(rng) {
+    let species = match pokedex.choose(rng) {
         Some(species) => species,
-        None => return MISSINGNO.into()
+        None => return MISSINGNO.into(),
     };
     let name = match species.names.first() {
         Some(name) => name.as_ref(),
-        None => MISSINGNO
+        None => MISSINGNO,
     };
-    let gender = species.gender.randomize(rng);
+
+    let mut gender = species.gender.randomize(rng);
+    if opts.allow_genders.contains(&gender).not() {
+        gender = opts
+            .allow_genders
+            .choose(rng)
+            .copied()
+            .unwrap_or(Gender::Agender);
+    }
+
     let level = rng.gen_range(1..=100);
 
     if opts.whitespace {
@@ -100,11 +119,10 @@ pub fn wildmon<R: Rng + ?Sized>(rng: &mut R, opts: &WildmonSettings) -> String {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use serde_yaml;
 
     #[test]
     fn parse_species_format() {
-        let species_data: Vec<Species> = serde_yaml::from_str(POKEDEX_YAML).unwrap();
+        let species_data: &Vec<Species> = &POKEDEX;
 
         assert_eq!(species_data[0].names[0], "Missingno.");
         // Charmander has a defined gender ratio
