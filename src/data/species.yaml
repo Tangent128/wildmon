@@ -68,6 +68,8 @@
     - CremalacertusExtraho
   gender:
     Ratio: 0.125
+  tags:
+    - MegaXY
 - names:
     - Squirtle
     - ゼニガメ
@@ -1306,6 +1308,8 @@
     - 超梦
     - "Mju-du"
   gender: Agender
+  tags:
+    - MegaXY
 - names:
     - Mew
     - ミュウ
