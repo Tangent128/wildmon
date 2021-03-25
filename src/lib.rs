@@ -61,6 +61,7 @@ pub enum SpeciesTag {
     AlolaForm,
 }
 
+#[derive(Debug, Clone)]
 pub struct WildmonSettings {
     canon: bool,
     whitespace: bool,
