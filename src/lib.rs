@@ -1,5 +1,3 @@
-use std::ops::Not;
-
 use once_cell::sync::Lazy;
 use rand::{seq::SliceRandom, Rng};
 use serde_derive::{Deserialize, Serialize};
@@ -41,11 +39,7 @@ impl Gender {
     }
 
     pub fn randomize<R: Rng + ?Sized>(&self, rng: &mut R) -> Gender {
-        // TODO: trans rights
         match self {
-            Gender::Agender => Gender::Agender,
-            Gender::Male => Gender::Male,
-            Gender::Female => Gender::Female,
             Gender::Ratio(ratio) => {
                 let g: f32 = rng.gen();
                 if g < *ratio {
@@ -54,6 +48,7 @@ impl Gender {
                     Gender::Male
                 }
             }
+            g => *g,
         }
     }
 }
@@ -77,10 +72,18 @@ impl Default for WildmonSettings {
         WildmonSettings {
             canon: true,
             whitespace: false,
-            allow_genders: vec![Gender::Male, Gender::Female, Gender::Agender],
+            allow_genders: Vec::new(),
         }
     }
 }
+
+impl WildmonSettings {
+    pub fn allow_gender(&mut self, gender: Gender) {
+        self.allow_genders.push(gender);
+    }
+}
+
+static DEFAULT_GENDERS: &[Gender] = &[Gender::Male, Gender::Female, Gender::Agender];
 
 pub fn wildmon<R: Rng + ?Sized>(
     rng: &mut R,
@@ -98,8 +101,12 @@ pub fn wildmon<R: Rng + ?Sized>(
         None => MISSINGNO,
     };
 
+    let allowed_genders = match opts.allow_genders.len() {
+        0 => DEFAULT_GENDERS,
+        _ => &opts.allow_genders,
+    };
     let mut gender = species.gender.randomize(rng);
-    if opts.allow_genders.contains(&gender).not() {
+    if !allowed_genders.contains(&gender) {
         gender = opts
             .allow_genders
             .choose(rng)
