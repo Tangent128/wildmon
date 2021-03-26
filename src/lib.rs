@@ -116,12 +116,14 @@ pub fn wildmon<R: Rng + ?Sized>(
     }
 
     let level = rng.gen_range(1..=100);
+	
+	let mut mon = format!("Wild {}{} (lv{})", name, gender.symbol(), level);
 
-    if opts.whitespace {
-        format!("Wild {}{} (lv{})", name, gender.symbol(), level)
-    } else {
-        format!("Wild_{}{}_(lv{})", name, gender.symbol(), level)
+    if !opts.whitespace {
+		mon = mon.replace(" ","_")
     }
+	
+	mon
 }
 
 #[cfg(test)]
