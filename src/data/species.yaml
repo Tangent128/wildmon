@@ -6663,636 +6663,681 @@
   gender: Agender
 - names:
     - Rowlet
-    - Brindibou
-    - Bauz
     - モクロー
+    - Bauz
+    - Brindibou
     - 나몰빼미
     - 木木梟
+    - 木木枭
   gender:
     Ratio: 0.125
 - names:
     - Dartrix
-    - Efflèche
-    - Arboretoss
     - フクスロー
+    - Arboretoss
+    - Efflèche
     - 빼미스로우
     - 投羽梟
+    - 投羽枭
   gender:
     Ratio: 0.125
 - names:
     - Decidueye
-    - Archéduc
-    - Silvarro
     - ジュナイパー
+    - Silvarro
+    - Archéduc
     - 모크나이퍼
     - 狙射樹梟
+    - 狙射树枭
   gender:
     Ratio: 0.125
 - names:
     - Litten
-    - Flamiaou‎‎
-    - Flamiau
     - ニャビー
+    - Flamiau
+    - Flamiaou
     - 냐오불
     - 火斑喵
   gender:
     Ratio: 0.125
 - names:
     - Torracat
-    - Matoufeu
-    - Miezunder
     - ニャヒート
+    - Miezunder
+    - Matoufeu
     - 냐오히트
     - 炎熱喵
+    - 炎热喵
   gender:
     Ratio: 0.125
 - names:
     - Incineroar
-    - Félinferno
-    - Fuegro
     - ガオガエン
+    - Fuegro
+    - Félinferno
     - 어흥염
     - 熾焰咆哮虎
+    - 炽焰咆哮虎
   gender:
     Ratio: 0.125
 - names:
     - Popplio
-    - Otaquin
-    - Robball
     - アシマリ
+    - Robball
+    - Otaquin
     - 누리공
     - 球球海獅
+    - 球球海狮
   gender:
     Ratio: 0.125
 - names:
     - Brionne
-    - Otarlette
-    - Marikeck
     - オシャマリ
+    - Marikeck
+    - Otarlette
     - 키요공
     - 花漾海獅
+    - 花漾海狮
   gender:
     Ratio: 0.125
 - names:
     - Primarina
-    - Oratoria
-    - Primarene
     - アシレーヌ
+    - Primarene
+    - Oratoria
     - 누리레느
     - 西獅海壬
+    - 西狮海壬
   gender:
     Ratio: 0.125
 - names:
     - Pikipek
-    - Picassaut
-    - Peppeck
     - ツツケラ
+    - Peppeck
+    - Picassaut
     - 콕코구리
     - 小篤兒
+    - 小笃儿
   gender:
     Ratio: 0.5
 - names:
     - Trumbeak
-    - Piclairon
-    - Trompeck
     - ケララッパ
+    - Trompeck
+    - Piclairon
     - 크라파
     - 喇叭啄鳥
+    - 喇叭啄鸟
   gender:
     Ratio: 0.5
 - names:
     - Toucannon
-    - Bazoucan
-    - Tukanon
     - ドデカバシ
+    - Tukanon
+    - Bazoucan
     - 왕큰부리
     - 銃嘴大鳥
+    - 铳嘴大鸟
   gender:
     Ratio: 0.5
 - names:
     - Yungoos
-    - Manglouton
-    - Mangunior
     - ヤングース
+    - Mangunior
+    - Manglouton
     - 영구스
     - 貓鼬少
+    - 猫鼬少
   gender:
     Ratio: 0.5
 - names:
     - Gumshoos
-    - Argouste
-    - Manguspektor
     - デカグース
+    - Manguspektor
+    - Argouste
     - 형사구스
     - 貓鼬探長
+    - 猫鼬探长
   gender:
     Ratio: 0.5
 - names:
     - Grubbin
-    - Larvibule
-    - Mabula
     - アゴジムシ
+    - Mabula
+    - Larvibule
     - 턱지충이
     - 強顎雞母蟲
+    - 强颚鸡母虫
   gender:
     Ratio: 0.5
 - names:
     - Charjabug
-    - Chrysapile
-    - Akkup
     - デンヂムシ
+    - Akkup
+    - Chrysapile
     - 전지충이
     - 蟲電寶
+    - 虫电宝
   gender:
     Ratio: 0.5
 - names:
     - Vikavolt
-    - Lucanon
-    - Donarion
     - クワガノン
+    - Donarion
+    - Lucanon
     - 투구뿌논
     - 鍬農炮蟲
+    - 锹农炮虫
   gender:
     Ratio: 0.5
 - names:
     - Crabrawler
-    - Crabagarre
-    - Krabbox
     - マケンカニ
+    - Krabbox
+    - Crabagarre
     - 오기지게
     - 好勝蟹
+    - 好胜蟹
   gender:
     Ratio: 0.5
 - names:
     - Crabominable
-    - Crabominable
-    - Krawell
     - ケケンカニ
+    - Krawell
     - 모단단게
     - 好勝毛蟹
+    - 好胜毛蟹
   gender:
     Ratio: 0.5
 - names:
     - Oricorio
-    - Plumeline
-    - Choreogel
     - オドリドリ
+    - Choreogel
+    - Plumeline
     - 춤추새
     - 花舞鳥
+    - 花舞鸟
   gender:
     Ratio: 0.5
 - names:
     - Cutiefly
-    - Bombydou
-    - Wommel
     - アブリー
+    - Wommel
+    - Bombydou
     - 에블리
     - 萌虻
   gender:
     Ratio: 0.5
 - names:
     - Ribombee
-    - Rubombelle
-    - Bandelby
     - アブリボン
+    - Bandelby
+    - Rubombelle
     - 에리본
     - 蝶結萌虻
+    - 蝶结萌虻
   gender:
     Ratio: 0.5
 - names:
     - Rockruff
-    - Rocabot
-    - Wuffels
     - イワンコ
+    - Wuffels
+    - Rocabot
     - 암멍이
     - 岩狗狗
   gender:
     Ratio: 0.5
 - names:
     - Lycanroc
-    - Lougaroc
-    - Wolwerock
     - ルガルガン
+    - Wolwerock
+    - Lougaroc
     - 루가루암
     - 鬃岩狼人
   gender:
     Ratio: 0.5
 - names:
     - Wishiwashi
-    - Froussardine
-    - Lusardin
     - ヨワシ
+    - Lusardin
+    - Froussardine
     - 약어리
     - 弱丁魚
+    - 弱丁鱼
   gender:
     Ratio: 0.5
 - names:
     - Mareanie
-    - Vorastérie
-    - Garstella
     - ヒドイデ
+    - Garstella
+    - Vorastérie
     - 시마사리
     - 好壞星
+    - 好坏星
   gender:
     Ratio: 0.5
 - names:
     - Toxapex
-    - Prédastérie
-    - Aggrostella
     - ドヒドイデ
+    - Aggrostella
+    - Prédastérie
     - 더시마사리
     - 超壞星
+    - 超坏星
   gender:
     Ratio: 0.5
 - names:
     - Mudbray
-    - Tiboudet
-    - Pampuli
     - ドロバンコ
+    - Pampuli
+    - Tiboudet
     - 머드나기
     - 泥驢仔
+    - 泥驴仔
   gender:
     Ratio: 0.5
 - names:
     - Mudsdale
-    - Bourrinos
-    - Pampross
     - バンバドロ
+    - Pampross
+    - Bourrinos
     - 만마드
     - 重泥挽馬
+    - 重泥挽马
   gender:
     Ratio: 0.5
 - names:
     - Dewpider
-    - Araqua
-    - Araqua
     - シズクモ
+    - Araqua
+    - Araqua
     - 물거미
     - 滴蛛
   gender:
     Ratio: 0.5
 - names:
     - Araquanid
-    - Tarenbulle
-    - Aranestro
     - オニシズクモ
+    - Aranestro
+    - Tarenbulle
     - 깨비물거미
     - 滴蛛霸
   gender:
     Ratio: 0.5
 - names:
     - Fomantis
-    - Mimantis
-    - Imantis
     - カリキリ
+    - Imantis
+    - Mimantis
     - 짜랑랑
     - 偽螳草
+    - 伪螳草
   gender:
     Ratio: 0.5
 - names:
     - Lurantis
-    - Floramantis
-    - Mantidea
     - ラランテス
+    - Mantidea
+    - Floramantis
     - 라란티스
     - 蘭螳花
+    - 兰螳花
   gender:
     Ratio: 0.5
 - names:
     - Morelull
-    - Spododo
-    - Bubungus
     - ネマシュ
+    - Bubungus
+    - Spododo
     - 자마슈
     - 睡睡菇
   gender:
     Ratio: 0.5
 - names:
     - Shiinotic
-    - Lampignon
-    - Lamellux
     - マシェード
+    - Lamellux
+    - Lampignon
     - 마셰이드
     - 燈罩夜菇
+    - 灯罩夜菇
   gender:
     Ratio: 0.5
 - names:
     - Salandit
-    - Tritox
-    - Molunk
     - ヤトウモリ
+    - Molunk
+    - Tritox
     - 야도뇽
-    - 夜盜火蜥
+    - 夜盗火蜥
   gender:
     Ratio: 0.125
 - names:
     - Salazzle
-    - Malamandre
-    - Amfira
     - エンニュート
+    - Amfira
+    - Malamandre
     - 염뉴트
     - 焰后蜥
   gender: Female
 - names:
     - Stufful
-    - Nounourson
-    - Velursi
     - ヌイコグマ
+    - Velursi
+    - Nounourson
     - 포곰곰
     - 童偶熊
   gender:
     Ratio: 0.5
 - names:
     - Bewear
-    - Chelours
-    - Kosturso
     - キテルグマ
+    - Kosturso
+    - Chelours
     - 이븐곰
-    - 穿著熊
+    - 穿着熊
   gender:
     Ratio: 0.5
 - names:
     - Bounsweet
-    - Croquine
-    - Frubberl
     - アマカジ
+    - Frubberl
+    - Croquine
     - 달콤아
     - 甜竹竹
   gender: Female
 - names:
     - Steenee
-    - Candine
-    - Frubaila
     - アママイコ
+    - Frubaila
+    - Candine
     - 달무리나
     - 甜舞妮
   gender: Female
 - names:
     - Tsareena
-    - Sucreine
-    - Fruyal
     - アマージョ
+    - Fruyal
+    - Sucreine
     - 달코퀸
     - 甜冷美后
   gender: Female
 - names:
     - Comfey
-    - Guérilande
-    - Curelei
     - キュワワー
+    - Curelei
+    - Guérilande
     - 큐아링
     - 花療環環
+    - 花疗环环
   gender:
     Ratio: 0.75
 - names:
     - Oranguru
-    - Gouroutan
-    - Kommandutan
     - ヤレユータン
+    - Kommandutan
+    - Gouroutan
     - 하랑우탄
     - 智揮猩
+    - 智挥猩
   gender:
     Ratio: 0.5
 - names:
     - Passimian
-    - Quartermac
-    - Quartermak
     - ナゲツケサル
+    - Quartermak
+    - Quartermac
     - 내던숭이
     - 投擲猴
+    - 投掷猴
   gender:
     Ratio: 0.5
 - names:
     - Wimpod
-    - Sovkipou
+    - コソクムシ
     - Reißlaus
-    - コソクムシ\
+    - Sovkipou
     - 꼬시레
     - 膽小蟲
+    - 胆小虫
   gender:
     Ratio: 0.5
 - names:
     - Golisopod
-    - Sarmuraï
-    - Tectass
     - グソクムシャ
+    - Tectass
+    - Sarmuraï
     - 갑주무사
     - 具甲武者
   gender:
     Ratio: 0.5
 - names:
     - Sandygast
-    - Bacabouh
-    - Sankabuh
     - スナバァ
+    - Sankabuh
+    - Bacabouh
     - 모래꿍
     - 沙丘娃
   gender:
     Ratio: 0.5
 - names:
     - Palossand
-    - Trépassable
-    - Colossand
     - シロデスナ
+    - Colossand
+    - Trépassable
     - 모래성이당
     - 噬沙堡爺
+    - 噬沙堡爷
   gender:
     Ratio: 0.5
 - names:
     - Pyukumuku
-    - Concombaffe
-    - Gufa
     - ナマコブシ
+    - Gufa
+    - Concombaffe
     - 해무기
     - 拳海參
   gender:
     Ratio: 0.5
 - names:
     - "Type: Null"
-    - "Type:0:"
-    - "Código Cero"
-    - "Typ:Null"
-    - "Tipo Zero"
     - "タイプ：ヌル"
+    - "Typ:Null"
+    - "Type:0"
+    - "Código Cero"
+    - "Tipo Zero"
     - "타입:널"
     - "屬性：空"
-    - "Tipo Nulo"
-    - "Soort: Null"
+    - "属性：空"
     - "Type: Full"
-    - "Type:18"
-    - "Typ:Full"
-    - Omnitipo
-    - "Código Omnia"
     - "タイプ：フル"
+    - "Typ:Full"    
+    - "Type:18"
+    - "Código Omnia"
+    - Omnitipo
     - "타입:풀"
     - "屬性：滿"
+    - "属性：满"
   gender: Agender
 - names:
     - Silvally
-    - Silvallié
-    - Amigento
-    - Silvady
     - シルヴァディ
+    - Amigento
+    - Silvallié
     - 실버디
     - 銀伴戰獸
+    - 银伴战兽
   gender: Agender
 - names:
     - Minior
-    - Météno
-    - Meteno
     - メテノ
+    - Meteno
+    - Météno
     - 메테노
     - 小隕星
+    - 小陨星
   gender: Agender
 - names:
     - Komala
-    - Dodoala
-    - Koalelu
     - ネッコアラ
+    - Koalelu
+    - Dodoala
     - 자말라
     - 樹枕尾熊
+    - 树枕尾熊
   gender:
     Ratio: 0.5
 - names:
     - Turtonator
-    - Boumata
-    - Tortunator
     - バクガメス
+    - Tortunator
+    - Boumata
     - 폭거북스
     - 爆焰龜獸
+    - 爆焰龟兽
   gender:
     Ratio: 0.5
 - names:
-    - Togedemaru
-    - Togedemaru
     - Togedemaru
     - トゲデマル
     - 토게데마루
     - 托戈德瑪爾
+    - 托戈德玛尔
   gender:
     Ratio: 0.5
 - names:
     - Mimikyu
-    - Mimiqui
-    - Mimigma
     - ミミッキュ
+    - Mimigma
+    - Mimiqui
     - 따라큐
-    - "謎擬Q"
+    - 謎擬Ｑ
+    - 谜拟Ｑ
   gender:
     Ratio: 0.5
 - names:
     - Bruxish
-    - Denticrisse
-    - Knirfish
     - ハギギシリ
+    - Knirfish
+    - Denticrisse
     - 치갈기
     - 磨牙彩皮魚
+    - 磨牙彩皮鱼
   gender:
     Ratio: 0.5
 - names:
     - Drampa
-    - Draïeul
-    - "Sen-Long"
     - ジジーロン
+    - "Sen-Long"
+    - Draïeul
     - 할비롱
     - 老翁龍
+    - 老翁龙
   gender:
     Ratio: 0.5
 - names:
     - Dhelmise
-    - Sinistrail
-    - Moruda
     - ダダリン
+    - Moruda
+    - Sinistrail
     - 타타륜
     - 破破舵輪
+    - 破破舵轮
   gender: Agender
 - names:
-    - Jangmo-o
-    - Bébécaille
-    - Miniras
+    - "Jangmo-o"
     - ジャラコ
+    - Miniras
+    - Bébécaille
     - 짜랑꼬
     - 心鱗寶
+    - 心鳞宝
   gender:
     Ratio: 0.5
 - names:
-    - Hakamo-o
-    - Écaïd
-    - Mediras
+    - "Hakamo-o"
     - ジャランゴ
+    - Mediras
+    - Écaïd
     - 짜랑고우
     - 鱗甲龍
+    - 鳞甲龙
   gender:
     Ratio: 0.5
 - names:
-    - Kommo-o
-    - Ékaïser
-    - Grandiras
+    - "Kommo-o"
     - ジャラランガ
+    - Grandiras
+    - Ékaïser
     - 짜랑고우거
     - 杖尾鱗甲龍
+    - 杖尾鳞甲龙
   gender:
     Ratio: 0.5
 - names:
     - "Tapu Koko"
-    - Tokorico
-    - "Kapu-Riki"
     - "カプ・コケコ"
+    - "Kapu-Riki"
+    - Tokorico
     - 카푸꼬꼬꼭
     - "卡璞・鳴鳴"
+    - "卡璞・鸣鸣"
   gender: Agender
 - names:
     - "Tapu Lele"
-    - Tokopiyon
-    - "Kapu-Fala"
     - "カプ・テテフ"
+    - "Kapu-Fala"
+    - Tokopiyon
     - 카푸나비나
     - "卡璞・蝶蝶"
   gender: Agender
 - names:
     - "Tapu Bulu"
-    - Tokotoro
-    - "Kapu-Toro"
     - "カプ・ブルル"
+    - "Kapu-Toro"
+    - Tokotoro
     - 카푸브루루
     - "卡璞・哞哞"
   gender: Agender
 - names:
     - "Tapu Fini"
-    - Tokopisco
-    - "Kapu-Kime"
     - "カプ・レヒレ"
+    - "Kapu-Kime"
+    - Tokopisco
     - 카푸느지느
     - "卡璞・鰭鰭"
+    - "卡璞・鳍鳍"
   gender: Agender
 - names:
-    - Cosmog
-    - Cosmog
     - Cosmog
     - コスモッグ
     - 코스모그
     - 科斯莫古
     - Nebby
+    - ほしぐもちゃん
+    - Wölkchen
+    - Doudou
+    - Nebulilla
+    - Nebulino
+    - 별구름
+    - 小星雲
+    - 小星云
   gender: Agender
 - names:
     - Cosmoem
-    - Cosmovum
-    - Cosmovum
     - コスモウム
+    - Cosmovum
     - 코스모움
     - 科斯莫姆
   gender: Agender
 - names:
     - Solgaleo
-    - Solgaleo
-    - Solgaleo
     - ソルガレオ
     - 솔가레오
     - 索爾迦雷歐
+    - 索尔迦雷欧
   gender: Agender
 - names:
-    - Lunala
-    - Lunala
     - Lunala
     - ルナアーラ
     - 루나아라
@@ -7300,223 +7345,236 @@
   gender: Agender
 - names:
     - Nihilego
-    - Zéroïd
-    - Anego
     - ウツロイド
+    - Anego
+    - Zéroïd
     - 텅비드
     - 虛吾伊德
+    - 虚吾伊德
     - "UB-01 Symbiont"
-    - "UB-01 Parasite"
+    - "ＵＢ０１　Ｐａｒａｓｉｔｅ"
+    - "UB-01 Schmarotzer"
     - "UC-01 Parasite"
     - "UE-01 Parásito"
     - "UC-01 Parasitus"
-    - "UB-01 Schmarotzer"
-    - "UB01:패러사이트"
-    - "UB01:寄生物"
+    - "UB01 패러사이트"
+    - "ＵＢ０１：寄生物"
   gender: Agender
 - names:
     - Buzzwole
-    - Mouscoto
-    - Masskito
     - マッシブーン
+    - Masskito
+    - Mouscoto
     - 매시붕
     - 爆肌蚊
     - "UB-02 Absorption"
-    - "UB-02 Expansion"
-    - "UC-02 Expansion"
-    - "UC-02 Expansio"
-    - "UE-02 Expansión"
+    - "ＵＢ０２　Ｅｘｐａｎｓｉｏｎ"
     - "UB-02 Expander"
-    - "UB02:익스팬션"
-    - "UB02:膨脹"
+    - "UC-02 Expansion"
+    - "UE-02 Expansión"
+    - "UC-02 Expansio"
+    - "UB02 익스팬션"
+    - "ＵＢ０２：膨脹"
+    - "ＵＢ０２：膨胀"
   gender: Agender
 - names:
     - Pheromosa
-    - Cancrelove
-    - Schabelle
     - フェローチェ
+    - Schabelle
+    - Cancrelove
     - 페로코체
     - 費洛美螂
+    - 费洛美螂
     - "UB-02 Beauty"
-    - "UC-02 Beauté"
+    - "ＵＢ０２　Ｂｅａｕｔｙ"
     - "UB-02 Schönheit"
-    - "UC-02 Elegantia"
+    - "UC-02 Beauté"
     - "UE-02 Elegancia"
-    - "UB02:뷰티"
-    - "UB02:美麗"
+    - "UC-02 Elegantia"
+    - "UB02 뷰티"
+    - "ＵＢ０２：美麗"
+    - "ＵＢ０２：美丽"
   gender: Agender
 - names:
     - Xurkitree
-    - Câblifère
-    - Voltriant
     - デンジュモク
+    - Voltriant
+    - Câblifère
     - 전수목
     - 電束木
+    - 电束木
     - "UB-03 Lighting"
-    - "UB-03 Lightning"
-    - "UC-03 Éclair"
+    - "ＵＢ０３　Ｌｉｇｈｔｎｉｎｇ"
     - "UB-03 Lichtblitz"
-    - "UC-03 Lumen"
+    - "UC-03 Éclair"
     - "UE-03 Resplandor"
-    - "UB03:라이트닝"
-    - "UB03:雷電"
+    - "UC-03 Lumen"
+    - "UB03 라이트닝"
+    - "ＵＢ０３：雷電"
+    - "ＵＢ０３：雷电"
   gender: Agender
 - names:
     - Celesteela
-    - Bamboiselle
-    - Kaguron
     - テッカグヤ
+    - Kaguron
+    - Bamboiselle
     - 철화구야
     - 鐵火輝夜
+    - 铁火辉夜
     - "UB-04 Blaster"
-    - "UC-04 Réacteur"
+    - "ＵＢ０４　Ｂｌａｓｔｅｒ"
     - "UB-04 Zündung"
-    - "UC-04 Propulsus"
+    - "UC-04 Réacteur"
     - "UE-04 Cohete"
-    - "UB04:블래스터"
-    - "UB04:噴射器"
+    - "UC-04 Propulsus"
+    - "UB04 블래스터"
+    - "ＵＢ０４：噴射器"
+    - "ＵＢ０４：喷射器"
   gender: Agender
 - names:
     - Kartana
-    - Katagami
-    - Katagami
     - カミツルギ
+    - Katagami
     - 종이신도
-    - 紙御劍
+    - 紙禦劍
+    - 纸御剑
     - "UB-04 Blade"
-    - "UB-04 Slash"
-    - "UC-04 Lame"
+    - "ＵＢ０４　Ｓｌａｓｈ"
     - "UB-04 Schwerthieb"
-    - "UC-04 Sectio"
+    - "UC-04 Lame"
     - "UE-04 Tajo"
-    - "UB04:슬래시"
-    - "UB04:劈斬"
+    - "UC-04 Sectio"
+    - "UB04 슬래시"
+    - "ＵＢ０４：劈斬"
+    - "ＵＢ０４：劈斩"
   gender: Agender
 - names:
     - Guzzlord
-    - Engloutyran
-    - Schlingking
     - アクジキング
+    - Schlingking
+    - Engloutyran
     - 악식킹
     - 惡食大王
+    - 恶食大王
     - "UB-05 Glutton"
-    - "UB-05 Gluttony"
-    - "UC-05 Gourmandise"
+    - "ＵＢ０５　Ｇｌｕｔｔｏｎｙ"
     - "UB-05 Vielfraß"
-    - "UC-05 Voracitas"
+    - "UC-05 Gourmandise"
     - "UE-05 Voracidad"
-    - "UB05:글러터니"
-    - "UB05:大胃王"
+    - "UC-05 Voracitas"
+    - "UB05 글러터니"
+    - "ＵＢ０５：大胃王"
   gender: Agender
 - names:
-    - Necrozma
-    - Necrozma
     - Necrozma
     - ネクロズマ
     - 네크로즈마
     - 奈克洛茲瑪
+    - 奈克洛兹玛
   gender: Agender
 - names:
-    - Magearna
-    - Magearna
     - Magearna
     - マギアナ
     - 마기아나
     - 瑪機雅娜
+    - 玛机雅娜
   gender: Agender
 - names:
-    - Marshadow
-    - Marshadow
     - Marshadow
     - マーシャドー
     - 마샤도
     - 瑪夏多
+    - 玛夏多
   gender: Agender
 - names:
     - Poipole
-    - Vémini
-    - Venicro
     - ベベノム
+    - Venicro
+    - Vémini
     - 베베놈
     - 毒貝比
+    - 毒贝比
     - "UB Adhesive"
-    - "UB Sticky"
-    - "UC-Glu"
+    - "ＵＢ：ＳＴＩＣＫＹ"
     - "UB Klebrigkeit"
-    - "UC Viscosus"
+    - "UC-Glu"
     - "UE Viscoso"
-    - "UB스티키"
-    - "UB:沾黏"
+    - "UC Viscosus"
+    - UB스티키
+    - "ＵＢ：沾黏"
   gender: Agender
 - names:
     - Naganadel
-    - Mandrillon
-    - Agoyon
     - アーゴヨン
+    - Agoyon
+    - Mandrillon
     - 아고용
     - 四顎針龍
+    - 四颚针龙
     - "UB Stinger"
-    - "UC-Aiguillon"
+    - "ＵＢ：ＳＴＩＮＧＥＲ"
     - "UB Stachel"
-    - "UC Aculeus"
+    - "UC-Aiguillon"
     - "UE Aguijón"
+    - "UC Aculeus"
     - "UB스팅어"
-    - "UB:刺針"
+    - "ＵＢ：刺針"
+    - "ＵＢ：刺针"
   gender: Agender
 - names:
     - Stakataka
-    - "Ama-Ama"
-    - Muramura
     - ツンデツンデ
+    - Muramura
+    - "Ama-Ama"
     - 차곡차곡
     - 壘磊石
+    - 垒磊石
     - "UB Assembly"
-    - "UB Lay"
-    - "UC-Empilage"
+    - "ＵＢ：ＬＡＹ"
     - "UB Mauerwerk"
-    - "UC Structura"
+    - "UC-Empilage"
     - "UE Bloques"
+    - "UC Structura"
     - "UB레이"
-    - "UB:堆砌"
+    - "ＵＢ：堆砌"
   gender: Agender
 - names:
     - Blacephalon
-    - Pierroteknik
-    - Kopplosio
     - ズガドーン
+    - Kopplosio
+    - Pierroteknik
     - 두파팡
     - 砰頭小丑
+    - 砰头小丑
     - "UB Burst"
-    - "UC-Détonation"
+    - "ＵＢ：ＢＵＲＳＴ"
     - "UB Detonation"
-    - "UC Fragor"
+    - "UC-Détonation"
     - "UE Explosivo"
+    - "UC Fragor"
     - "UB버스트"
-    - "UB:爆炸"
+    - "ＵＢ：爆炸"
   gender: Agender
 - names:
-    - Zeraora
-    - Zeraora
     - Zeraora
     - ゼラオラ
     - 제라오라
     - 捷拉奧拉
+    - 捷拉奥拉
   gender: Agender
 - names:
-    - Meltan
-    - Meltan
     - Meltan
     - メルタン
     - 멜탄
     - 美錄坦
+    - 美录坦
   gender: Agender
 - names:
-    - Melmetal
-    - Melmetal
     - Melmetal
     - メルメタル
     - 멜메탈
     - 美錄梅塔
+    - 美录梅塔
   gender: Agender
 - names:
     - Grookey
