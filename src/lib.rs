@@ -79,8 +79,17 @@ impl Default for WildmonSettings {
 }
 
 impl WildmonSettings {
+    pub fn reset_genders(&mut self) {
+        self.allow_genders = Vec::new();
+    }
     pub fn allow_gender(&mut self, gender: Gender) {
         self.allow_genders.push(gender);
+    }
+    pub fn canon(&mut self, canon: bool) {
+        self.canon = canon;
+    }
+    pub fn whitespace(&mut self, whitespace: bool) {
+        self.whitespace = whitespace;
     }
 }
 
