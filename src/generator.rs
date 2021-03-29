@@ -4,10 +4,17 @@ use rand::{seq::SliceRandom, Rng};
 const MISSINGNO: &'static str = "Missingno.";
 static DEFAULT_GENDERS: &[Gender] = &[Gender::Male, Gender::Female, Gender::Agender];
 
-fn pick_name<'r, 's, R: Rng + ?Sized>(_rng: &'r mut R, species: &'s Species) -> &'s str {
-    match species.names.first() {
-        Some(name) => name.as_ref(),
-        None => MISSINGNO,
+fn pick_name<'r, 's, R: Rng + ?Sized>(rng: &'r mut R, species: &'s Species) -> &'s str {
+    if species.names.len() > 1 && rng.gen_ratio(1, 14) {
+        species.names[1..]
+            .choose(rng)
+            .map(AsRef::as_ref)
+            .unwrap_or(MISSINGNO)
+    } else {
+        match species.names.first() {
+            Some(name) => name.as_ref(),
+            None => MISSINGNO,
+        }
     }
 }
 fn pick_gender<R: Rng + ?Sized>(
