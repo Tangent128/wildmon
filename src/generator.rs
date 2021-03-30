@@ -99,12 +99,12 @@ impl Meganess {
 
 struct Mon<'a> {
     species: &'a Species,
-    prefix: String,
     name: String,
-    suffix: String,
     gender: Gender,
     level: Level,
     modifiers: Vec<Modifier>,
+    prefix: &'static str,
+    suffix: &'static str,
     shiny: bool,
     pokerus: bool,
     meganess: Meganess,
@@ -133,30 +133,30 @@ impl<'a> Mon<'a> {
             Kalosian => {}
             Alolan => {}
             Galarian => {}
-            Shadow => self.prefix = "Shadow".into(),
+            Shadow => self.prefix = "Shadow",
             Imaginary => {
-                self.prefix = "Imaginary".into();
+                self.prefix = "Imaginary";
                 self.level = Level::Imaginary(rng.gen_range(1..=100));
             }
             Complex => {
-                self.prefix = "Complex".into();
+                self.prefix = "Complex";
                 self.level = Level::Complex(rng.gen_range(1..=100), rng.gen_range(1..=100));
             }
             Delta => {}
-            Dark => self.prefix = "Dark".into(),
-            Light => self.prefix = "Light".into(),
-            Giant => self.prefix = "Giant".into(),
-            Pink => self.prefix = "Pink".into(),
-            Feral => self.prefix = "Feral".into(),
+            Dark => self.prefix = "Dark",
+            Light => self.prefix = "Light",
+            Giant => self.prefix = "Giant",
+            Pink => self.prefix = "Pink",
+            Feral => self.prefix = "Feral",
             Ex => {}
             Prime => {}
-            Civilized => self.prefix = "Civilized".into(),
+            Civilized => self.prefix = "Civilized",
             Baby => {
-                self.prefix = "Baby".into();
+                self.prefix = "Baby";
                 self.level = Level::Real(rng.gen_range(1..=9));
             }
             Omnipotent => {
-                self.prefix = "Omnipotent".into();
+                self.prefix = "Omnipotent";
                 self.level = Level::Infinity;
             }
             Plushie => {}
@@ -278,7 +278,7 @@ pub fn wildmon<R: Rng + ?Sized>(
         species,
         prefix: "".into(),
         name: name.into(),
-        suffix: String::new(),
+        suffix: "",
         gender,
         level,
         modifiers: Vec::new(),
