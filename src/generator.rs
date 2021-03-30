@@ -107,6 +107,7 @@ struct Mon<'a> {
     suffix: &'static str,
     shiny: bool,
     delta: bool,
+    inanimate: bool,
     pokerus: bool,
     meganess: Meganess,
 }
@@ -160,8 +161,14 @@ impl<'a> Mon<'a> {
                 self.prefix = "Omnipotent";
                 self.level = Level::Infinity;
             }
-            Plushie => {}
-            Toy => {}
+            Plushie => {
+                self.inanimate = true;
+                self.suffix = " Plushie"
+            }
+            Toy => {
+                self.inanimate = true;
+                self.suffix = " Toy"
+            }
             Shiny => self.shiny = true,
             Pokerus => {}
         })
@@ -170,7 +177,7 @@ impl<'a> Mon<'a> {
 
 impl<'a> Display for Mon<'a> {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        if self.prefix.is_empty() && !self.shiny && self.meganess == Meganess::Normal {
+        if self.prefix.is_empty() && !self.shiny && self.meganess == Meganess::Normal && !self.inanimate {
             f.write_str("Wild ")?;
         }
 
@@ -293,6 +300,7 @@ pub fn wildmon<R: Rng + ?Sized>(
         suffix: "",
         shiny: false,
         delta: false,
+        inanimate: false,
         pokerus: false,
         meganess: Meganess::Normal,
     };
