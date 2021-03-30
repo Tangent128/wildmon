@@ -55,11 +55,18 @@ impl Gender {
 }
 
 /// Tags indicating a species is eligable for certain specific modifiers
-#[derive(Serialize, Deserialize, Debug, PartialEq)]
+#[derive(Serialize, Deserialize, Debug, Eq, PartialEq, Ord, PartialOrd)]
 pub enum SpeciesTag {
     Mega,
     MegaXY,
-    AlolaForm,
+    // Kantonian,
+    // Johtoan,
+    // Hoennese,
+    // Sinn,
+    // Unovan,
+    // Kalosian,
+    // Alolan,
+    // Galarian,
 }
 
 #[derive(Debug, Clone)]

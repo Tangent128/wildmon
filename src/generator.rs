@@ -1,8 +1,103 @@
+use std::mem;
+
 use super::{Gender, Species, WildmonSettings};
 use rand::{seq::SliceRandom, Rng};
 
 const MISSINGNO: &'static str = "Missingno.";
 static DEFAULT_GENDERS: &[Gender] = &[Gender::Male, Gender::Female, Gender::Agender];
+
+#[derive(Debug, Eq, PartialEq, Ord, PartialOrd)]
+pub enum Modifier {
+    Mega,
+    MegaXY,
+    Kantonian,
+    Johtoan,
+    Hoennese,
+    Sinn,
+    Unovan,
+    Kalosian,
+    Alolan,
+    Galarian,
+    Shadow,
+    Imaginary,
+    Complex,
+    Delta,
+    Dark,
+    Light,
+    Giant,
+    Pink,
+    Feral,
+    Ex,
+    Prime,
+    Civilized,
+    Baby,
+    Omnipotent,
+    Plushie,
+    Toy,
+    Shiny,
+    Pokerus,
+}
+
+struct Mon<'a> {
+    species: &'a Species,
+    prefix: String,
+    name: String,
+    suffix: String,
+    gender: Gender,
+    level: u8,
+    modifiers: Vec<Modifier>,
+}
+
+impl<'a> Mon<'a> {
+    fn apply_modifiers(&mut self) {
+        use Modifier::*;
+        self.modifiers.sort();
+        let mut modifiers = mem::replace(&mut self.modifiers, Vec::new());
+        modifiers.drain(..).for_each(|modifier| match modifier {
+            Mega => {}
+            MegaXY => {}
+            Kantonian => {}
+            Johtoan => {}
+            Hoennese => {}
+            Sinn => {}
+            Unovan => {}
+            Kalosian => {}
+            Alolan => {}
+            Galarian => {}
+            Shadow => self.prefix = "Shadow".into(),
+            Imaginary => {}
+            Complex => {}
+            Delta => {}
+            Dark => self.prefix = "Dark".into(),
+            Light => self.prefix = "Light".into(),
+            Giant => self.prefix = "Giant".into(),
+            Pink => self.prefix = "Pink".into(),
+            Feral => self.prefix = "Feral".into(),
+            Ex => {}
+            Prime => {}
+            Civilized => self.prefix = "Civilized".into(),
+            Baby => {}
+            Omnipotent => {}
+            Plushie => {}
+            Toy => {}
+            Shiny => self.prefix = "Shiny".into(),
+            Pokerus => {}
+        })
+    }
+}
+
+impl<'a> ToString for Mon<'a> {
+    fn to_string(&self) -> String {
+        format!(
+            "{} {}{}{} (lv{})",
+            self.prefix,
+            self.name,
+            self.gender.symbol(),
+            self.suffix,
+            self.level
+        )
+    }
+}
 
 fn pick_name<'r, 's, R: Rng + ?Sized>(rng: &'r mut R, species: &'s Species) -> &'s str {
     if species.names.len() > 1 && rng.gen_ratio(1, 14) {
@@ -53,11 +148,50 @@ pub fn wildmon<R: Rng + ?Sized>(
     let gender = pick_gender(rng, species, &opts.allow_genders);
     let level = rng.gen_range(1..=100);
 
-    let mut mon = format!("Wild {}{} (lv{})", name, gender.symbol(), level);
+    let mut mon: Mon = Mon {
+        species,
+        prefix: "Wild".into(),
+        name: name.into(),
+        suffix: String::new(),
+        gender,
+        level,
+        modifiers: Vec::new(),
+    };
 
-    if !opts.whitespace {
-        mon = mon.replace(" ", "_")
+    match rng.gen_range(1..=50) {
+        1 => mon.modifiers.push(Modifier::Shadow),
+        2 => mon.modifiers.push(Modifier::Imaginary),
+        3 => mon.modifiers.push(Modifier::Complex),
+        4 => mon.modifiers.push(Modifier::Delta),
+        5 => mon.modifiers.push(Modifier::Dark),
+        6 => mon.modifiers.push(Modifier::Light),
+        7 => mon.modifiers.push(Modifier::Giant),
+        8 => mon.modifiers.push(Modifier::Pink),
+        9 => mon.modifiers.push(Modifier::Feral),
+        11 => mon.modifiers.push(Modifier::Ex),
+        12 => mon.modifiers.push(Modifier::Prime),
+        17 => mon.modifiers.push(Modifier::Civilized),
+        18 => mon.modifiers.push(Modifier::Baby),
+        19 => mon.modifiers.push(Modifier::Omnipotent),
+        20 => mon.modifiers.push(Modifier::Plushie),
+        21 => mon.modifiers.push(Modifier::Toy),
+        _ => {}
+    };
+
+    if rng.gen_ratio(1, 4096) {
+        mon.modifiers.push(Modifier::Shiny)
+    }
+    if rng.gen_ratio(3, 65536) {
+        mon.modifiers.push(Modifier::Pokerus)
     }
 
-    mon
+    mon.apply_modifiers();
+
+    let mut mon_str = mon.to_string();
+
+    if !opts.whitespace {
+        mon_str = mon_str.replace(" ", "_")
+    }
+
+    mon_str
 }
