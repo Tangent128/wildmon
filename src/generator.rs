@@ -274,6 +274,32 @@ fn apply_tags<R: Rng + ?Sized>(rng: &mut R, tags: &[SpeciesTag], modifiers: &mut
     });
 }
 
+fn add_general_modifier<R: Rng + ?Sized>(rng: &mut R, modifiers: &mut Vec<Modifier>) {
+    match rng.gen_range(0..=50) {
+        0 => {
+            add_general_modifier(rng, modifiers);
+            add_general_modifier(rng, modifiers);
+        },
+        1 => modifiers.push(Modifier::Shadow),
+        2 => modifiers.push(Modifier::Imaginary),
+        3 => modifiers.push(Modifier::Complex),
+        4 => modifiers.push(Modifier::Delta),
+        5 => modifiers.push(Modifier::Dark),
+        6 => modifiers.push(Modifier::Light),
+        7 => modifiers.push(Modifier::Giant),
+        8 => modifiers.push(Modifier::Pink),
+        9 => modifiers.push(Modifier::Feral),
+        11 => modifiers.push(Modifier::Ex),
+        12 => modifiers.push(Modifier::Prime),
+        17 => modifiers.push(Modifier::Civilized),
+        18 => modifiers.push(Modifier::Baby),
+        19 => modifiers.push(Modifier::Omnipotent),
+        20 => modifiers.push(Modifier::Plushie),
+        21 => modifiers.push(Modifier::Toy),
+        _ => {}
+    };
+}
+
 pub fn wildmon<R: Rng + ?Sized>(
     rng: &mut R,
     pokedex: &Vec<Species>,
@@ -305,25 +331,7 @@ pub fn wildmon<R: Rng + ?Sized>(
         meganess: Meganess::Normal,
     };
 
-    match rng.gen_range(1..=50) {
-        1 => mon.modifiers.push(Modifier::Shadow),
-        2 => mon.modifiers.push(Modifier::Imaginary),
-        3 => mon.modifiers.push(Modifier::Complex),
-        4 => mon.modifiers.push(Modifier::Delta),
-        5 => mon.modifiers.push(Modifier::Dark),
-        6 => mon.modifiers.push(Modifier::Light),
-        7 => mon.modifiers.push(Modifier::Giant),
-        8 => mon.modifiers.push(Modifier::Pink),
-        9 => mon.modifiers.push(Modifier::Feral),
-        11 => mon.modifiers.push(Modifier::Ex),
-        12 => mon.modifiers.push(Modifier::Prime),
-        17 => mon.modifiers.push(Modifier::Civilized),
-        18 => mon.modifiers.push(Modifier::Baby),
-        19 => mon.modifiers.push(Modifier::Omnipotent),
-        20 => mon.modifiers.push(Modifier::Plushie),
-        21 => mon.modifiers.push(Modifier::Toy),
-        _ => {}
-    };
+    add_general_modifier(rng, &mut mon.modifiers);
 
     if rng.gen_ratio(1, 4096) {
         mon.modifiers.push(Modifier::Shiny)
