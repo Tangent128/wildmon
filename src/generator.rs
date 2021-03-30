@@ -149,8 +149,8 @@ impl<'a> Mon<'a> {
             Giant => self.prefix = "Giant",
             Pink => self.prefix = "Pink",
             Feral => self.prefix = "Feral",
-            Ex => {}
-            Prime => {}
+            Ex => self.suffix = "-ex",
+            Prime => self.suffix = " Prime",
             Civilized => self.prefix = "Civilized",
             Baby => {
                 self.prefix = "Baby";
@@ -194,6 +194,10 @@ impl<'a> Display for Mon<'a> {
 
         if !self.meganess.suffix().is_empty() {
             write!(f, " {}", self.meganess.suffix())?;
+        }
+
+        if !self.suffix.is_empty() {
+            write!(f, "{}", self.suffix)?;
         }
 
         f.write_str(&self.gender.symbol())?;
