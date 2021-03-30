@@ -1,4 +1,4 @@
-use std::mem;
+use std::{fmt::Display, mem};
 
 use super::{Gender, Species, WildmonSettings};
 use rand::{seq::SliceRandom, Rng};
@@ -38,18 +38,36 @@ pub enum Modifier {
     Pokerus,
 }
 
+enum Level {
+    Real(u8),
+    Imaginary(u8),
+    Complex(u8, u8),
+    Infinity
+}
+
+impl Display for Level {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            Level::Real(n) => write!(f, "{}", n),
+            Level::Imaginary(n) => write!(f, "{}i", n),
+            Level::Complex(r, i) => write!(f, "{}+{}i", r, i),
+            Level::Infinity => write!(f, "∞"),
+        }
+    }
+}
+
 struct Mon<'a> {
     species: &'a Species,
     prefix: String,
     name: String,
     suffix: String,
     gender: Gender,
-    level: u8,
+    level: Level,
     modifiers: Vec<Modifier>,
 }
 
 impl<'a> Mon<'a> {
-    fn apply_modifiers(&mut self) {
+    fn apply_modifiers<'r, R: Rng + ?Sized>(&mut self, rng: &'r mut R) {
         use Modifier::*;
         self.modifiers.sort();
         let mut modifiers = mem::replace(&mut self.modifiers, Vec::new());
@@ -65,8 +83,14 @@ impl<'a> Mon<'a> {
             Alolan => {}
             Galarian => {}
             Shadow => self.prefix = "Shadow".into(),
-            Imaginary => {}
-            Complex => {}
+            Imaginary => {
+                self.prefix = "Imaginary".into();
+                self.level = Level::Imaginary(rng.gen_range(1..=100));
+            }
+            Complex => {
+                self.prefix = "Complex".into();
+                self.level = Level::Complex(rng.gen_range(1..=100), rng.gen_range(1..=100));
+            }
             Delta => {}
             Dark => self.prefix = "Dark".into(),
             Light => self.prefix = "Light".into(),
@@ -76,8 +100,14 @@ impl<'a> Mon<'a> {
             Ex => {}
             Prime => {}
             Civilized => self.prefix = "Civilized".into(),
-            Baby => {}
-            Omnipotent => {}
+            Baby => {
+                self.prefix = "Baby".into();
+                self.level = Level::Real(rng.gen_range(1..=9));
+            }
+            Omnipotent => {
+                self.prefix = "Omnipotent".into();
+                self.level = Level::Infinity;
+            }
             Plushie => {}
             Toy => {}
             Shiny => self.prefix = "Shiny".into(),
@@ -146,7 +176,7 @@ pub fn wildmon<R: Rng + ?Sized>(
 
     let name = pick_name(rng, species);
     let gender = pick_gender(rng, species, &opts.allow_genders);
-    let level = rng.gen_range(1..=100);
+    let level = Level::Real(rng.gen_range(1..=100));
 
     let mut mon: Mon = Mon {
         species,
@@ -185,7 +215,7 @@ pub fn wildmon<R: Rng + ?Sized>(
         mon.modifiers.push(Modifier::Pokerus)
     }
 
-    mon.apply_modifiers();
+    mon.apply_modifiers(rng);
 
     let mut mon_str = mon.to_string();
 
