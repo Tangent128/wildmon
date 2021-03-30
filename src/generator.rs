@@ -106,6 +106,7 @@ struct Mon<'a> {
     prefix: &'static str,
     suffix: &'static str,
     shiny: bool,
+    delta: bool,
     pokerus: bool,
     meganess: Meganess,
 }
@@ -142,7 +143,7 @@ impl<'a> Mon<'a> {
                 self.prefix = "Complex";
                 self.level = Level::Complex(rng.gen_range(1..=100), rng.gen_range(1..=100));
             }
-            Delta => {}
+            Delta => self.delta = true,
             Dark => self.prefix = "Dark",
             Light => self.prefix = "Light",
             Giant => self.prefix = "Giant",
@@ -170,7 +171,7 @@ impl<'a> Mon<'a> {
 impl<'a> Display for Mon<'a> {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         if self.prefix.is_empty() && !self.shiny && self.meganess == Meganess::Normal {
-            f.write_str(&"Wild ")?;
+            f.write_str("Wild ")?;
         }
 
         if !self.prefix.is_empty() {
@@ -178,7 +179,7 @@ impl<'a> Display for Mon<'a> {
         }
 
         if self.shiny {
-            f.write_str(&"Shiny ")?;
+            f.write_str("Shiny ")?;
         }
 
         if self.meganess != Meganess::Normal {
@@ -186,6 +187,10 @@ impl<'a> Display for Mon<'a> {
         }
 
         f.write_str(&self.name)?;
+
+        if self.delta {
+            f.write_str("-δ")?;
+        }
 
         if !self.meganess.suffix().is_empty() {
             write!(f, " {}", self.meganess.suffix())?;
@@ -276,13 +281,14 @@ pub fn wildmon<R: Rng + ?Sized>(
 
     let mut mon: Mon = Mon {
         species,
-        prefix: "".into(),
         name: name.into(),
-        suffix: "",
         gender,
         level,
         modifiers: Vec::new(),
+        prefix: "",
+        suffix: "",
         shiny: false,
+        delta: false,
         pokerus: false,
         meganess: Meganess::Normal,
     };
