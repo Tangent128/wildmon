@@ -3514,12 +3514,16 @@
     - 蓋歐卡
     - 盖欧卡
   gender: Agender
+  tags:
+    - Primal
 - names:
     - Groudon
     - グラードン
     - 그란돈
     - 固拉多
   gender: Agender
+  tags:
+    - Primal
 - names:
     - Rayquaza
     - レックウザ
@@ -3528,6 +3532,8 @@
     - 레쿠쟈
     - 烈空坐
   gender: Agender
+  tags:
+    - Mega
 - names:
     - Jirachi
     - ジラーチ
@@ -4443,6 +4449,8 @@
     - 帝牙盧卡
     - 帝牙卢卡
   gender: Agender
+  tags:
+    - Primal
 - names:
     - Palkia
     - パルキア

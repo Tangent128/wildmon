@@ -59,14 +59,15 @@ impl Gender {
 pub enum SpeciesTag {
     Mega,
     MegaXY,
-    // Kantonian,
-    // Johtoan,
-    // Hoennese,
-    // Sinn,
-    // Unovan,
-    // Kalosian,
-    // Alolan,
-    // Galarian,
+    Primal,
+    Kantonian,
+    Johtoan,
+    Hoennese,
+    Sinn,
+    Unovan,
+    Kalosian,
+    Alolan,
+    Galarian,
 }
 
 #[derive(Debug, Clone)]

@@ -1,5 +1,7 @@
 use std::{fmt::Display, mem};
 
+use crate::SpeciesTag;
+
 use super::{Gender, Species, WildmonSettings};
 use rand::{seq::SliceRandom, Rng};
 
@@ -10,6 +12,7 @@ static DEFAULT_GENDERS: &[Gender] = &[Gender::Male, Gender::Female, Gender::Agen
 pub enum Modifier {
     Mega,
     MegaXY,
+    Primal,
     Kantonian,
     Johtoan,
     Hoennese,
@@ -63,6 +66,7 @@ enum Meganess {
     Mega,
     MegaX,
     MegaY,
+    Primal,
     Dynamax,
     Gigantamax,
     Eternamax,
@@ -75,6 +79,7 @@ impl Display for Meganess {
             Meganess::Mega => write!(f, "Mega"),
             Meganess::MegaX => write!(f, "Mega"),
             Meganess::MegaY => write!(f, "Mega"),
+            Meganess::Primal => write!(f, "Primal"),
             Meganess::Dynamax => write!(f, "Dynamax"),
             Meganess::Gigantamax => write!(f, "Gigantamax"),
             Meganess::Eternamax => write!(f, "Eternamax"),
@@ -119,6 +124,7 @@ impl<'a> Mon<'a> {
                     self.meganess = Meganess::MegaY
                 }
             }
+            Primal => self.meganess = Meganess::Primal,
             Kantonian => {}
             Johtoan => {}
             Hoennese => {}
@@ -223,6 +229,35 @@ fn pick_gender<R: Rng + ?Sized>(
     }
 }
 
+fn apply_tags<R: Rng + ?Sized>(rng: &mut R, tags: &[SpeciesTag], modifiers: &mut Vec<Modifier>) {
+    use SpeciesTag::*;
+    tags.iter().for_each(|tag| match tag {
+        Mega => {
+            if rng.gen_ratio(1, 5) {
+                modifiers.push(Modifier::Mega)
+            }
+        }
+        MegaXY => {
+            if rng.gen_ratio(1, 5) {
+                modifiers.push(Modifier::MegaXY)
+            }
+        }
+        Primal => {
+            if rng.gen_ratio(1, 5) {
+                modifiers.push(Modifier::Primal)
+            }
+        }
+        Kantonian => {}
+        Johtoan => {}
+        Hoennese => {}
+        Sinn => {}
+        Unovan => {}
+        Kalosian => {}
+        Alolan => {}
+        Galarian => {}
+    });
+}
+
 pub fn wildmon<R: Rng + ?Sized>(
     rng: &mut R,
     pokedex: &Vec<Species>,
@@ -279,6 +314,7 @@ pub fn wildmon<R: Rng + ?Sized>(
         mon.modifiers.push(Modifier::Pokerus)
     }
 
+    apply_tags(rng, &species.tags, &mut mon.modifiers);
     mon.apply_modifiers(rng);
 
     let mut mon_str = mon.to_string();
