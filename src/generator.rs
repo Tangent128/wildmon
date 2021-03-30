@@ -38,11 +38,12 @@ pub enum Modifier {
     Pokerus,
 }
 
+#[derive(Debug, PartialEq)]
 enum Level {
     Real(u8),
     Imaginary(u8),
     Complex(u8, u8),
-    Infinity
+    Infinity,
 }
 
 impl Display for Level {
@@ -56,6 +57,41 @@ impl Display for Level {
     }
 }
 
+#[derive(Debug, PartialEq)]
+enum Meganess {
+    Normal,
+    Mega,
+    MegaX,
+    MegaY,
+    Dynamax,
+    Gigantamax,
+    Eternamax,
+}
+
+impl Display for Meganess {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            Meganess::Normal => write!(f, ""),
+            Meganess::Mega => write!(f, "Mega"),
+            Meganess::MegaX => write!(f, "Mega"),
+            Meganess::MegaY => write!(f, "Mega"),
+            Meganess::Dynamax => write!(f, "Dynamax"),
+            Meganess::Gigantamax => write!(f, "Gigantamax"),
+            Meganess::Eternamax => write!(f, "Eternamax"),
+        }
+    }
+}
+
+impl Meganess {
+    fn suffix(&self) -> &str {
+        match self {
+            Meganess::MegaX => "X",
+            Meganess::MegaY => "Y",
+            _ => "",
+        }
+    }
+}
+
 struct Mon<'a> {
     species: &'a Species,
     prefix: String,
@@ -64,6 +100,9 @@ struct Mon<'a> {
     gender: Gender,
     level: Level,
     modifiers: Vec<Modifier>,
+    shiny: bool,
+    pokerus: bool,
+    meganess: Meganess,
 }
 
 impl<'a> Mon<'a> {
@@ -72,8 +111,14 @@ impl<'a> Mon<'a> {
         self.modifiers.sort();
         let mut modifiers = mem::replace(&mut self.modifiers, Vec::new());
         modifiers.drain(..).for_each(|modifier| match modifier {
-            Mega => {}
-            MegaXY => {}
+            Mega => self.meganess = Meganess::Mega,
+            MegaXY => {
+                if rng.gen_ratio(1, 2) {
+                    self.meganess = Meganess::MegaX
+                } else {
+                    self.meganess = Meganess::MegaY
+                }
+            }
             Kantonian => {}
             Johtoan => {}
             Hoennese => {}
@@ -110,22 +155,38 @@ impl<'a> Mon<'a> {
             }
             Plushie => {}
             Toy => {}
-            Shiny => self.prefix = "Shiny".into(),
+            Shiny => self.shiny = true,
             Pokerus => {}
         })
     }
 }
 
-impl<'a> ToString for Mon<'a> {
-    fn to_string(&self) -> String {
-        format!(
-            "{} {}{}{} (lv{})",
-            self.prefix,
-            self.name,
-            self.gender.symbol(),
-            self.suffix,
-            self.level
-        )
+impl<'a> Display for Mon<'a> {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        if self.prefix.is_empty() && !self.shiny && self.meganess == Meganess::Normal {
+            f.write_str(&"Wild ")?;
+        }
+
+        if !self.prefix.is_empty() {
+            write!(f, "{} ", self.prefix)?;
+        }
+
+        if self.shiny {
+            f.write_str(&"Shiny ")?;
+        }
+
+        if self.meganess != Meganess::Normal {
+            write!(f, "{} ", self.meganess)?;
+        }
+
+        f.write_str(&self.name)?;
+
+        if !self.meganess.suffix().is_empty() {
+            write!(f, " {}", self.meganess.suffix())?;
+        }
+
+        f.write_str(&self.gender.symbol())?;
+        write!(f, " (lv{})", self.level)
     }
 }
 
@@ -180,12 +241,15 @@ pub fn wildmon<R: Rng + ?Sized>(
 
     let mut mon: Mon = Mon {
         species,
-        prefix: "Wild".into(),
+        prefix: "".into(),
         name: name.into(),
         suffix: String::new(),
         gender,
         level,
         modifiers: Vec::new(),
+        shiny: false,
+        pokerus: false,
+        meganess: Meganess::Normal,
     };
 
     match rng.gen_range(1..=50) {
